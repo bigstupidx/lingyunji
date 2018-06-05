@@ -1,0 +1,190 @@
+﻿编号	备注	目标点	是否追踪	轨迹参数	飞行速度	子弹模型	发射位置	发射点	发射偏移	发射延迟	飞行角度	生命周期	创建action	间隔时间	间隔action	消失action	消失特效	子弹结束不销毁模型	音效
+id		targetPos	follow	pathParas	speed	fxName	firePos	FirePosBone	firePosOff	fireDelay	flyAngle	lifeTime	createActions	interval	intervalActions	destroyActions	destroyEffect	notDestroyModel	
+str		enum:TargetPos	int	floats	float	str	enum:FirePos	str	floats	float	float	float	strs	float	strs	strs	str	bool	
+bullet_10900_1	红莲女巫普通攻击	1	2		30	fx_hongliannvwu_attack1_01		Wrist_R				1				attack_10900	
+bullet_10901_1	红莲女巫普通攻击	1	2		30	fx_hongliannvwu_attack1_01		Wrist_L				1				attack_10901	
+bullet_10902_1	红莲女巫技能爆炸	0	0			fx_hongliannvwu_skill_01	2					1				search_10902		1	
+bullet_10903_1	红莲女巫技能炎弹连闪	1	2	-2;-4;0;0;5	20	fx_hongliannvwu_attack1_01		Wrist_R				1				
+bullet_10903_2	红莲女巫技能炎弹连闪	1	2	2;4;0;0;5	20	fx_hongliannvwu_attack1_01		Wrist_R				1	
+bullet_10903_3	红莲女巫技能炎弹连闪	1	2	0;0;2;5;5	20	fx_hongliannvwu_attack1_01		Wrist_R				1				attack_10903	
+bullet_11002_1	随军弩手飞出物（弓箭）		1		20	fx_suijungongjianshou_feichuwu		weapon_1_Ctrl				10				attack_11002_1ufo	
+bullet_11700_1	尸化弩手攻击1	1	2		15	fx_shihuashibing_2_feichuwu		Wrist_R				5				attack_11700_1ufo	
+bullet_11701_1	尸化弩手攻击1	1	2		15	fx_shihuashibing_2_feichuwu		Wrist_R				5				attack_11701_1ufo	
+bullet_11702_1	尸化弩手攻击1	1	2		15	fx_shihuashibing_3_feichuwu		Wrist_R				5				attack_11702_1ufo	
+bullet_11500_1	青龙圣徒普通攻击飞出物	1	2		15	fx_longnv_attack_1_03		Wrist_R				5					
+bullet_11501_1	青龙圣徒技能飞出物	1	1		15	fx_longnv_attack_1_03		Wrist_R				5					
+bullet_12300_1	翼蛇金雷弹飞出物	1	2		15	fx_yishe_atk		Head_M				5				attack_12300_1ufo	
+bullet_12301_1	翼蛇金雷弹飞出物	1	2		15	fx_yishe_atk		Head_M				5				attack_12301_1ufo	
+bullet_12302_1	翼蛇大金雷弹蓄力飞出物				15	fx_yishe_skill_loop		Head_M		2.5		2.5					
+bullet_12303_1	翼蛇大金雷弹飞出物		1		15	fx_yishe_skill		Head_M				5				attack_12303_1ufo	
+bullet_12502_1	魅魔技能飞出物		1		15	fx_mod_meimo_skill_2		Head_M				5				attack_12502_1ufo	
+bullet_12100_1	独孤宁可普通攻击飞出物		1		15	fx_longnv_attack_1_03		Wrist_L				5				attack_12100_1ufo	
+bullet_12101_1	独孤宁可普通攻击飞出物		1		15	fx_longnv_attack_1_04		Wrist_R				5				attack_12101_1ufo	
+bullet_12102_1	独孤宁可技能飞出物				2	fx_longnv_attack_4_02						4			attack_12102_1ufo		
+bullet_12600	探子毒飞镖1	1	2		20	fx_tzmms_atk1		Wrist_L				4				attack_12600	
+bullet_12601	探子毒飞镖2	1	2		20	fx_tzmms_atk1		Wrist_L				4				attack_12601	
+bullet_12602	探子后空翻飞镖	1	2	-2;2;0;0;0	20	fx_tzmms_atk1		Wrist_L				4				attack_12602	
+bullet_11102_1	白虎刺客飞镖	1	2		20	fx_baihucike_attack3_02		Wrist_L				5				attack_11102_1ufo	
+bullet_11103_1	白虎刺客隐身飞镖	1	2		20	fx_baihucike_attack3_02		Wrist_L				5				attack_11103_1	
+bullet_14101_1	仙女火球飞出物	1	2		15	fx_xiannv_atk3		Bip001 R Hand				5				attack_14101_1ufo	
+bullet_13002_1	魔化人类毒液飞出物		1		15	fx_hongliannvwu_attack1_01		Head_M				5				attack_13002_1ufo	
+bullet_13100_1	朱雀斥候普攻1	1	2		30	fx_suijungongjianshou_feichuwu		weapon_1_Ctrl_Grp				1				attack_13100	
+bullet_13101_1	朱雀斥候普攻2	1	2		30	fx_suijungongjianshou_feichuwu		weapon_1_Ctrl_Grp				1				attack_13100	
+bullet_13102_1	朱雀斥候技能1	1	2		30	fx_arrow_root1		weapon_1_Ctrl_Grp				1				attack_13102	
+bullet_14300	毕方普攻	1	1		15	fx_zhuquedi_atk1_02		Bip001 HeadNub				5				attack_14300_ufo	
+bullet_14301	毕方大焰弹		1		15	fx_zhuquedi_skill_1_03		Bip001 HeadNub				5				attack_14301_ufo	
+bullet_14600_1	蝶仙普攻1	1	2		15	fx_diexian_atk1		Bip001 R Hand				5				attack_14600_1	
+bullet_14601_1	蝶仙空气波区域	1			0	fx_diexian_atk2.1	2					8		0.5	search_14601	
+bullet_14700_1	花妖普攻1	1	2		15	fx_yishe_atk		Bip001 L Hand				5				attack_14700_1	
+bullet_14701	花妖藤蔓缠绕	1			0	fx_huayao_skill1	2			1.5		5	search_14701	
+bullet_14900_1	厌火盗贼普攻	1	2		15	·		Wrist_R				5				attack_14600_1	
+bullet_14901_1	厌火盗贼火炭之怒		1		15	fx_yishe_atk		Wrist_R				5				attack_14601_1	
+bullet_15100_1	羽民风伯普攻飞出物	1	1		15	fx_nvguigu_skill_20_trail		Bip001 R Hand	0;-0.5;0.5			5				attack_15100_1	
+bullet_15101_1	羽民风伯技能风刃龙卷				2.5	fx_fenghou_skill_3_01			0;0;1.5			15		0.5	attack_15101_1		
+bullet_15103_1	羽民风伯技能风伯吹息				20	fx_zhuquedi_skill_3_2			0;0;1			1.5			attack_15103_1		
+bullet_15501	鱼人萨满旋涡	0			0	fx_t_yurensaman_atk1	2							0.8	search_15501_1	
+bullet_15701	鱼人铁弹	1	2		15	fx_shenjing_atk1		weapon_2_Ctrl								attack_15701	
+bullet_15702	鱼人铁连弹	1	2	-2;2;0;0;0	15	fx_shenjing_atk1		weapon_2_Ctrl								attack_15702	
+bullet_16002	玄武勇士海神之力	0			0		2					5		1	attack_16002		
+bullet_20004_1	龙喷火				0	fx_dragon_penhuo_3		Head_M				6					
+bullet_20010_1	龙吼飞出物				10		1					20		2			
+bullet_20010_11	龙吼飞出物				0	fx_dragon_yujing	1							0.5			
+bullet_20010_12	龙吼飞出物					fx_dragon_huozhu											
+bullet_20106_1	撒旦技能飞出物				15	fx_sadan_skill6_02		fx_skill_6_transform_f				5			attack_20106_1ufo		
+bullet_20600_3					0	fx_jiliang_attack_03_2						10					
+bullet_20600_1	姬良		1		13	fx_jiliang_attack_01_2		fx_attack_4_transform				5				attack_20603	
+bullet_20600_2	姬良		1		13	fx_jiliang_attack_01_3		fx_attack_4_transform				5				attack_20600_1ufo	
+bullet_20604_1	姬良						1					0				attack_20600_2ufo	
+bullet_20604_2	姬良					fx_jiliang_attack_02_new	1					2.5				attack_20600_3ufo		1	
+bullet_20605_1	姬良			0;0;5;5;0	0	fx_jiliang_attack_03_2						10					
+bullet_20606_1	姬良					fx_jiliang_attack_04gun	1					2.5		0.3			
+bullet_20900_1	于小雪普通攻击飞出物		1		15	fx_yuxiaoxue_weapon_trail		IndexFinger4_R				5				attack_20900_1ufo	
+bullet_20901_1	于小雪普通攻击飞出物		1		15	fx_yuxiaoxue_weapon_trail		IndexFinger4_L				5				attack_20901_1ufo	
+bullet_20902_1	于小雪普通攻击飞出物		1		15	fx_yuxiaoxue_weapon_trail		IndexFinger4_R				5				attack_20902_1ufo	
+bullet_20903_1	于小雪普通攻击飞出物		1		15	fx_yuxiaoxue_weapon_trail		fx_attack_1_A_transform				5				attack_20903_1ufo	
+bullet_20903_2	于小雪技能飞出物1		1		15	fx_yuxiaoxue_weapon_trail		fx_attack_1_B_transform				5					
+bullet_20903_3	于小雪技能飞出物2		1		15	fx_yuxiaoxue_weapon_trail		fx_attack_1_C_transform				5					
+bullet_20905_1	于小雪技能飞出物3					fx_yuxiaoxue_attack_3	1					0				attack_20905_1ufo		1	
+bullet_20905_2	于小雪技能飞出物3						1					5		0.5	attack_20905_2ufo		
+bullet_20906_1	于小雪技能飞出物4					fx_yuxiaoxue_attack_4	1					0.3		0.2	attack_20906_1ufo			1	
+bullet_20906_2	于小雪技能飞出物4						1					0.6		0.5	attack_20906_2ufo		
+bullet_20906_3	于小雪技能飞出物4						1					0.6		0.5	attack_20906_3ufo		
+bullet_70035_1	水镜技能3					fx_jiliang_attack_04_2		Wrist_L				5						1	
+bullet_21100_1	龙女普通攻击1		1		15	fx_longnv_attack_1_03		Wrist_L				5				attack_21100_1ufo	
+bullet_21101_1	龙女普通攻击2		1		15	fx_longnv_attack_1_04		Wrist_R				5				attack_21101_1ufo	
+bullet_21104_1	龙女技能龙卷风				2	fx_longnv_attack_4_02						4		0.2	attack_21104_1ufo		
+bullet_21405_1	慕容诗技能攻击3		1		15	fx_hongliannvwu_attack1_01		Wrist_L				5				attack_21405_1ufo	
+bullet_21405_2	慕容诗技能攻击3		1		15	fx_hongliannvwu_attack1_01		Wrist_L				5				attack_21405_1ufo	
+bullet_21405_3	慕容诗技能攻击3		1		15	fx_hongliannvwu_attack1_01		Wrist_L				5				attack_21405_1ufo	
+bullet_21405_4	慕容诗技能攻击3		1		15	fx_hongliannvwu_attack1_01		Wrist_L				5				attack_21405_1ufo	
+bullet_20300_1			1		15	fx_yushi_attack_1_02		Bip001 L Hand				5				attack_20300_1ufo	
+bullet_20301_1			1		0	fx_yushi_skill_1_f01		Bip001 R Hand				5				attack_20301_1ufo	
+bullet_20301_2			1		0	fx_yushi_skill_1_f02		Bip001 R Hand				5				attack_20301_2ufo	
+bullet_20301_3			1		0	fx_yushi_skill_1_f03		Bip001 R Hand				5				attack_20301_3ufo	
+bullet_20301_4			1		0	fx_yushi_skill_1_f04		Bip001 R Hand				5				attack_20301_4ufo	
+bullet_20301_5			1		0	fx_yushi_skill_1_f05		Bip001 R Hand				5				attack_20301_5ufo	
+bullet_20303_1	雨师霜路							fx_attack_1_transform				25		1	attack_20303_1ufo		
+bullet_20304_1	雨师冻结飞出物1					fx_yushi_skill_4_02	1					2.1				attack_20304_1	
+bullet_20304_2	雨师冻结飞出物2					fx_yushi_skill_4_02	1					2.1				attack_20304_2	
+bullet_20304_3	雨师冻结飞出物3					fx_yushi_skill_4_02	1					2.1				attack_20304_3	
+bullet_20304_4	雨师冻结飞出物4					fx_yushi_skill_4_02	1					2.1				attack_20304_4	
+bullet_20306_1	雨师冻结无CD					fx_yushi_skill_4_02	1					8		2	attack_20306_1ufo		
+bullet_21500	风后普通攻击	1	2		20	fx_fenghou_attack_1_02		Bip001 L Hand				1				attack_21500	
+bullet_21502	风后技能巽风	2			3	fx_fenghou_skill_3_01			0;0;1.5			10		0.1	search_21502			1	
+bullet_21505	风后腾云普通攻击	1	2		20	fx_fenghou_attack_1_02		Bip001 L Hand				1				attack_21505	
+bullet_21507	风后腾云技能巽风	2			3	fx_fenghou_skill_3_01			0;0;1.5			10		0.1	search_21507			1	
+bullet_21509_1	风后技能巽风				2	fx_fenghou_skill_3_01			0;0;1.5	0.5		8		0.25	attack_21509_1ufo		
+bullet_21509_2	风后技能巽风				2	fx_fenghou_skill_3_01			0;0;1.5	0.5		8		0.25	attack_21509_2ufo		
+bullet_21509_3	风后技能巽风				2	fx_fenghou_skill_3_01			0;0;1.5	0.5		8		0.25	attack_21509_3ufo		
+bullet_21509_4	风后技能巽风				2	fx_fenghou_skill_3_01			0;0;1.5	0.5		8		0.25	attack_21509_4ufo		
+bullet_21509_5	风后技能巽风				2	fx_fenghou_skill_3_01			0;0;1.5	0.5		8		0.25	attack_21509_5ufo		
+bullet_21509_6	风后技能巽风				2	fx_fenghou_skill_3_01			0;0;1.5	0.5		8		0.25	attack_21509_6ufo		
+bullet_21600	朱雀帝普通攻击	1	2		12	fx_zhuquedi_atk1_02		Bip001 L Hand				5				attack_21600	
+bullet_21601	朱雀帝普通攻击	1	2		12	fx_zhuquedi_atk1_02		Bip001 L Hand				5				attack_21601	
+bullet_21602	朱雀帝技能1大火球	1	2		10	fx_zhuquedi_skill_1_02		Bip001 R Hand				8				attack_21602	
+bullet_21603_1	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		11.3;0;-0.17			3	
+bullet_21603_2	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		5.57;0;-5.74			3	
+bullet_21603_3	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		-0.17;0;-11.3			3	
+bullet_21603_4	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		-5.74;0;-5.57			3	
+bullet_21603_5	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		-8;0;0			3	
+bullet_21603_6	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		-8;0;-8			3	
+bullet_21603_7	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		0;0;-8			3	
+bullet_21603_8	朱雀帝火爆	2				fx_zhuquedi_skill_2_2	0		8;0;-8			3	
+bullet_21604_1	朱雀帝技能2火凤				15	fx_zhuquedi_skill_3_2						2		0	attack_21604_1		
+bullet_21605_1	朱雀帝技能3落炎	2				fx_zhuquedi_skill_4_3	2					8		0.9	attack_21605_2		
+bullet_21704_1	巨象猎人变身特效1					fx_emo_xuqi				2		2					
+bullet_21704_2	巨象猎人变身特效2					fx_emo_skill				2		2					
+bullet_21802_1	巨象猎人(全）流星锤火柱1					fx_dragon_huozhu						0.1				attack_21802_1	
+bullet_21802_2	巨象猎人(全）流星锤火柱2					fx_dragon_huozhu						0.1				attack_21802_2	
+bullet_21802_3	巨象猎人(全）流星锤火柱3					fx_dragon_huozhu						0.1				attack_21802_3	
+bullet_21802_4	巨象猎人(全）流星锤火柱4					fx_dragon_huozhu						0.1				attack_21802_4	
+bullet_21802_5	巨象猎人(全）流星锤火柱5					fx_dragon_huozhu						0.1				attack_21802_5	
+bullet_22000_1	姬良普通攻击1 		1		15	fx_jiliang_attack_01_2		fx_attack_4_transform				2				attack_22000_1	
+bullet_22003_1	姬良天雷狂奔					fx_jiliang_skill_2_2	1					3				attack_22003_1	
+bullet_22004_1	姬良封魔咒					fx_jiliang_attack_02_new	1					4		0.5	attack_22004_1		
+bullet_22005_1	姬良束缚咒					fx_jiliang_skill_4_2	1					6.1			attack_22005_1		
+bullet_22006_1	姬良寒冰蚀骨					fx_jiliang_skill_5_2						6.1		0.4	attack_22006_1		
+bullet_22007_1	姬良火风轮					fx_hit_up	1					2			attack_22007_1		
+bullet_22008_1	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform1		1		0.65					
+bullet_22008_2	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform2		1		0.7					
+bullet_22008_3	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform3		1		0.75					
+bullet_22008_4	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform4		1		0.8					
+bullet_22008_5	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform5		1		0.8					
+bullet_22008_6	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform6		1		0.75					
+bullet_22008_7	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform7		1		0.7					
+bullet_22008_8	姬良乾坤八剑·万剑穿胁					fx_jiliang_skill_7_2		fx_skill_7_transform8		1		0.65					
+bullet_22008_11	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_12	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_13	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_14	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_15	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_16	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_17	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22008_18	姬良乾坤八剑·万剑穿胁		1			fx_jiliang_skill_7_2						1				attack_22008_21	
+bullet_22009_1	姬良火龙吐炎					fx_jiliang_skill_8_1						4					
+bullet_22009_2	姬良火龙吐炎施法特效					fx_jiliang_skill_8_2		fx_skill_8_transform	0;0.7;0			4		0.5	attack_22009_1		
+bullet_22011_1	姬良真火念法（崩开）					fx_jiliang_skill_12_2			0;0.6;0			3			attack_22011_1		
+bullet_22011_2	姬良真火念法（崩开）					fx_jiliang_skill_12_1		roll_1				3					
+bullet_22012_1	姬良毒蛊咒					fx_jiliang_skill_11_1	1					10		0.5	attack_22012_1		
+bullet_22103_1	降龙力士斗气爆破					fx_nvguigu_superskill						2		0.35	attack_22103_1		
+bullet_22105_1	降龙力士旋风	1			3	fx_xianglonglishi_skill_5_feng			0;0;1.5	2		20		0.3	attack_22105_1	
+bullet_22205_1	翼虎喷电	1	1		35	fx_yihu_skill_5_trail		Bone024		0.55		5		0		attack_22205_1	
+bullet_22205_2	翼虎喷电爆炸特效					fx_yihu_skill_5_boom						5		0		attack_22205_2	
+bullet_22405	随军副官地裂山崩	0			0		1			1		4	bullet_22405_1					1	
+bullet_22405_1	随军副官地裂山崩	2			0	fx_suijunjunguan_2_skill_4_dici	0					4	search_22405_3					1	
+bullet_22503_1	蚩尤飞刀	1			0	fx_chiyou_feidao	1	transform		0.5		4	search_22503_2					1	
+bullet_22506_1	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			0	5		0.1	search_22506_1			
+bullet_22506_2	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			45	5		0.1	search_22506_1			
+bullet_22506_3	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			90	5		0.1	search_22506_1			
+bullet_22506_4	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			135	5		0.1	search_22506_1			
+bullet_22506_5	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			180	5		0.1	search_22506_1			
+bullet_22506_6	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			225	5		0.1	search_22506_1			
+bullet_22506_7	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			270	5		0.1	search_22506_1			
+bullet_22506_8	蚩尤死亡罡风	2			10	fx_chiyou_skill_3_loop_small_feng	0	transform			315	5		0.1	search_22506_1			
+bullet_22507_1	蚩尤蛮斧冲击	2			0	fx_chiyou_skill_5_dilie	0		0;0;3			1	search_22507_1			bullet_22507_2		1	
+bullet_22507_2	蚩尤蛮斧冲击（残留）	2			0	fx_chiyou_skill_5_zhuoshao	0					3						1	
+bullet_22507_3	蚩尤蛮斧冲击	2			0	fx_chiyou_skill_5_dilie	0		0;0;9			1	search_22507_1			bullet_22507_4		1	
+bullet_22507_4	蚩尤蛮斧冲击（残留）	2			0	fx_chiyou_skill_5_zhuoshao	0					3						1	
+bullet_22507_5	蚩尤蛮斧冲击	2			0	fx_chiyou_skill_5_dilie	0		0;0;15			1	search_22507_1			bullet_22507_6		1	
+bullet_22507_6	蚩尤蛮斧冲击（残留）	2			0	fx_chiyou_skill_5_zhuoshao	0					3						1	
+bullet_22508_1	蚩尤横扫(气浪)	2			0	fx_chiyou_qilang	0	transform				2						1	
+bullet_22603_1	远古战灵技能1	1	2	1;0.5;0;0.5;10	50	fx_zhanling_skill_1_huoqiu	0	fx_skill_1_transform								attack_22603_1	
+bullet_22604_1	远古战灵技能2	1	0			fx_zhanling_skill_2	1	transform				3				attack_22604_1	
+bullet_22605_1	远古战灵技能3	1	1			fx_zhanling_skill_3_bao	1	transform				2				attack_22605_1	
+bullet_22608_1	远古战灵技能6	1	2	10;15;2;5;10	30	fx_zhanling_skill_1_huoqiu	0	Chest_M			15	2				attack_22608_1		
+bullet_22608_2	远古战灵技能6	1	2	-10;-15;2;5;10	30	fx_zhanling_skill_1_huoqiu	0	Chest_M		0.8	345	2				attack_22608_1		
+bullet_22608_3	远古战灵技能6	1	2	5;10;2;5;10	30	fx_zhanling_skill_1_huoqiu	0	Chest_M		0.2	8	2				attack_22608_1		
+bullet_22608_4	远古战灵技能6	1	2	-5;-10;2;5;10	30	fx_zhanling_skill_1_huoqiu	0	Chest_M		0.6	352	2				attack_22608_1		
+bullet_22608_5	远古战灵技能6	1	2	0;0;0;2;10	30	fx_zhanling_skill_1_huoqiu	0	Chest_M		0.4	0	2				attack_22608_1		
+bullet_22704_1	玄武鲨技能3	1	2		30	fx_yihu_skill_5_trail	0	weapon_3_Ctrl				1		0.2	attack_22704_1	
+bullet_22706_1	玄武鲨技能5	1	2		30	fx_yihu_skill_5_trail	0	fx_skill_5_xuli				1				attack_22706_1	
+bullet_22801	修真道士普攻1	1	2		15	fx_shenjing_atk1		Bip001_L_Finger1								attack_22801	
+bullet_22804	冰冻	1	1		0	mod_fx_xzds_ice	1					5	
+bullet_22806	寒冰御剑诀	1	1		0		2			1		5	bullet_22806_1	
+bullet_22806_1	寒冰御剑诀	1	1		0	fx_xzds_skill4.3	0					5	search_22806_1	
+bullet_23007	冰炎弹	1	2		3	fx_huangdi_skill_3_Bullet						5	
+bullet_23008	六血灵阵	0	0			mod_huangdi_flower_02	9					5	
+bullet_23012	真炎箭											3.5		0.6	bullet_23012_1	
+bullet_23012_1	真炎箭	1	2	-4;4;-2;2;0	30	fx_huangdi_skill_2_bullet		transform				2				attack_23012	
+bullet_23017												3.1		0.6	bullet_23017_1	
+bullet_23017_1	寒冰箭	1	2	-4;4;-4;4;10	15	fx_huangdi_skill_2_bullet_ice		fx_skill_2_transform								attack_23017	

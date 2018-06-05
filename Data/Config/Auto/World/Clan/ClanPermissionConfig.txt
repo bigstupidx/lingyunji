@@ -1,0 +1,8 @@
+﻿职位代号	职位	管理氏族建设	邀请入氏族	通过或拒绝入氏族申请	逐出氏族	设定福利	氏族活动开启	群发消息权限	修改氏族公告	参加氏族pvp活动	参加氏族pve活动	参与氏族分红	使用氏族修炼	参与氏族抽奖	参与花魁竞选	参加氏族联赛	职位自动变更时间	离线时间	修改氏族名称权限
+postId	postName	clanBuildManage	inviteAdd	resureApply	outClan	setDkp	openAct	sendMsgGroup	changeNotice	joinPvp	joinPve	joinDividend	usePractice	joinLottry	joinOiran	joinUnion	postChangeTime	outLineTime	changeClanName
+int	str	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+1	族长	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	168	168	1
+2	副族长	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	168	0
+3	长老	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	168	0
+4	成员	0	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	48	0
+5	学徒	0	1	0	0	0	0	0	0	0	1	0	1	0	0	0	48	-1	0

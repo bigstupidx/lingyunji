@@ -1,0 +1,18 @@
+﻿id	坐标原点	坐标偏移	移动帧数	路径目标碰撞	移动速度	是否传送	传送后是否朝向目标点	是否复位镜头	描述
+id	posType	posOff	moveFrame	posColliderRadiu	moveSpeed	teleport	lookAtPos	resetCamera	des
+str	enum:PosType	floats	int	float	float	bool	bool	bool	str
+move_1031	2	-1.5;0	0		30	
+move_1041	0	2;0	10	1.5	
+move_1111	0	-3;0	8	
+move_1111_1	0	-0.2;0	4	
+move_1211	0	1;0	3	1	
+move_1221	0	2;0	2	1	
+move_1301	2	-1.5;0	0		30				向目标冲锋
+move_1601	0	5.3;0	7	
+move_1601_1	0	0.2;0	4	
+move_1701	0	-3.33;0	1	
+move_2101	0	2;0	1	0.5	
+move_2201	2	1.5;0	0		80	
+move_2601	0	5.5;0	9	
+move_3221	0	-1;0	3	
+move_3601	0	6;0	13	

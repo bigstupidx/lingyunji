@@ -1,0 +1,66 @@
+﻿id	名字	模型	备注	隐藏名称	无重力	类型	子类型	阵营	默认姿态	小头像	称谓	归属类型	可视类型	是否纯表现	放缩比例	移动速度	生命值	欣赏冒泡对白	厌恶冒泡对白	冒泡概率	离开冒泡	携带可交任务时冒泡	默认触发	可触发时特效	触发需要任务	带有任务计数时不触发	带有任务计数时不触发-提示	创建刷新点后不触发	触发需带有状态	触发需带有物品	触发冷却	全体冷却	冷却时-闲话	冷却时-动作	冷却时-特效	触发事件	地图显示	触发转向	转向速度	转向距离	大转身帧	拉近镜头距离	拉近镜头高度	行为树2ID	碰撞半径	受击半径	贴地创建	行为树ID	特殊AI	选中圈比例	免疫控制	带有任务时可见	带有任务时不可见	巡逻行为id	性格类型	欣赏闲话	厌恶闲话	商店id	副本id	隐藏距离
+id	name	model		hideName				battleCamp	posture						modelScale	speed																																												
+int	str	str		int				enum:BattleCamp	int						float	float																																												
+30001	宝箱	mod_mubaoxiang_1				5			1	ui_Head_box					2		100						1													100001													
+30002	宝箱	mod_tongbaoxiang_1				5			1	ui_Head_box					2		100						1													100001													
+30003	宝箱	mod_yinbaoxiang_1				5			1	ui_Head_box					2		100						1													100001													
+30004	宝箱	mod_jinaoxiang_1				5			1	ui_Head_box					2		100						1													100001													
+30005	炽焰	mod_drogan_boss				5			302	ui_Head_Common_Blame	朱雀灵兽	1	1	1		4																																												500
+31001	隋军队长	mod_suijunjunguan				5			1	ui_Head_Common_Male					1.3		100																																
+31000	吊着的士兵	mod_suijunshibing			1	5			1	ui_Head_Common_Male		1		1			100																																
+31002	张婶	mod_nvcunmin	100			5			120	ui_Head_Common_Female 		1	1	1				我可怜的娃呦！	我可怜的娃呦！	0.5	
+31003	张大牛	mod_xiaobing	100	-1		5			114	ui_Head_Common_Male		1	1	1	
+31004	黎叔	mod_nancunmin_1	100			5			124	ui_Head_Common_Male		1	1	1				快救救我们家二娘…咳咳	快救救我们家二娘…咳咳	0.5	
+31005	黎二娘	mod_nvcunmin	100			5			119	ui_Head_Common_Female 		1	1	1	
+31006	楚老四	mod_nancunmin_1	100			5			122	ui_Head_Common_Male		1	1	1				饶…饶命啊！	饶…饶命啊！	0.5	
+31007	龙老头	mod_laocunmin	100			5			127	ui_Head_Common_Male		1	1	1				不…不不不…	不…不不不…	0.5	
+31008	楚大妈	mod_nvcunmin	100			5			118	ui_Head_Common_Female 		1	1	1				别…别抓我…	别…别抓我…	0.5	
+31009	楚老大	mod_xiaobing	100	-1		5			107	ui_Head_Common_Male		1	1	1	
+31010	楚老二	mod_xiaobing	100	-1		5			108	ui_Head_Common_Male		1	1	1	
+31011	楚老三	mod_xiaobing	100			5			107	ui_Head_Common_Male		1	1	1				咳...咳…	咳...咳…	0.5	
+31012	黎二娘	mod_nvcunmin	100			5			119	ui_Head_Common_Female 		1	1	1				丧天良的官兵呦，这分明是要人命啊！	丧天良的官兵呦，这分明是要人命啊！	0.5	
+31013	龙老头	mod_laocunmin	100			5			4	ui_Head_Common_Male		1	1	1				就…就在那边…快…	就…就在那边…快…	0.5	
+31014	子灵	mod_zhujuemeimei	100			5			132	ui_Head_Common_Female		1	1	1				救命！放开我！放开我！	救命！放开我！放开我！	0.5	
+31015	豆豆	mod_xiaohai	100		 	5			132	ui_Head_Common_Male		1	1	1	1.2	
+31016	隋军士兵	mod_suijunshibing	100			5			4	ui_Head_Common_Male		1	1	1	
+31017	子灵	mod_zhujuemeimei	100			5			4	ui_Head_Common_Female		1	1	1		4		[sex哥哥:姐姐]这边！	[sex哥哥:姐姐]这边！	0.5	
+31018	子灵	mod_zhujuemeimei	100			5			4	ui_Head_Common_Female		1	1	1				[sex哥哥:姐姐]小心！	[sex哥哥:姐姐]小心！	0.5	
+32011	井大路	mod_suijunyongshi	201			5			4	ui_Head_Common_Male	井木村卫队长	1	1	1				[sex小子:丫头]，赶紧去村子的另一侧，这里交给我们，快！！！	[sex小子:丫头]，赶紧去村子的另一侧，这里交给我们，快！！！	1	
+32012	井朽	mod_laocunmin	201			5			127	ui_Head_Common_Male	井木村长	1	1	1				咳咳…咳咳…	咳咳…咳咳…	1	
+32013	井朽	mod_laocunmin	201			5			4	ui_Head_Common_Male	井木村长	1	1	1				[sex小伙子:小丫头]，快去…保护采薇	[sex小伙子:小丫头]，快去…保护采薇	1	
+32014	井老二	mod_nancunmin_2	201			5			4	ui_Head_Common_Male	井木村卫	1	1	1				兄弟齐心	兄弟齐心	1	
+32015	井老三	mod_nancunmin_1	201			5			4	ui_Head_Common_Male	井木村卫	1	1	1				其利断金	其利断金	1	
+32016	采薇	mod_zhuqueshaonv	201			5			4	ui_Head_Common_Female	村长养女	1	1	1		4				1	
+32017	井嫣娘	mod_xiannv_2	201			5			4	ui_Head_Common_Female	井木村民	1	1	1				救命…救命啊…	救命…救命啊…	1	
+32018	蚩尤族传令兵	mod_chiyouzuzhanshi	201			5			1	ui_Head_Common_Male		1	1	1		4		拿下[sex他:她]	拿下[sex他:她]	1	
+32020	迷之石柱	mod_tuteng_1	202	-1		3				ui_Head_Common_Male		1	1	1		0																													0.5	
+32021	封印圈	mod_fengyin_A	202	-1	1	3				ui_Head_Common_Male		1	1	1	0.5	0																													0.8															100
+32022	新兵守卫	mod_zhuqueweidui	202			5			1	ui_Head_Common_Male	祭坛守卫	1	1	1	1.2	0		这里怪阴森的…	这里怪阴森的…	0.5	
+32023	资深守卫	mod_zhuqueweidui	202			5			1	ui_Head_Common_Male	祭坛守卫	1	1	1	1.2	0		给我打起精神来！	给我打起精神来！	0.5	
+32024	牢笼	mod_laolong_1	202	-1		5			4	ui_Head_Common_Blame		1	1	1		0				
+32025	打开的牢笼	mod_laolong_1	202	-1		5			135	ui_Head_Common_Blame		1	1	1		0				
+32026	采薇	mod_zhuqueshaonv	202		 	5			4	ui_Head_Common_Female		1	1	1		4		为什么？每个人都会得救，偏偏只有我是要牺牲！;这世界…已经没有…我的归宿了	为什么？每个人都会得救，偏偏只有我是要牺牲！;这世界…已经没有…我的归宿了	0.8	
+32027	井宝	mod_xiaohai	202		 	5			127	ui_Head_Common_Male	被囚禁的村民	1	1	1		0		[sex大哥哥:大姐姐]…快救救我…	[sex大哥哥:大姐姐]…快救救我…	0.8	
+32028	南南	mod_xiaohai	202		 	5			128	ui_Head_Common_Male	被囚禁的村民	1	1	1		0		呜呜…呜呜…	呜呜…呜呜…	0.5	
+32029	祭坛守卫的尸体	mod_zhuqueweidui	202	-1		5			136	ui_Head_Common_Male		1	1	1		0				
+32031	宇文拓	mod_yuwentuo	203	-1		5			133			1	1	1		4	100	
+32033	采薇（幼时）	mod_zhuqueshaonv	2033			5			4	ui_Head_Common_Female		1	1	1		4		[sex大哥哥:大姐姐]我们这是要去哪？	[sex大哥哥:大姐姐]我们这是要去哪？	0.5	
+32034	朱雀圣女	mod_honglianwunv	2033			5			4	ui_Head_Common_Female		1	1	1		4		（我的女儿啊，希望你可以作为一个平凡人活下去...）	（我的女儿啊，希望你可以作为一个平凡人活下去...）	0.8	
+32035	朱雀塔守卫	mod_zhuquechihou	2033			5			134	ui_Head_Common_Male		1	1	1		4		圣女是唯一和朱雀沟通的存在	圣女是唯一和朱雀沟通的存在	0.8	
+32036	朱雀塔守卫	mod_zhuquechihou	2033			5			134	ui_Head_Common_Male		1	1	1		4		圣女关乎我族存亡，切勿懈怠	圣女关乎我族存亡，切勿懈怠	0.8	
+32037	朱雀塔守卫	mod_zhuquechihou	2033			5			134	ui_Head_Common_Male		1	1	1		4		我若是能见上圣女一面，这辈子就满足了	我若是能见上圣女一面，这辈子就满足了	0.8	
+32038	朱雀塔守卫	mod_zhuquechihou	2033			5			134	ui_Head_Common_Male		1	1	1		4		听传言说，每一代圣女寿命都比较短	听传言说，每一代圣女寿命都比较短	0.8	
+32039	朱雀塔守卫	mod_zhuquechihou	2033			5			134	ui_Head_Common_Male		1	1	1		4				
+32040	采薇（幼时）	mod_zhuqueshaonv	2033			5			4	ui_Head_Common_Female		1	1	1		4		这就是塔外的世界吗？	这就是塔外的世界吗？	0.5	
+32041	采薇（幼时）	mod_zhuqueshaonv	2033			5			4	ui_Head_Common_Female		1	1	1		4		[sex大哥哥:大姐姐]小心	[sex大哥哥:大姐姐]小心	0.5	
+32042	采集提示	mod_caijipin_zhishi	202			3						1	1	1		0				
+32043	魔化人类	mod_mohuarenlei	202	-1		5			4	ui_Head_Common_Male		1	1	1	0.7	0		爹…爹	娘…娘	
+32044	苍炎	mod_zhuquedi	202	-1		5			4	ui_Head_Common_Male		1	1	1		4				
+33031	迷之石柱	mod_chuansongshi_1	303	-1		3				ui_Head_Common_Male		1	1	1		0																													1	
+33032	老李	mod_suijunyongshi	303			5			4	ui_Head_Common_Male		1	1	1		0		（…）	（…）	0.8	
+33033	桌子	mod_fanzhuo_1	303	-1		5			1			1	1	1	1.2	0				
+33034	采集提示	mod_caijipin_zhishi	303			3						1	1	1		0				
+33035	囚犯	mod_qinglongyongshi	303			5			1	ui_Head_Common_Male		1	1	1	1.2	0		听说姬云大人所在的牢房在更里面…	听说姬云大人所在的牢房在更里面…	0.5																		1	800	6	
+33036	囚犯	mod_baihucike	303			5			1	ui_Head_Common_Female		1	1	1		0		就算走出这到门，也走不出天牢，省点力气吧	就算走出这到门，也走不出天牢，省点力气吧	0.5																		1	800	6	
+33037	囚犯	mod_mengmianren	303			5			1	ui_Head_Common_Male		1	1	1		0		那些逃出去的小年轻是没见过刑天的厉害才会有逃出去的想法	那些逃出去的小年轻是没见过刑天的厉害才会有逃出去的想法	0.5																		1	800	6	
+33038	囚犯	mod_qiangdao	303			5			1	ui_Head_Common_Male		1	1	1	1.2	0		去哪里都一样，我才不会离开这里	去哪里都一样，我才不会离开这里	0.5																		1	800	6	

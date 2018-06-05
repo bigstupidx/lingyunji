@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -667331979, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
+  m_Name: Empty
+  m_EditorClassIdentifier: 
+  hashCode: 123251349
+  material: {fileID: 21094500264603988}
+  materialHashCode: 91283710
+  fontAssetType: 1
+  m_fontInfo:
+    Name: Adobe Kaiti Std
+    PointSize: 5
+    Scale: 1
+    CharacterCount: 1
+    LineHeight: 10
+    Baseline: 0
+    Ascender: 4.4375
+    CapHeight: 0
+    Descender: -0.625
+    CenterLine: 0
+    SuperscriptOffset: 4.4375
+    SubscriptOffset: -0.5
+    SubSize: 0.5
+    Underline: -0.5
+    UnderlineThickness: 0.25
+    strikethrough: 1.3863636
+    strikethroughThickness: 0.25
+    TabWidth: 12.5
+    Padding: 5
+    AtlasWidth: 16
+    AtlasHeight: 16
+  atlas: {fileID: 28624156534665960}
+  m_glyphInfoList:
+  - id: 49
+    x: 6
+    y: 6
+    width: 1.375
+    height: 3.625
+    xOffset: 0.875
+    yOffset: 3.625
+    xAdvance: 3.0625
+    scale: 1
+  m_kerningInfo:
+    kerningPairs: []
+  m_kerningPair:
+    AscII_Left: 0
+    AscII_Right: 0
+    XadvanceOffset: 0
+  fallbackFontAssets: []
+  fontCreationSettings:
+    fontSourcePath: 
+    fontSizingMode: 0
+    fontSize: 0
+    fontPadding: 0
+    fontPackingMode: 0
+    fontAtlasWidth: 0
+    fontAtlasHeight: 0
+    fontCharacterSet: 0
+    fontStyle: 0
+    fontStlyeModifier: 0
+    fontRenderMode: 0
+    fontKerning: 0
+  fontWeights:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
+--- !u!21 &21094500264603988
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: empty Material
+  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!28 &28624156534665960
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: empty Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  serializedVersion: 2
+  m_Width: 16
+  m_Height: 16
+  m_CompleteImageSize: 256
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapMode: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  image data: 256
+  _typelessdata: 000000000000000000000000000000000000000a12171717140e0400000000000000101d262c2c2c2921150600000000000d1e2e3a4142423d3324140200000000172a3c4c5557575042311e0b000000001d32465a696c6c604e3a2510000000001f344a5f74827c67523c2712000000001d3246596a80735f4d392510000000001d3246596a80735e48331e0a000000001f344a5f7480735e48331e09000000001d32465968726f5c47321d0800000000172a3b4b555e5d513f2c1904000000000c1d2d39434948403222100000000000000f1c262f34332d221404000000000000000a131b1f1e191105000000000000000000000000000000000000000000
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 

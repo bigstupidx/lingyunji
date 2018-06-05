@@ -1,0 +1,10 @@
+﻿ID	场景位置	怪物ID	位置选取方式	怪物选取方式	怪物数量下限	怪物数量上限	删除时间	刷新周期
+id	levelPos	monsterId	selectPosType	selectNpcType	floorLimit	upperLimit	deleteTime	periodTime
+int	LevelPos	ints	enum:SelectPosType	enum:SelectNpcType	int	int	float	float
+1	996|ceshidian	6010;6011	1	1	5		0.5	0.7
+2	2|hd_shouqishoubandazhuansheng	36001;36002;36003;36004;36005;36006;36007;36008;36009;36011	1	1			60	60
+3	1|play_dingshi1	35040	1	1			14	15
+4	1|play_dingshi1	35042	1	1			14	15
+30	21|play_dadao	35058	0	0			30	60
+31	21|play_dadao	35058	0	0			30	60
+32	21|play_zhaizhu	6001	0	0			30	

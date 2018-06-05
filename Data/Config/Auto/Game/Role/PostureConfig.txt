@@ -1,0 +1,92 @@
+﻿姿态id	说明	UI显示名字	出生动作	进入战斗动作	非战斗待机	休闲待机	战斗待机	普通切战斗待机	战斗切普通待机	战斗待机切换姿态	普通跑步	普通跑步停止	战斗跑步	战斗跑步停止	神行	神行停止	普通跑步切换神行	战斗跑步切换神行	UI展现休闲待机	巡逻移动
+id		name	bornAni	enterBattle	normalIdle	relaxIdle	battleIdle	normalToBattleIdle	battleToNormalIdle	battleChangePosture	normalRun	normalRunStop	battleRun	battleRunStop	fastRun	fastRunStop	normalRunToFastRun	battleRunToFastRun	
+int		str	str	str	str	str	str	str	str	str	str	str	str	str	str	str	str	str	
+0	空姿态	空姿态			idle_1		idle				run		run							walk
+1	怪物默认姿态	怪物默认姿态	intro_1		idle_1		idle				run		run							walk
+2	Boss默认姿态	Boss默认姿态	intro_1		idle_1		idle				run		run							walk
+4	NPC默认姿态	NPC默认姿态	intro_1		idle_1		idle				run_1		run_1		run_1					walk
+5	伙伴默认姿态	伙伴默认姿态	intro_1		idle_1	idle_2|idle_3	idle				run_1		run_2							run_1
+6	伙伴BOSS默认姿态	伙伴BOSS默认姿态	intro_1		idle_1		boss_idle				run		run		run					boss_walk
+7	无出生动作怪物姿态	无出生动作怪物姿态			idle_1		idle				run		run							walk
+100	搬运姿态	搬运姿态			take_idle		take_idle				take_run		take_run							walk
+101	尸体姿态	尸体姿态			dead_idle		dead_idle	
+103	潜行姿态	潜行姿态			stealth_idle		stealth_idle				stealth_walk		stealth_walk							stealth_walk
+104	被绑姿态	被绑姿态			traped_idle_1						run_2		run_2							
+105	招手姿态	招手姿态			call															
+106	重伤倒地姿态	重伤倒地姿态			lying_1	lying_1					run		run							
+107	隋兵平躺/小兵靠柱	隋兵平躺/小兵靠柱			lying_2															
+108	小兵头朝下死亡	小兵头朝下死亡			lying_3						run	
+109	战斗姿态	战斗姿态			attack_loop	attack_loop	attack_loop													
+110	惊慌跑步姿态	惊慌跑步姿态			idle_1		idle_3	idle_1_to_idle_3	idle_3_to_idle_1		run_2	run_stop_1	run_2	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+111	小兵受伤站立	小兵受伤站立			hurt_1						run	
+112	小兵受伤靠柱坐	小兵受伤靠柱坐			hurt_2						run	
+113	小兵受伤靠柱站	小兵受伤靠柱站			hurt_3						run	
+114	小兵头朝上死亡	小兵头朝上死亡			lying_4						run	
+115	小兵恐惧姿态	小兵恐惧姿态			idle_2						run	
+116	小兵恐惧姿态	小兵恐惧姿态			idle_2						run	
+117	虚弱姿态	虚弱姿态			weakness						run	
+118	女村民抱头恐惧+抱头跑	女村民抱头恐惧+抱头跑			fear						run_2	
+119	女村民跌坐姿态	女村民跌坐姿态			fear_1						run_2	
+120	女村民哭泣	女村民哭泣			fear_2						run_1	
+121	女村民靠柱探头	女村民靠柱探头			fear_3						run_2	
+122	男村民抱头恐惧+抱头跑	男村民抱头恐惧+抱头跑			fear_1						run_3	
+123	男村民受惊吓跪直	男村民受惊吓跪直			fear_2						run_3	
+124	男村民靠柱惊吓坐	男村民靠柱惊吓坐			fear_3						run_2	
+125	男村民惊吓四处看	男村民惊吓四处看			fear_4						run_4	
+126	老村民抱头恐惧+碎步跑	老村民抱头恐惧+碎步跑			fear_1						run_1	
+127	老村民坐地上恐惧+猫腰跑	老村民坐地上恐惧+猫腰跑			fear_2						run_2	
+128	小孩坐地上哭+疾跑	小孩坐地上哭+疾跑			fear_1						run_2	
+129	小孩柱子后探头+逃跑	小孩柱子后探头+逃跑			fear_3						run_2	
+130	士兵仰天倒地	士兵仰天倒地			knock_down_hit	
+131	小龙-时空漩涡	小龙-时空漩涡			idle		idle	
+132	序章被绑姿态	序章被绑姿态			traped_idle_1	traped_idle_1					run_2		run_2	
+133	203朱雀帝剧情	203朱雀帝剧情			idle_1		idle				walk		walk		walk					walk
+134	2033逃离朱雀塔剧情	2033逃离朱雀塔剧情			idle_1		idle				run		run		run					walk
+135	202打开的牢笼	202打开的牢笼			idle_2	idle_2	idle_2	
+136	202倒下的朱雀卫队	202倒下的朱雀卫队			lying	lying	lying	
+137	205非战状态的蚩尤族部队	205非战状态的蚩尤族部队			no_knee		idle				run		run							walk
+138	牢笼开启姿态	牢笼开启姿态			open		open	open	open	
+139	慢跑型恶魔将军	慢跑型恶魔将军			idle_1		idle				run_slow		run_slow							run_slow
+140	扶老奶奶事件姿态	扶老奶奶事件姿态			hit_down_idle	hit_down_idle	hit_down_idle	hit_down_idle	hit_down_idle	hit_down_idle	run_1		run_1		run_1					walk
+141	哭哭啼啼走路的小孩	哭哭啼啼走路的小孩			idle_1		idle				speical_3		speical_3		run_1					walk
+142	魔化人类抱头发狂	魔化人类抱头发狂			special_1		special_1				run		run							walk
+143	跪地哭泣玄武勇士	跪地哭泣玄武勇士			special_2		special_2				run		run							walk
+144	乞讨动作	乞讨动作			special_idle_1		special_idle_1				run		run							walk
+145	僵尸聊天	僵尸聊天			special_idle_2		special_idle_1				run		run							walk
+146	女村民哭哭啼啼走路	女村民哭哭啼啼走路			idle_1		idle				special_1		special_1		run_1					walk
+147	跪着抹眼泪小孩	跪着抹眼泪小孩			special_1		special_1				special_3		special_3		run_1					walk
+148	站着抹眼泪小孩	站着抹眼泪小孩			special_2		special_2				special_3		special_3		run_1					walk
+149	召唤鬼谷王	召唤鬼谷王			special_idle_1		special_idle_1	idle_1_to_idle_3	idle_3_to_idle_1		run_1	run_stop_1	run_3	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+150	蚩尤默认姿态	蚩尤默认姿态			idle		idle				walk		walk							walk
+201	骑乘机关鸟动作地面	骑乘机关鸟动作地面			drive_idle_1						drive_run_1	
+202	骑乘机关鸟动作空中	骑乘机关鸟动作空中			drive_idle_2						drive_fly_1	
+301	龙姿态	龙姿态			idle_1		idle				run		run							walk
+302	飞龙姿态	飞龙姿态			fly_idle		fly_idle				fly_1		fly_1							fly_1
+303	撒旦姿态	撒旦姿态	intro_1		idle		idle													walk
+304	风后腾云姿态	风后腾云姿态			idle_3		idle_3				idle_3		idle_3		idle_3	
+305	怪物隐身姿态	怪物隐身姿态			idle_1		idle				run		run							walk
+306	皇帝默认姿态	皇帝默认姿态	idle_1		idle				walk		walk						1			
+307	皇帝火	皇帝火	idle_2		idle_2				walk		walk						1			
+308	皇帝冰	皇帝冰	idle_1		idle_3				walk		walk						1			
+309	血灵阵	血灵阵	start	loop	loop	loop	loop												
+401	倒地	倒地			dead_1		dead_1				dead_1	
+402	尸化士兵匍匐姿态	怪物默认姿态		stand_up	dead_idle		idle				run		run							walk
+1001	剑舞姿态	剑舞姿态			idle_1	idle_2|idle_5|idle_6|idle_7	idle_3	idle_1_to_idle_3	idle_3_to_idle_1		run_1	run_stop_1	run_2	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_1	idle_2|idle_5|idle_7	walk
+1002	御气姿态	御气姿态			idle_1		idle_4	idle_1_to_idle_3	idle_4_to_idle_1		run_1	run_stop_1	run_1	run_stop_3	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+2001	墨攻姿态	墨攻姿态			idle_1	idle_2	idle_3	idle_1_to_idle_3	idle_3_to_idle_1	idle_3_to_idle_4	run_1	run_stop_1	run_3	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_1	idle_1	walk
+2002	墨隐姿态	墨隐姿态			idle_1		idle_4	idle_1_to_idle_4	idle_4_to_idle_1	idle_4_to_idle_3	run_1	run_stop_1	run_2	run_stop_3	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+3001	阴姿态	阴姿态			idle_1		idle_3	idle_1_to_idle_3	idle_3_to_idle_1		run_1	run_stop_1	run_3	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+3002	阳姿态	阳姿态			idle_1		idle_3	idle_1_to_idle_3	idle_3_to_idle_1		run_1	run_stop_1	run_3	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+3003	升腾姿态	升腾姿态			idle_1		idle_5	idle_1_to_idle_3	idle_3_to_idle_1	idle_5_to_idle_3	run_1	run_stop_1	run_4	run_stop_4	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+4001	玄冰姿态	玄冰姿态			idle_1	idle_2|idle_5|idle_6|idle_7	idle_3	idle_1_to_idle_3	idle_3_to_idle_1		run_1	run_stop_1	run_2	run_stop_2	fast_run_3	fast_run_stop	fast_run_1	fast_run_2	idle_2|idle_5|idle_7	walk
+4002	邪焰姿态	邪焰姿态			idle_1		idle_4	idle_1_to_idle_3	idle_4_to_idle_1		run_1	run_stop_1	run_1	run_stop_3	fast_run_3	fast_run_stop	fast_run_1	fast_run_1		walk
+501	金符鬼姿态	金符鬼姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+503	木符鬼姿态	木符鬼姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+505	水符鬼姿态	水符鬼姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+509	土符鬼姿态	土符鬼姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+511	琉璃姿态	琉璃姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+517	小山猪姿态	小山猪姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+531	阿奇姿态	阿奇姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+533	琥珀姿态	琥珀姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+535	疾鹏姿态	疾鹏姿态			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	
+537	云狐	云狐			idle_1	idle_2|idle_3	idle				fly		run						idle_2|idle_3	

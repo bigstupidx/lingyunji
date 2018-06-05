@@ -1,0 +1,13 @@
+﻿编号	备注	结束类型	持续时间	类型	类型参数	叠加层数	不同施法者规则	进入action	结束action	间隔action	间隔时间	特效	描述
+id		finishType	timeLen	typename	para	addMaxCnt	addType	beginActionStrs	endActionStrs	tickActionStrs	tickTime	effect	des
+int		enum:FinishType	float	str	str	int	enum:AddType	strs	strs	strs	float	str	str
+1	角色霸体	1		霸体									角色霸体_描述
+101	测试-50级咸鱼	1		属性	101								测试-50级咸鱼_描述
+102	测试-50级大佬	1		属性	102								测试-50级大佬_描述
+103	测试-50级石油佬	1		属性	103								测试-50级石油佬_描述
+1231	剑阵	0	10							search_1231	1	fx_nvjianke_skill_15	剑阵_描述
+22605	战灵-虚	0	30			1						fx_zhanling_xu_body	战灵-虚_描述
+22606	战灵-虚	0	30			1						fx_zhanling_body_smoke	战灵-虚_描述
+22607	战灵-死歌	0	4						attack_22609_1			fx_zhanling_skill_7_player	战灵-死歌_描述
+14601	碟仙减防	0	8	属性	10011	1						fx_zhanling_body_smoke	碟仙减防_描述
+24008	修真道士狂暴	0	60			1						fx_xzds_nuqi1	

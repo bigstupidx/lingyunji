@@ -1,0 +1,12 @@
+﻿ID	频道名称	聊天频道简称	银贝消耗	金贝消耗	仙玉消耗	碧玉消耗	物品消耗	冷却时间	等级限制	字符图片发送开关	语音发送开关	消息最大数量	信息保存条数	聊天频道名称颜色	是否显示冒泡
+id:group	channelName	channelNickName	silver	Gold	Fairy	Jasper	items	time	level	picOpen	voiceOpen	max	saveNum	color	pop
+int	str	str	int	int	int	int	str	int	int	bool	bool	int	int	str	bool
+1	系统频道	系					10001|1			0	0	60	50	ffffff	0
+2	好友频道	私						1		1	1	60	50	f9ffb6	1
+3	当前频道	当						5		1	1	60	50	f9ffb6	1
+4	世界频道	世						20		1	1	60	50	ffc682	0
+5	帮派频道	帮						10		1	1	60	50	c4ffa4	1
+6	队伍频道	队						5		1	1	60	50	a4daff	1
+7	战场频道	战								1	0	60	50	ffc682	0
+8	英雄帖频道	英					2601|1			1	0	60	50	ffc682	0
+9	世界队伍频道	招募								1	0	60	50	ffc681	-1

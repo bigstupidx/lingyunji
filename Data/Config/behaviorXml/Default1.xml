@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--EXPORTED BY TOOL, DON'T MODIFY IT!-->
+<!--Source File: Default1.xml-->
+<behavior name="Default1" agenttype="behaviac::BT_RoleAgent" version="5">
+  <node class="ReferencedBehavior" id="0">
+    <property ReferenceBehavior="const string &quot;Child/RandAttack&quot;" />
+    <property Task="Self.behaviac::BT_RoleAgent::RandAttack(3:1001|1002|1003,3:1|1|1)" />
+  </node>
+</behavior>

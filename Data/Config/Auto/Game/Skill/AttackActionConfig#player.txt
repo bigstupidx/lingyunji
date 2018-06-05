@@ -1,0 +1,44 @@
+﻿编号	备注	命中状态	状态参数	受击不改变朝向	攻击材质	命中action	仅命中第一次执行aciton	受击特效	受击方向	命中震动	仇恨系数	附加命中率	附加暴击率	无视防御类技能	吸血系数	护体伤害	伤害类型	五行属性	伤害系数	附加伤害系数	附加伤害
+id		stateName	statePara	stateChangeToward		hitActionStr	hitActionStrOnce	hitEffect	hitEffectAngle		haterdMul	mingzhongExtra	baojiRateExtra	ignoreDefenseSkill	vampireFix	hutiDamage	isMagicDamage		damageFix	extraDamageFix	extraDamage
+str		str	floats	bool		strs	strs	str	str		float[d#1.0]	float	float	bool	float	int	bool		float[d#1.0]	float	float
+attack_1001	剑客普攻1	受击	0.5				mp_recover_1	fx_underattack_sharp	外									1	0.5		
+attack_1002	剑客普攻1	受击	0.5				mp_recover_1	fx_underattack_sharp	左									1	0.25		
+attack_1003	剑客普攻1	受击	0.5				mp_recover_1	fx_underattack_sharp	右									1	0.5		
+attack_1011	御气普攻	受击	0.5					fx_underattack_sharp	外									1	1		
+attack_1021	浮空1	浮空	2															1	1.87	0.33	
+attack_1022	浮空2	倒地	2															1	1.836	0.324	
+attack_1031	疾跑冲锋	眩晕	3				mp_recover_2	fx_underattack_sharp	外									1	0.6528	0.1152	
+attack_1041	风火轮	受击	0.5				mp_recover_1	fx_underattack_sharp	外									1	0.09	0.02	
+attack_1051	刺剑	受击	0.5					fx_underattack_sharp	右									1	1.4	0.6	
+attack_1101_1	格挡反制	眩晕	2															1	0.82	0.14	
+attack_1201	下段斩	倒地	3					fx_underattack_sharp	右									1	1.77	0.31	
+attack_1211	下段斩追加	倒地	2					fx_nvjianke_skill_15_lighting										1	1.68	0.3	
+attack_1221	五连斩	受击	0.5					fx_underattack_sharp										1	0.595	0.105	
+attack_1231	剑阵	受击	0.5					fx_nvjianke_skill_15_lighting										1	0.5	0.1	
+attack_1301	冲锋	眩晕	3				mp_recover_2	fx_underattack_sharp	外									1	0.82	0.14	
+attack_1401	转御气	击退	0.2;6				mp_recover_5	fx_underattack_sharp	外									1	1.63	0.29	
+attack_1501	挑空	浮空	2					fx_underattack_sharp	上									1	1.12	0.2	
+attack_1511	一闪	受击	0.5				mp_recover_2	fx_underattack_sharp	外									1	1.84	0.32	
+attack_1521	一闪追加	受击	0.5				mp_recover_2	fx_underattack_sharp	外									1	1.65	0.29	
+attack_2001	墨家普攻	受击	0.5					fx_mj_skill_underattack_03										5			
+attack_2021	隐身普攻	受击	0.5					fx_mj_skill_underattack_03	外									5			
+attack_2101	非攻	击退	0.1;2					fx_mj_skill_underattack_02	外									5			
+attack_2201	冲锋	虚弱	3					fx_mj_skill_underattack_02	外									5			
+attack_2301	下段	倒地	3					fx_mj_skill_underattack_02	外									5			
+attack_2401	狂影	受击	0.5					fx_mj_skill_underattack_02	外									5			
+attack_3001	阴普攻1	受击	0.5					fx_nvguigu_underattack_02				-0.5					1	3			
+attack_3003	阴普攻3	受击	0.5					fx_nvguigu_underattack_01					0.5				1	3			
+attack_3011	阳普攻	受击	0.5					fx_nvguigu_underattack_03									1	3			
+attack_3021	浮空追击	倒地	3					fx_nvguigu_underattack_03									1	3			
+attack_3031	仙法	受击	0.5					fx_nvguigu_underattack_03									1	3			
+attack_3101	鬼谷击退	击退	0.2;10					fx_nvguigu_underattack_01									1	3			
+attack_3131	小奶							fx_nvguigu_skill_33_buff									1	3			
+attack_3201	镇	倒地	3					fx_nvguigu_skill_4_2									1	3			
+attack_3221	捆人	眩晕	3														1	3			
+attack_3331	导弹	眩晕	3					fx_nvguigu_underattack_03									1	3			
+attack_3421	转姿态	受击	0.5														1	3			
+attack_3441	双鬼	受击	0.5					fx_nvguigu_underattack_01									1	3			
+attack_3511	浮空	浮空	2					fx_nvguigu_skill_21									1	3			
+attack_4001	寒冰指	受击	0.5					fx_underattack_longnv									1	4			
+attack_4101	霜龙破	受击	0.5					fx_underattack_longnv									1	4			
+attack_4201	炎龙啸	受击	0.5					fx_qy_fire_underattack_01									1	4			

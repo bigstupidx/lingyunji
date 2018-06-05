@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration Android="xys" ios="app_store" >
+  <!--unisdk,yixin-->
+  <InstallConfig startVersion="0.0.1" resVersion="0.0.1" />
+
+  <!--默认的正式更新地址-->
+  <DefaultOutsideProgramList value="http://192.168.1.203/xys_ad/Patchs/packlist.txt" />
+  <DefaultOutsidePathList value="http://192.168.1.203/xys_ad/Patchs/patchlist.txt" />
+
+  <DefaultInsideProgramList value="http://192.168.1.203/xys_ad/Patchs/packlistQA.txt" />
+  <DefaultInsidePathList value="http://192.168.1.203/xys_ad/Patchs/patchlistQA.txt" />
+
+  <Channel client_channel="xys" server_channel="xys"  >
+    <PlayerSettings companyName="eyesblack" productName="轩辕剑:剑之源" bundleIdentifier="com.tencent.tmgp.eyesblack.xys" />
+
+    <!--程序包的文件名-->
+    <!--{0} 版本号-->
+    <!--{1} 渠道-->
+    <!--{2} SVN版本号-->
+    <ProgramName name="xys-build{2}-{0}-{1}" />
+
+    <!--补丁包的路径-->
+    <!--{0} 版本号-->
+    <!--{2} 渠道-->
+    <!--{3} SVN版本号-->
+    <PatchPath name="patchs/patch{0}.sys.{1}.wp" />
+  </Channel>
+  
+  <Channel client_channel="app_store" server_channel="ios"  >
+    <PlayerSettings companyName="eyesblack" productName="轩辕剑:剑之源" bundleIdentifier="com.eyesblack.xys" />
+
+    <!--程序包的文件名-->
+    <!--{0} 版本号-->
+    <!--{1} 渠道-->
+    <!--{2} SVN版本号-->
+    <ProgramName name="xys-build{2}-{0}-{1}" />
+
+    <!--补丁包的路径-->
+    <!--{0} 版本号-->
+    <!--{2} 渠道-->
+    <!--{3} SVN版本号-->
+    <PatchPath name="patchs/patch{0}.sys.{1}.wp" />
+  </Channel>
+  
+</Configuration>

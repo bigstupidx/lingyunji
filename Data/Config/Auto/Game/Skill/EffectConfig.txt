@@ -1,0 +1,84 @@
+﻿编号	对应角色	备注	文件名称	挂接点	跟随位置	跟随旋转	创建角度归零	根据体型缩放	材质	材质叠加
+id			m_effectName	m_boneName	m_followPos	m_followRot	m_rotCreateZero	m_scaleByBody	material	matAddType
+str			str	str	bool	bool	bool	float	str	int
+fx_underattack_sharp	天剑	剑客默认攻击受击特效	fx_underattack_sharp	hurtFx						
+fx_underattack_sharp_3	天剑	剑客锐器雷电受击	fx_underattack_sharp_3	hurtFx						
+fx_nvjianke_skill_15_lighting	天剑	剑客雷击受击	fx_nvjianke_skill_15_lighting	hurtFx	1		1			
+fx_underattack_jianke_A	天剑	剑客球形雷电受击	fx_underattack_jianke_A	hurtFx						
+fx_nvjianke_defend_attack_1	天剑	剑客拔剑受击	fx_nvjianke_defend_attack_1	hurtFx			1			
+fx_nvjianke_skill_15	天剑	剑阵特效	fx_nvjianke_skill_15	transform	1					
+fx_nvjianke_skill_07	天剑	五连斩特效	fx_nvjianke_skill_07	transform			1			
+fx_mojia_body_yinshen	墨家	墨家隐身材质							fx_mojia_body_yinshen	
+fx_mojia_yinshen	墨家	隐身特效	fx_mojia_yinshen	hurtFx	1					
+fx_mojia_xianshen	墨家	脱离隐身特效	fx_mojia_xianshen	transform	1					
+fx_mojia_skill_9_3	墨家	墨家奔袭受击	fx_mojia_skill_9_3	hurtFx						
+fx_mj_skill_underattack_02	墨家	墨家锐器受击	fx_mj_skill_underattack_02	hurtFx						
+fx_mj_skill_underattack_03	墨家	墨家锐器受击弱	fx_mj_skill_underattack_03	hurtFx						
+fx_mj_skill_underattack_01	墨家	墨家钝器受击弱	fx_mj_skill_underattack_01	hurtFx						
+fx_mj_skill_underattack_04	墨家	墨家钝器受击	fx_mj_skill_underattack_04	hurtFx						
+fx_nvguigu_underattack_02	鬼谷	鬼谷普攻弱	fx_nvguigu_underattack_02	hurtFx						
+fx_nvguigu_underattack_01	鬼谷	鬼谷普攻强	fx_nvguigu_underattack_01	hurtFx						
+fx_nvguigu_underattack_03	鬼谷	鬼谷普攻神圣	fx_nvguigu_underattack_03	hurtFx						
+fx_nvguigu_skill_15_buff	鬼谷	鬼谷小奶特效	fx_nvguigu_skill_15_buff	transform	1		1			
+fx_nvguigu_skill_33_buff	鬼谷	鬼谷复活	fx_nvguigu_skill_33_buff	transform	1		1			
+fx_nvguigu_skill_4_2	鬼谷	鬼谷镇压	fx_nvguigu_skill_4_2	transform			1			
+fx_nvguigu_skill_21	鬼谷	鬼谷浮空	fx_nvguigu_skill_21	transform			1			
+fx_nvguigu_skill_30_1	鬼谷	鬼谷浮空追击	fx_nvguigu_skill_30_1				1			
+fx_nvguigu_skill_24_body_mat	鬼谷	鬼谷升仙材质							fx_nvguigu_skill_24_body_mat	1
+fx_nvguigu_zitai_2_body_pt	鬼谷	鬼谷2姿态特效	fx_nvguigu_zitai_2_body_pt	transform	1	1				
+fx_nvguigu_skill_34_body_pt	鬼谷	鬼谷3姿态特效	fx_nvguigu_skill_34_body_pt	transform	1	1				
+fx_nvguigu_skill_34_shouzhao	鬼谷	鬼谷3姿态消散特效	fx_nvguigu_skill_34_shouzhao	transform	1	1				
+fx_nvqiyao_idle_4	七曜	七曜火焰姿态手臂特效	fx_nvqiyao_idle_4	IndexFinger3_R	1					
+fx_qy_fire_underattack_01	七曜	七曜火焰受击大	fx_qy_fire_underattack_01	hurtFx						
+fx_qy_fire_underattack_02	七曜	七曜火焰受击小	fx_qy_fire_underattack_02	hurtFx						
+fx_underattack_longnv	七曜	龙女受击特效	fx_underattack_longnv	hurtFx	1					
+fx_chiyou_hit		蚩尤专用受击特效	fx_chiyou_hit	hurtFx	1					
+fx_underattack	通用	受击特效	fx_underattack	hurtFx	1					
+fx_lingshou_skill_3	灵兽	灵兽普攻受击	fx_lingshou_skill_3	hurtFx	1					
+fx_chongwu_tianxinming	灵兽	天磐鸣受击	fx_chongwu_tianxinming	hurtFx	1					
+fx_chongwu_tianxinming_bullet	灵兽	天磐鸣投射物	fx_chongwu_tianxinming_bullet	hurtFx	1					
+fx_chongwu_yewushu	灵兽	叶舞术	fx_chongwu_yewushu	hurtFx	1					
+fx_chongwu_liuyunci	灵兽	流云刺受击	fx_chongwu_liuyunci	hurtFx	1					
+fx_chongwu_liuyunci_bullet	灵兽	流云刺投射物	fx_chongwu_liuyunci_bullet	hurtFx	1					
+fx_chongwu_liehuoshu	灵兽	烈火术受击	fx_chongwu_liehuoshu	hurtFx	1					
+fx_chongwu_liehuoshu_bullet	灵兽	烈火术投射物	fx_chongwu_liehuoshu_bullet	hurtFx	1					
+fx_chongwu_tulingzhua	灵兽	土灵爪	fx_chongwu_tulingzhua	hurtFx	1					
+fx_chongwu_qiliaoshu	灵兽	气疗术	fx_chongwu_qiliaoshu	transform	1					
+fx_chongwu_qingfengzhou	灵兽	清风咒	fx_chongwu_qingfengzhou	transform	1					
+fx_chongwu_baihuxingjiang	灵兽	白虎星降	fx_chongwu_baihuxingjiang	transform			1			
+fx_chongwu_qinglongyunping	灵兽	青龙云屏	fx_chongwu_qinglongyunping	transform			1			
+fx_chongwu_xuanwuxianshi	灵兽	玄武现世	fx_chongwu_xuanwuxianshi	transform			1			
+fx_chongwu_zhuquezhenchi	灵兽	朱雀振翅	fx_chongwu_zhuquezhenchi	transform			1			
+fx_chongwu_huanglonghaoqi	灵兽	黄龙浩气	fx_chongwu_huanglonghaoqi	transform			1			
+fx_chongwu_bafangguiyuan	灵兽	八方归元	fx_chongwu_bafangguiyuan	transform			1			
+fx_xiaoshanzhu_xiaozhuchongzhuang	灵兽	小猪冲撞	fx_xiaoshanzhu_xiaozhuchongzhuang	transform	1	1		1		
+fx_liuli_qinmuqingfeng	灵兽	浸沐春风	fx_liuli_qinmuqingfeng	transform			1			
+fx_jinfugui_jinlingjikong	灵兽	金灵疾空	fx_jinfugui_jinlingjikong	hurtFx						
+fx_mufugui_chimukuanglan	灵兽	痴木狂岚	fx_mufugui_chimukuanglan	transform						
+fx_shuifugui_bingshiluanzhui	灵兽	冰石乱坠	fx_shuifugui_bingshiluanzhui	transform			1			
+fx_huofugui_huoyujian	灵兽	火羽翦	fx_huofugui_huoyujian	transform			1			
+fx_tufugui_lianshanjuebi	灵兽	连山绝壁	fx_tufugui_lianshanjuebi	transform			1			
+fx_underattack_1	怪物	通用受击特效	fx_underattack_1	hurtFx	1					
+fx_yushi_hit			fx_yushi_hit	hurtFx	1					
+fx_yushi_hit_down			fx_yushi_hit	transform	1					
+fx_yuxiaoxue_attack_2_buff			fx_yuxiaoxue_attack_2_buff	hurtFx	1					
+fx_fenghou_hit			fx_fenghou_hit	hurtFx	1					
+fx_underattack_shuijing			fx_underattack_shuijing	hurtFx	1					
+fx_zhuquedi_hit			fx_zhuquedi_hit	hurtFx	1					
+fx_nanjianke_underattack			fx_nanjianke_underattack	hurtFx	1					
+fx_jiliang_attack_4			fx_jiliang_attack_4	hurtFx	1					
+fx_chenjingchou_attack_3_1_buff			fx_chenjingchou_attack_3_1_buff	hurtFx	1					
+fx_fenghou_skill_1_02			fx_fenghou_skill_1_02	hurtFx	1					
+fx_underattack_sharp_2			fx_underattack_sharp_2	hurtFx	1					
+ fx_xzds_ice_broken	冰块破碎	修真道士技能		transform	
+fx_huangdi_flower_1_Loop	六血灵阵		fx_huangdi_flower_1_Loop	transform	1			1	
+fx_zhanling_xu_body	怪物-远古战灵								fx_zhanling_xu_body	
+fx_zhanling_body_smoke	怪物-远古战灵		fx_zhanling_body_smoke	Chest_M	1			1		
+fx_qy_fire_underattack_03	怪物-远古战灵	远古战灵技能1受击	fx_qy_fire_underattack_01	hurtFx						
+fx_zhanling_skill_7_player	怪物-远古战灵	战灵-死歌	fx_zhanling_skill_7_player	transform	1			1		
+fx_zhanling_skill_7_underattack	怪物-远古战灵	远古战灵-死歌 受击	fx_zhanling_skill_7_underattack	transform						
+fx_xzds_nuqi1	修真道士狂暴材质				1			1	fx_xzds_nuqi1	
+fx_xuanwusha_underattack	怪物-玄武鲨	玄武鲨技能3受击	fx_xuanwusha_underattack	hurtFx						
+fx_xuanwusha_skill_5	怪物-玄武鲨	玄武鲨技能5受击	fx_xuanwusha_skill_5	transform						
+fx_yihu_buff	怪物-翼虎	翼虎技能5狂暴buff	fx_yihu_buff	Bip001_Spine1	1	
+fx_huangdi_skill_3_Beattack			fx_huangdi_skill_3_Beattack	hurtFx						

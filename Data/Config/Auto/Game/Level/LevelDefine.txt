@@ -1,0 +1,68 @@
+﻿id	配置表id	关卡名称	关卡场景类型	关卡子类型	关卡子类型参数	进入关卡消耗道具	托管模式	能否伙伴加入	是否宠物出现	是否单机副本	是否需要组队	强制组队人数	组队进入方式	是否支持任务同步	是否支持关卡内组队	是否支持召唤传送	只允许氏族进入	主角是否能操作	房间状态	死亡惩罚	隐藏关卡时间	不能主动退出	UI的收放	轻功使用	进入场景buff	关卡等级设置类型	关卡等级	推荐等级	进入等级限制	进入PK值限制	进入任务类型限制	最大挑战次数	挑战次数扣除方式	通关删除入口NPC	所属活动id	默认传送石	背景音	boss战背景音	最长时间	地图id	关闭九宫格	结算界面类型	隐藏关卡开启几率	对应隐藏关卡id	奖励id	道具奖励预览	额外奖励	额外奖励次数	场景可容纳人数	进入确认窗口	确认窗口内容	是否能使用坐骑	坐骑能否飞行	坐骑飞行高度	关卡摄像机	关卡摄像机类型	判断提示ID	是否能复活	附近复活	附近复活倒计时	附近复活回血	附近复活限制	原地复活	等待救援	其他玩家救助	宠物救助
+id	configId	name	levelType	subType	subParam	useItem	trusteeshipType	joinPartner	showPet	isSingle	teamCondition	teamNum	teamEnterType	syncTask	formTeamInLevel	canBeCall	guildEnter	canMeCtrl	roomBuff	deadPunish	hideTime	cantInitiativeExit	uiStatus	useJump	enterSceneBuff	levelGradeSetting	levelGrade	recommendLevel	gradeLimit	pkLimit	taskLimit	maxChallengeTimes	deductType	deleteEnterNpc	activityId	defaultTransmitStone	bgMusic	bossMusic	maxStayTime	mapId	closeSquaredUp	accountType	concealProbability	concealId	awardId	showItems	extraAward	extraAwardCount	maxContain	enterNeedConfirm	confirmContent	canUseRide	canRideFly	rideFlyLimit	levelCamera	levelCameraType	judgeTipsId	canRelive	canReliveNear	reliveNearTime	reliveNearRecover	reliveNearLimit	canReliveInplace	canReliveWait	canReliveByPlayer	canReliveByPet
+int	str	str	enum:LevelType	int	int	ItemCount	int	bool	bool	bool	enum:TeamCondition	int	enum:TeamEnterType	bool	bool	bool	bool	bool	str	str	bool	bool	enum:UIStatus	int	str	enum:LevelGradeSetting	int	int	int	int	int	int	enum:DeductType	bool	int	str	str	str	float	str	bool	enum:AccountType	float	int	int	str	int	int	int	bool	str	bool	bool	float	str	enum:LevelCameraType	int	bool	bool	int	float	enum:NearReliveType	bool	bool	bool	bool
+1	public_baihuguo	白虎国	1											1	1	1									9012	1	1										zhuquecun			1									100																	
+2	public_zhuolucheng	涿鹿城	1											1	1	1									9012	1	1										zhulucheng												100			0	0	130												
+3	public_lingwujun	灵武郡	1											1	1	1									9012	1	1										shamo			2									100			0	0	150												
+4	public_zhuque2	朱雀国	1											1	1	1									9012	1	1										zhuquecun			1									100			0	0	75												
+5	public_zhuque4	十年前的朱雀国	1											1	1	1									9012;9102	1	1										zhuquecun			1									100																	
+10	public_domo	多魔博物馆	1											1	1	1									9012	1	1													1									100			0	0													
+21	public_bangpai	氏族场景	9											1	1	1	1									1	1													1									100			0	0													
+51	public_mojiashimen	墨家师门	1											1	1	1									9012	1	1																						100			1	0													
+52	public_tianjianshimen	天剑师门	1											1	1	1									9012	1	1													52									100			1	1	370												
+53	public_guigushimen	鬼谷幽径	1											1	1	1									9012	1	1													53									100			1	0	75												
+60	play_jianyu	监狱	7																						9012	1	1																						100																	
+61	play_1v1	1v1竞技场	8	1							3														9018	1	1					10							120						10013				100																	
+62	play_3v3	3v3竞技场	8	2																					9018																								100																	
+63	play_snhz	思念幻阵	2								1																					1	2		11				600		1	1							100	1	该副本每天只能进入一次，进入后次数立即扣除，确定要进入吗？															
+64	play_zhanling	战场玩法	2								3																																						100																	
+65	play_zuduililian	组队历练	2								3																																						100																	
+66	play_whts	轩辕茶馆	2	3	1				0		1							0			1		1									1			16				28800										4						whts	2										
+70	play_dingshi1	定时-白虎勇士	2								3																							1					3000						10013				100																	
+71	play_dingshi2	定时-白虎监工	2								3																							1					3000						10013				100																	
+72	play_dingshi3	定时-恶魔	2								3																												3000						10013				100																	
+75	play_bpdadao	帮会大盗	2	2							2	1					1																	1					3000						10013		3155	5	100								1									
+76	huodong_1	【天书-鬼神除怨】	2				2	1			1	1	2	1	1	1						1		1	9018														1800				1	81					100																	
+77	huodong_2	【天书-宝塔之乱】	2				2	1			1	1	2	1	1	1						1		1	9018														1800				1	82					100																	
+78	huodong_3	【天书-平定道场】	2				2	1			1	1	2	1	1	1						1		1	9018														1800				1	83					100																	
+79	huodong_4	【天书-桃源仙踪】	2				2	1			1	1	2	1	1	1						1		1	9018														1800				1	84					100																	
+80	huodong_5	【天书-裂隙魔侵】	2				2	1			1	1	2	1	1	1						1		1	9018														1800				1	85					100																	
+81	huodong_6	【天书-鬼神除怨】隐藏	2				2	1			1	1	2	1	1	1						1		1	9018														1800						10013				100																	
+82	huodong_7	【天书-宝塔之乱】隐藏	2				2	1			1	1	2	1	1	1						1		1	9018														1800						10013				100																	
+83	huodong_8	【天书-平定道场】隐藏	2				2	1			1	1	2	1	1	1						1		1	9018														1800						10013				100																	
+84	huodong_9	【天书-桃源仙踪】隐藏	2				2	1			1	1	2	1	1	1						1		1	9018														1800						10013				100																	
+85	huodong_10	【天书-裂隙魔侵】隐藏	2				2	1			1	1	2	1	1							1		1	9018														1800						10013				100																	
+86	play_skxw1	【时空漩涡-财富】	2			3153|1	1	1			1			1	1									1	9018	2									14				3000		1								100																	
+87	play_skxw2	【时空漩涡-成长】	2			3153|1	1	1			1			1	1									1	9018	2									14				3000		1								100																	
+88	play_skxw3	【时空漩涡-运气】	2			3153|1	1	1			1			1	1									1	9018	2									14				3000		1								100																	
+100	guanqia100		2								3		1											2	9018	1	1												3000							1001			100																	
+101	guanqia101	灵武郡	2						0		3		1										0	2	9018	1													3000						27301	1001			100																	
+104	guanqia102	第一关普通	2				2				2		1												9014	1	13					5							3000						27301				100																	
+102	guanqia102	通天塔	2				1				3		1										1	2	9018	1	17					50							3000						27302	1001			100																	
+105	guanqia101	第二关普通	2								2		2												9014	1	17					10							3000						27302				100																	
+103	guanqia103	撒旦	2				1				1		1										2	2	9018	1	19					50							3000		1				27303	1001			100																	
+106	guanqia101	第三关普通	2								1														9014	1	19					10							3000						27303				100																	
+107	guanqia107	第一关精英	2								1														9014	1	35												3000		1				27351				100																	
+108	guanqia108	第二关精英	2								1														9014	1	40												3000		1				27352				100																	
+201	guanqia201	风雨井木村	2				3				3													2	9018	1	24												3000		1				27304	1001			100																	
+204	guanqia204	风雨井木村（普通）	2				3				3													2	9018	1	24												3000		1				27304	1001			100																	
+202	guanqia202	迷雾祭坛	2				3				3													2	9018	1	30												3000						27305	1001			100																	
+206	guanqia206	迷雾祭坛（普通）	2				3				3													2	9018	1	30												3000		1				27305	1001			100																	
+203	guanqia203	朱雀塔	2				3				1													1	9018	1	35												3000						27306	1001			100																	
+208	guanqia208	朱雀塔（普通）	2				3				3													1	9018	1	35												3000		1				27306	1001			100																	
+205	guanqia205	风雨井木村（精英）	2				3				1				1	1								2	9018	1	45												3000		1					1001			100	1	英雄副本难度较高，建议组队前往，确定要只身前往吗？															
+207	guanqia207	迷雾祭坛（精英）	2				3				1				1	1								2	9018	1	50												3000		1					1001			100	1	英雄副本难度较高，建议组队前往，确定要只身前往吗？															
+209	guanqia209	朱雀塔（精英）	2				3				1				1	1								2	9018	1	55												3000		1					1001			100	1	英雄副本难度较高，建议组队前往，确定要只身前往吗？															
+301	guanqia301	逐鹿山寨	2				3				3													2	9018	1	1												3000		1					1001			100																	
+302	guanqia302	逐鹿城巷战	2				3				3													2	9018	1	1												3000		1					1001			100																	
+303	guanqia303	涿鹿城地牢	2				3				3													2	9018	1	1												3000		1					1001			100																	
+993	test_skill	测试技能	2								3														9014														3000										100				
+994	test_01	测试	1								3														9014														3000										100				
+995	test_gx2	被狗咬	2								2	2	2												9014														3000										100				
+996	zhucheng	测试主城	1											1	1	1									9012	1	1										zhuquecun			1									100																	
+997	guanqia	测试关卡	2								1														9014														3000		1								100				
+998	test_anime	测试敌人	2								3														9014														3000										100				
+999	test_role	角色展示	2								3														9014	1	1												3000										100				
+2033	public_zhuque2033	定制战斗-护送朱雀圣女	4				2				4													2	9018;9102	1	1												600										100				
+5001	public_lingwujun5001	定制战斗-击杀恶魔	4				2				4														9018	1	1												600										100									0	
+5170	public_lingwujun5170	定制战斗-护送陈靖仇	4								1														9018	1	1												600		1								100									0	

@@ -1,0 +1,17 @@
+﻿编号	备注	目标点	是否追踪	轨迹参数	飞行速度	子弹模型	发射位置	发射点	发射偏移	发射延迟	生命周期	创建action	间隔时间	间隔action	消失action	消失特效	子弹结束不销毁模型	音效
+id		targetPos	follow	pathParas	speed	fxName	firePos	FirePosBone	firePosOff	fireDelay	lifeTime	createActions	interval	intervalActions	destroyActions	destroyEffect	notDestroyModel	
+str		enum:TargetPos	int	floats	float	str	enum:FirePos	str	floats	float	float	strs	float	strs	strs	str	bool	
+bullet_50002	叶舞术	1	2		20	fx_chongwu_yewushu_bullet	0	bullet_point			5				attack_50002	
+bullet_50003	流云刺	1	2		20	fx_chongwu_liuyunci_bullet	0	bullet_point			5				attack_50003	
+bullet_50004	烈火术	1	2		20	fx_chongwu_liehuoshu_bullet	0	bullet_point			5				attack_50004	
+bullet_50204	痴木狂岚	1	1		10	fx_mufugui_chimukuanglan	0	bullet_point			5				attack_50204	
+bullet_50302	琉璃普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50302	
+bullet_50304	木符鬼普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50304	
+bullet_50305	水符鬼普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50305	
+bullet_50306	火符鬼普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50306	
+bullet_50310	蝶仙普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50310	
+bullet_50311	疾鹏普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50311	
+bullet_50313	琥珀普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50313	
+bullet_50316	安卡普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50316	
+bullet_50318	妮可普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50318	
+bullet_50319	博士猫普攻	1	2		20	fx_lingshou_skill_2	0	bullet_point			5				attack_50319	

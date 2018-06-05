@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProjectSetting>
+  <mobileMTRendering value="true" />
+  <!--<aotOptions value="nrgctx-trampolines=4096,nimt-trampolines=4096,ntrampolines=2048" />-->
+  <apiCompatibilityLevel value="NET_2_0_Subset" />
+  <bundleVersion value="1.0" />
+ 
+  <companyName value="eyesblack" />
+  <productName value="轩辕剑" />
+  <bundleIdentifier value="com.eyesblack.xys" />
+
+  <colorSpace value="Linear" />
+  
+  <defaultInterfaceOrientation value="AutoRotation" >
+    <allowedAutorotateToLandscapeLeft value="true" />
+    <allowedAutorotateToLandscapeRight value="true" />
+    <allowedAutorotateToPortrait value="false" />
+    <allowedAutorotateToPortraitUpsideDown value="false" />
+  </defaultInterfaceOrientation>
+
+  <strippingLevel value="Disabled" />
+  <use32BitDisplayBuffer value="false" />
+  <useAnimatedAutorotation value="true" />
+
+  <Android>
+    <bundleVersionCode value="1"/>
+    <forceInternetPermission value="true"/>
+    <forceSDCardPermission value="true"/>
+    <minSdkVersion value="AndroidApiLevel9"/>
+    <preferredInstallLocation value="Auto"/>
+    <showActivityIndicatorOnLoading value="DontShow"/>
+    <splashScreenScale value="ScaleToFill"/>
+    <targetDevice value="FAT"/>
+    <disableDepthAndStencilBuffers value="false"/>
+    <useAPKExpansionFiles value="false"/>
+
+    <AndroidSdkVersions value="AndroidApiLevel18" />
+
+    <AutoGraphicsApi value="false" >
+      <Api value="OpenGLES3" />
+    </AutoGraphicsApi>    
+  </Android>
+
+  <iOS>
+    <appInBackgroundBehavior value="Suspend"/>
+    <prerenderedIcon value="false"/>
+    <requiresPersistentWiFi value="true"/>
+    <scriptCallOptimization value="SlowAndSafe"/>
+    <sdkVersion value="DeviceSDK"/>
+    <showActivityIndicatorOnLoading value="DontShow"/>
+    <statusBarStyle value="Default"/>
+    <targetDevice value="iPhoneAndiPad"/>
+    <targetOSVersion value="iOS_8_0"/>
+
+    <Architecture value="1" />
+
+    <AutoGraphicsApi value="false" >
+      <Api value="Metal" />
+    </AutoGraphicsApi>
+  </iOS>
+
+</ProjectSetting>

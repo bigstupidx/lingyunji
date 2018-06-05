@@ -1,0 +1,64 @@
+﻿行为	行为结果	行为名描述	行为结果描述	提示语	提示语	开关
+ActionId:group	teamError			tipKey	msg	isOpen
+int	int			str	str	bool
+0	0	用于测试	成功		TE_None 成功	1
+0	1	用于测试	未知		TE_Unknown	1
+0	2	用于测试	在队伍		TE_InTeam	1
+0	3	用于测试	不在队伍		TE_NotInTeam	1
+0	4	用于测试	不是队长		TE_NotLeader	1
+0	5	用于测试	是队长		TE_IsLeader	1
+0	6	用于测试	离线		TE_Offline	1
+0	7	用于测试	目标在队伍		TE_AimInTeam	1
+0	8	用于测试	目标离线		TE_AimOffline	1
+0	9	用于测试			TE_ICTR_Miss = 9;	1
+0	10	用于测试	队伍不存在		TE_TeamNotExist	1
+0	11	用于测试	队伍已满		TE_TeamFull	1
+0	12	用于测试	目标不在队伍		TE_AimNotInTeam	1
+1	0	创建队伍	成功	team_create_succ	创建队伍成功	1
+1	1	创建队伍	未知错误	team_unknown_err	未知错误	1
+1	2	创建队伍	已在队伍中	team_create_err_inteam	你已经在队伍中，不能创建队伍	1
+2	0	解散队伍	成功	team_dissmiss_succ	你解散了队伍	1
+2	3	解散队伍	不在队伍中	team_not_inteam	你不在队伍中	1
+2	1	解散队伍	未知错误	team_unknown_err	deubg解散队伍中的未知错误	1
+2	4	解散队伍	不是队长	team_not_leader	你不是队长	1
+14	0	玩家所在队伍被解散		team_already_dismiss	你的队伍已经解散	1
+9	0	队长邀请别人入队	成功	team_send_invite_succ	邀请入队请求已发送	1
+9	1	队长邀请别人入队	未知错误		debug邀请入队请求未知错误	1
+9	11	队长邀请别人入队	队伍已满	team_invite_error_team_full	你的队伍已满，不能邀请	1
+9	7	队长邀请别人入队	对方已有队伍	team_aim_user_in_team	对方已经在队伍中	1
+9	8	队长邀请别人入队	对方不在线	team_aim_user_offline	对方不在线	1
+5	0	玩家请求入队	成功	team_send_join_request_succ	入队申请已经发送	1
+5	2	玩家请求入队	已在队伍中	team_inteam	你已经在队伍中	1
+5	11	玩家请求入队	目标队伍已经满了	team_aim_team_full	目标队伍已经满了	1
+5	10	玩家请求入队	目标队伍不存在	team_not_exist	队伍不存在	1
+6	10	队长审批入队请求	队伍不存在	team_not_exist	队伍不存在	1
+6	4	队长审批入队请求	不是队长	team_not_leader	你不是队长	1
+6	11	队长审批入队请求	队伍已满	team_aim_team_full	对方的队伍已经满了	1
+6	7	队长审批入队请求	对方已经在队伍中	team_aim_user_in_team	目标已经在队伍中	1
+6	6	队长审批入队请求	对方不在线	team_aim_user_offline	目标不在线	1
+7	0	队员被踢	成功	team_member_be_kicked	#[B3]{0}#n被请离了队伍	1
+8	0	转让队长	成功	team_change_leader_succ	队长移交成功	1
+8	1	转让队长	未知错误	team_unknown_err	debug 改变队长未知错误	1
+8	4	转让队长	不是队长	team_not_leader	你不是队长，没有权限转让队长	1
+8	12	转让队长	对方不在自己的队伍	team_aim_not_team_member	对方不在队伍中	1
+10	1	自动加入队伍	未知错误	team_unknown_err	未知错误	1
+10	2	自动加入队伍	已经在队伍中	team_inteam	你已经在队伍中	1
+11	0	离开队伍	成功	team_leave	#[B3]{0}#n离开了队伍	1
+12	0	入队请求被通过	成功	team_join_request_accepted	你的入队申请被#[B3]{0}#n通过了	0
+13	0	入队请求被拒绝	成功	team_join_request_rejected	你的入队申请被#[B3]{0}#n拒绝了	1
+14	0	队员所在队伍被解散	成功	team_dismiss	你的队伍被解散了	1
+15	0	新队员入队	成功	team_new_member_join	#[B3]{0}#n加入了队伍	1
+16	0	自动填充队伍	成功	team_matching	队伍正在匹配中	1
+16	1	自动填充队伍	未知错误	team_unknown_err	debug自动填充队伍，未知错误	1
+16	4	自动填充队伍	不是队长	team_not_leader	你不是队长	1
+16	11	自动填充队伍	队伍已经满了	team_full	队伍已经满了	1
+17	11	角色回复入队邀请	队伍已满	team_full	队伍已满	1
+17	10	角色回复入队邀请	队伍不存在	team_not_exist	队伍不存在	1
+17	2	角色回复入队邀请	已在队伍中	team_inteam	你已经在队伍中	1
+18	0	队长踢人	陈功	team_kick_member	你将#[B3]{0}#n请离了队伍	1
+19	0	自己入队提示	成功	team_join_team_succ	成功加入队伍	1
+20	0	入队邀请被拒绝	成功	team_invite_be_rejected	#[B3]{0}#n拒绝了你的邀请	1
+21	0	自己成为了新队长	成功	team_become_leader	你成为了新队长	1
+22	0	进入自动组队模式	成功	team_matching_start	已开始匹配，请稍后	1
+23	0	离开自动组队模式	成功	team_matchin_stop	已取消匹配	1
+24	0	通知自己被踢	陈功	team_self_be_kicked	你被请离了队伍	1

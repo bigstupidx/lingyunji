@@ -1,0 +1,30 @@
+#if (UNITY_STANDALONE_WIN || UNITY_EDITOR) && USER_IFLY
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace NAudio.Dmo
+{
+    /// <summary>
+    /// DMO_PARTIAL_MEDIATYPE
+    /// </summary>
+    struct DmoPartialMediaType
+    {
+        Guid type;
+        Guid subtype;
+
+        public Guid Type
+        {
+            get { return type; }
+            internal set { type = value; }
+        }
+
+        public Guid Subtype
+        {
+            get { return subtype; }
+            internal set { subtype = value; }
+        }
+    }
+}
+
+#endif

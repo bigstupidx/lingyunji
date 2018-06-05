@@ -1,0 +1,419 @@
+﻿编号	备注	命中状态	状态参数	攻击材质	命中action	附加命中率	附加暴击率	无视防御类技能	吸血系数	护体伤害	伤害类型	五行属性	受击特效	受击方向	仇恨系数	伤害系数	附加伤害系数	附加伤害
+id		stateName	statePara		hitActionStr	mingzhongExtra	baojiRateExtra	ignoreDefenseSkill	vampireFix	hutiDamage	isMagicDamage		hitEffect	hitEffectAngle		damageFix	extraDamageFix	extraDamage
+str		str	floats		strs	float	float	bool	float	int	bool		str	str		float	float	float
+attack_10400	小兵攻击	受击	0.2													2	
+attack_10401	小兵攻击2	受击	0.2													2	
+attack_10402	小兵攻击2	受击	0.2													2	
+attack_10500	狼攻击	受击	1													2	
+attack_10501	狼攻击2	受击	1													2	
+attack_10600	白虎监工攻击1											1				2	
+attack_10601	白虎监工攻击2											1				2	
+attack_10603	白虎监工蓄力攻击2									30		1				2	
+attack_10700	白虎战士攻击1											5				2	
+attack_10701	白虎战士跳斩	倒地	2									5				2	
+attack_10702																2	
+attack_10800	隋军士兵攻击1											4	fx_underattack			2	
+attack_10801	隋军士兵攻击2											4	fx_underattack			2	
+attack_10802	隋军士兵攻击3											4	fx_underattack			2	
+attack_10900											1	5	fx_lingshou_skill_3			1		
+attack_10901											1	5	fx_lingshou_skill_3			1		
+attack_10902	红莲女巫飞火流星	受击									1	1	fx_lingshou_skill_3			2		
+attack_10903	红莲女巫炎弹连闪										1	5	fx_lingshou_skill_3			2		
+attack_11002_1ufo												1				2	
+attack_11100	白虎刺客普攻											2				2	
+attack_11101	白虎刺客重击	眩晕	2									2				2	
+attack_11102	白虎刺客隐身											5				2	
+attack_11102_1ufo	白虎刺客隐身											5	fx_underattack			2	
+attack_11103_1	白虎刺客飞镖飞出物												fx_underattack			2	
+attack_11200	恶魔攻击1									50		5				2	
+attack_11201	恶魔攻击1											5				2	
+attack_11202	恶魔攻击1															2	
+attack_11300	青龙勇士攻击1											5				2	
+attack_11301	青龙勇士攻击2											5				2	
+attack_11302	青龙勇士三连斩															2	
+attack_11400	羽民战士															2	
+attack_11401	羽民战士															2	
+attack_11402	羽民战士															2	
+attack_11500	青龙圣徒															2	
+attack_11501	青龙圣徒											3	fx_yuxiaoxue_attack_2_buff			2	
+attack_11502	青龙圣徒															2	
+attack_11600	尸化士兵攻击1											1				2	
+attack_11601	尸化士兵攻击2											1				2	
+attack_11602	尸化士兵攻击3															2	
+attack_11700_1ufo	尸化弩手攻击1											5				2	
+attack_11701_1ufo	尸化弩手攻击2															2	
+attack_11702_1ufo	尸化弩手攻击3															2	
+attack_11801												5				2	
+attack_11802																2	
+attack_11803												4				2	
+attack_12000	自爆僵尸不动															2	
+attack_12100_1ufo												4	fx_underattack_longnv			2	
+attack_12101_1ufo												4	fx_underattack_longnv			2	
+attack_12102_1ufo		击退	0.4;5									5	fx_underattack_longnv			2	
+attack_12201	门派弟子普通攻击											5				2	
+attack_12202	门派弟子普通攻击															2	
+attack_12203	门派弟子普通攻击															2	
+attack_12300_1ufo												5	fx_fenghou_hit			2	
+attack_12301_1ufo													fx_fenghou_hit			2	
+attack_12303_1ufo		眩晕	2							60		5	fx_fenghou_hit			2	
+attack_12400	隋军勇士									4		5				2	
+attack_12401	隋军勇士									2		5				2	
+attack_12402	隋军勇士									30		5				2	
+attack_12500	魅魔									4		5				2	
+attack_12501	魅魔									4		5				2	
+attack_12502_1ufo	魅魔											5	fx_underattack			2	
+attack_12600	探子毒飞镖1	受击	0.5													2	
+attack_12601	探子毒飞镖2	受击	0.5													2	
+attack_12602	探子后空翻	受击	0.5													2	
+attack_12700	蚩尤族甲士攻击1											5				2	
+attack_12701	蚩尤族甲士攻击2									50		5				2	
+attack_12702	蚩尤族甲士攻击3											5				2	
+attack_12800	冤魂普攻	受击	1									5				2	
+attack_12801	冤魂普攻2	受击	1									5				2	
+attack_12802	冤魂追击右爪	受击	1									5				2	
+attack_12900	火光兽普攻抓	受击	1													2	
+attack_12091	火光兽普攻抓	受击	1													2	
+attack_12902	火光兽普攻扑	受击	1													2	
+attack_13000	魔化人类普攻	受击	1									4				2	
+attack_13001	魔化人类重爪	受击	1									4				2	
+attack_13002_1ufo		受击	1													2	
+attack_13100	朱雀斥候普攻															2		
+attack_13102	朱雀斥候普攻	受击	1									4	fx_lingshou_skill_3			2		
+attack_13200	蚩尤族战士攻击1											4				2	
+attack_13201	蚩尤族战士攻击2											4				2	
+attack_13202	蚩尤族战士攻击3															2	
+attack_13300	地雷											4				2	
+attack_13400	隋军锤兵普通攻击1											3				2	
+attack_13401	隋军锤兵普通攻击2											3				2	
+attack_13402	隋军锤兵技能捶地	倒地	0.5									2				2	
+attack_13500	隋军柱兵普通攻击1															2	
+attack_13501	隋军柱兵普通攻击2											2				2	
+attack_13502_1	隋军柱兵普通攻击2	倒地	0.5									2				2	
+attack_13600	隋军军官三连斩普攻															2	
+attack_13601	隋军军官直线冲击	击退	2;6									1				2	
+attack_13602	隋军军官致命劈砍															2	
+attack_13603	隋军军官一骑当千															2	
+attack_13604_1	隋军军官跃击	倒地	0.5													2	
+attack_13606	隋军军官竖砍普攻															2	
+attack_13700	隋军军官变身普攻															2	
+attack_13701	隋军军官变身普攻											4				2	
+attack_13702	隋军军官变身旋风	受击										4				2	
+attack_13703_1	隋军军官变身跳斩	倒地	0.5									4				2	
+attack_13704	隋军军官变身冲锋	击退	1									4				2	
+attack_13705	隋军军官变身战嚎	击飞	10							30		4				2	
+attack_13708	隋军军官变身旋风	受击	1									4				2	
+attack_13711	恶魔将军普攻（天书用）																	
+attack_13713	恶魔将军战嚎（天书用）	受击																
+attack_13714	恶魔将军泰山压顶（天书用）																	
+attack_13715	恶魔将军战嚎（天书用）																	
+attack_14000	剑舞攻击1	受击	1													2	
+attack_14001	墨剑·三式1	受击	1													2	
+attack_90290																2	
+attack_14100	仙女回血									20		5	fx_yuxiaoxue_attack_2_buff			2	
+attack_14101_1ufo		受击	1							40		5	fx_underattack_shuijing			2	
+attack_14200	朱雀卫队普通1							1		10		5				2	
+attack_14201	朱雀卫队普通2							1								2	
+attack_14300_ufo													fx_zhuquedi_hit			2	
+attack_14301_ufo										20		5	fx_zhuquedi_hit			2	
+attack_14500	强盗普通攻击1									40		5				2	
+attack_14501	强盗普通攻击2									100		5				2	
+attack_14502_2	强盗技能跳砍															2	
+attack_14600_1																1	
+attack_14601_1																1	
+attack_14700_1																1	
+attack_14701													fx_underattack			1	
+attack_14800	一目民普攻											3				2	
+attack_14801	一目民重砸											3				2	
+attack_14900_1												3				2	
+attack_14901_1												3				2	
+attack_15000	羽民刺客普攻1											3				2	
+attack_15001	羽民刺客普攻2											3				2	
+attack_15002	羽民刺客技能狂风嚎叫											3				2	
+attack_15100_1	羽民风伯普攻1											3				2	
+attack_15101_1	羽民风伯技能风刃龙卷											3				2	
+attack_15103_1	羽民风伯技能风伯吹息											1				2	
+attack_15104	羽民风伯技能夺魂风镰											1				2	
+attack_15200	厌火流氓普攻1											1				2	
+attack_15201	厌火流氓普攻2															2	
+attack_15202	厌火流氓技能燃烧攻击											1				2	
+attack_15300	逐鹿城盾卫普攻											1				2	
+attack_15400	门派女弟子											1				2	
+attack_15501	鱼人萨满旋涡												fx_yushi_hit			2	
+attack_15601	鱼人战士普攻1												fx_underattack_1			2	
+attack_15602	鱼人战士普攻2												fx_underattack_1			2	
+attack_15701	鱼人铁弹												fx_yushi_hit			2	
+attack_15702	鱼人铁连弹												fx_yushi_hit			2	
+attack_15801	刑天斧手普攻1												fx_underattack			2	
+attack_15802	刑天斧手普攻2												fx_underattack			2	
+attack_15803	刑天斧手烈焰斧												fx_underattack			2	
+attack_15901	刑天斧手普攻1												fx_underattack			2	
+attack_15902	刑天斧手普攻2												fx_underattack			2	
+attack_15903	无头刑天烈焰跃击												fx_underattack			2	
+attack_15904	无头刑天裂地斩												fx_underattack			2	
+attack_15905	无头刑天斧刃旋风												fx_underattack			2	
+attack_16000	玄武勇士普攻1												fx_underattack			2	
+attack_16001	玄武勇士普攻2												fx_underattack			2	
+attack_16002	玄武勇士海神之力												fx_underattack			2	
+attack_20001	龙抓击	击退	0.5									3	fx_underattack			2	
+attack_20002	龙拍击	击退	2									3	fx_nanjianke_underattack			2	
+attack_20018	前扑落地	击飞	4									3	fx_nanjianke_underattack			2	
+attack_20004	喷火	受击	1									3	fx_underattack			2	
+attack_20005	龙吼	虚弱	5									3	fx_underattack			2	
+attack_20020	冲撞	击飞	4									2	fx_nanjianke_underattack			2	
+attack_20007	旋风	受击	4									2	fx_nanjianke_underattack			2	
+attack_20008		击退	2									2				2	
+attack_20009	小跳	击退	1									3				2	
+attack_20010	龙吼	虚弱	5									3	fx_underattack			2	
+attack_20010_13ufo	攻击	击退	2									5				2	
+attack_20012		击退	2									1	fx_nanjianke_underattack			2	
+attack_20013_2ufo		击退	1									1	fx_nanjianke_underattack			2	
+attack_20014		击退	2									1	fx_underattack			2	
+attack_20030	小龙-龙抓击	击退	0.5					1				1	fx_underattack			2	
+attack_20031	小龙-龙吼	虚弱	5									1	fx_underattack			2	
+attack_20100	左右抓	受击	1									1		左		2	
+attack_20101	左抓	受击	1									1		左		2	
+attack_20102	右爪	受击	1											右		2	
+attack_20103	砸地	浮空	1									4	fx_underattack_1			2	
+attack_20104	黑火引爆	牵引	20;20;1.5									4				2	
+attack_20106	黑火喷出	眩晕	3									5	fx_underattack_1			2	
+attack_20106_1ufo												5				2	
+attack_20200	尸化大将军攻击1											5				2	
+attack_20201	尸化大将军攻击2											5				2	
+attack_20202	尸化大将军攻击3											5				2	
+attack_20203		浮空	1									5				2	
+attack_20204_2		倒地	1									4				2	
+attack_20205		受击	1									4				2	
+attack_20300_1ufo												4	fx_yushi_hit			2	
+attack_20301_1ufo												5	fx_yushi_hit			2	
+attack_20301_2ufo												2	fx_yushi_hit			2	
+attack_20301_3ufo													fx_yushi_hit			2	
+attack_20301_4ufo													fx_yushi_hit			2	
+attack_20301_5ufo													fx_yushi_hit			2	
+attack_20302	雨师水环	眩晕	3									1	fx_yushi_hit			2	
+attack_20303_1ufo										30		1	fx_yushi_hit			2	
+attack_20304_1	雨师冻结地面1	虚弱	2										fx_yushi_hit			2	
+attack_20304_2	雨师冻结地面2	虚弱	2							20		1	fx_yushi_hit			2	
+attack_20304_3	雨师冻结地面3	虚弱	2									1	fx_yushi_hit			2	
+attack_20304_4	雨师冻结地面4	虚弱	2							100		1	fx_yushi_hit			2	
+attack_20305	雨师暴风雨												fx_yushi_hit			2	
+attack_20306_1ufo		虚弱	2									1	fx_yushi_hit			2	
+attack_20400	陈靖仇普通攻击1															2	
+attack_20401	陈靖仇普通攻击2											5				2	
+attack_20402	陈靖仇普通攻击3											5				2	
+attack_20403_1	陈靖仇技能冲锋	虚弱	2									5				2	
+attack_20404	陈靖仇技能蓄力攻击	击飞	8													2	
+attack_20405	陈靖仇技能银鹰掠地															2	
+attack_20406	陈靖仇技能上挑															2	
+attack_20407	陈靖仇技能浮空连	浮空	1													2	
+attack_20408_1	陈靖仇格挡反制	眩晕	3													2	
+attack_20410	陈靖仇技能爆气															2	
+attack_20411	陈靖仇技能解控	击退	2;8													2	
+attack_20412_1	一斩															2	
+attack_20412_2	二斩															2	
+attack_20412_3	三斩															2	
+attack_20412_4	四斩															2	
+attack_20412_6	五斩	击飞	5													2	
+attack_20413	蓄力剑气浮空	浮空	3													2	
+attack_20414_1	陈靖仇格挡反制	眩晕	3													2	
+attack_20415_1	一斩															2	
+attack_20415_2	一斩															2	
+attack_20415_3	一斩															2	
+attack_20415_4	一斩															2	
+attack_20418_1	陈靖仇技能冲锋到身后	虚弱	3													2	
+attack_20420_1	一斩															2	
+attack_20420_2	二斩															2	
+attack_20420_3	三斩															2	
+attack_20420_4	四斩															2	
+attack_20420_5	五斩															2	
+attack_20421_1	陈靖仇技能1															2	
+attack_20500	普通攻击1	受击	1													2	
+attack_20501	普通攻击2	受击	1													2	
+attack_20502	普通攻击3															2	
+attack_20503	宇文拓攻击2	击退	0.5													2	
+attack_20504	宇文拓攻击3	受击	0.4													2	
+attack_20505	宇文拓攻击4															2	
+attack_20505_1	宇文拓攻击4	受击	0.7											外		2	
+attack_20505_2		击退	3;6											左		2	
+attack_20603	姬良技能															2	
+attack_20600_1ufo	姬良技能	受击	1										fx_jiliang_attack_4			2	
+attack_20600_2ufo	姬良技能	受击	1										fx_jiliang_attack_4			2	
+attack_20600_3ufo	姬良技能	虚弱	2										fx_jiliang_attack_4			2	
+attack_20604_1	姬良技能															2	
+attack_20601_1ufo	姬良技能	虚弱	2.5										fx_underattack_shuijing			2	
+attack_20606	姬良技能												fx_lingshou_skill_3			2	
+attack_20605_1ufo	姬良技能	受击	1										fx_lingshou_skill_3			2	
+attack_20700	水镜普通攻击												fx_underattack_shuijing			2	
+attack_20701	水镜普通攻击												fx_underattack_shuijing			2	
+attack_20702	水镜普通攻击												fx_underattack_shuijing			2	
+attack_20703	水镜普通攻击												fx_underattack_shuijing			2	
+attack_20704_1	水镜技能1	受击	1										fx_underattack_shuijing			2	
+attack_20704_2	水镜技能1	击退	2;4										fx_underattack_shuijing			2	
+attack_20705	水镜技能2	受击	1										fx_underattack_shuijing			2	
+attack_20705_1	水镜技能2												fx_underattack_shuijing			2	
+attack_20705_3	水镜技能2												fx_underattack_shuijing			2	
+attack_20706	水镜技能3	倒地	1										fx_underattack_shuijing			2	
+attack_20900_1ufo		受击	0.4										fx_lingshou_skill_3			2	
+attack_20901_1ufo		受击	0.4										fx_lingshou_skill_3			2	
+attack_20902_1ufo		受击	0.4										fx_lingshou_skill_3			2	
+attack_20903_1ufo		受击	0.4										fx_lingshou_skill_3			2	
+attack_20904	于小雪治疗	受击	1										fx_yuxiaoxue_attack_2_buff			2	
+attack_20905_1ufo		倒地	2													2	
+attack_20905_2ufo																2	
+attack_20906_1ufo		倒地	2													2	
+attack_20906_2ufo		倒地	2													2	
+attack_20906_3ufo		浮空	1.2													2	
+attack_21100_1ufo													fx_underattack_longnv			2	
+attack_21101_1ufo		击退	1;5										fx_underattack_longnv			2	
+attack_21102	龙女技能1												fx_underattack_longnv			2	
+attack_21103	龙女技能2	受击	1										fx_underattack_longnv			2	
+attack_21104_1ufo		击退	0.4;5										fx_underattack_longnv			2	
+attack_21200	陈靖仇普通攻击1															2	
+attack_21201	陈靖仇普通攻击1															2	
+attack_21202	陈靖仇普通攻击1															2	
+attack_21203	陈靖仇技能1															2	
+attack_21204	陈靖仇技能2												fx_chenjingchou_attack_3_1_buff			2	
+attack_21205	陈靖仇攻击4															2	
+attack_21300	拓拔玉儿攻击1															2	
+attack_21301	拓拔玉儿攻击2															2	
+attack_21302	拓拔玉儿攻击3															2	
+attack_21303	拓拔玉儿技能攻击1															2	
+attack_21306	拓拔玉儿技能瞬斩															2	
+attack_21307	拓拔玉儿技能攻击3	受击	1													2	
+attack_21400	慕容诗攻击1															2	
+attack_21401	慕容诗攻击2															2	
+attack_21402	慕容诗攻击3															2	
+attack_21403_1	慕容诗技能攻击1															2	
+attack_21404	慕容诗技能攻击2	击飞	5													2	
+attack_21405_1ufo																2	
+attack_21500	风后普攻										1		fx_fenghou_hit			1		
+attack_21501	风后雷击	眩晕	1								1		fx_fenghou_skill_1_02			2		
+attack_21502	风后巽风										1		fx_fenghou_hit			2		
+attack_21503	风后天罚	眩晕	0.5								1		fx_fenghou_hit			2		
+attack_21505	风后腾云普攻												fx_fenghou_hit			2		
+attack_21506	风后腾云雷击	眩晕	1										fx_fenghou_skill_1_02			2		
+attack_21507	风后腾云巽风												fx_fenghou_hit			2		
+attack_21508	风后腾云天罚	眩晕	0.5										fx_fenghou_hit			2		
+attack_21509_1ufo													fx_fenghou_hit			2	
+attack_21509_2ufo													fx_fenghou_hit			2	
+attack_21509_3ufo													fx_fenghou_hit			2	
+attack_21509_4ufo													fx_fenghou_hit			2	
+attack_21509_5ufo													fx_fenghou_hit			2	
+attack_21509_6ufo													fx_fenghou_hit			2	
+attack_21600	朱雀帝普通攻击1												fx_zhuquedi_hit			2		
+attack_21601	朱雀帝普通攻击2												fx_zhuquedi_hit			2		
+attack_21602	朱雀帝技能大火球												fx_zhuquedi_hit			2		
+attack_21603	朱雀帝火爆	眩晕	5										fx_zhuquedi_hit			2		
+attack_21604_1	朱雀帝火凤												fx_zhuquedi_hit			2		
+attack_21605_2	朱雀帝落炎												fx_zhuquedi_hit			2		
+attack_21606	朱雀帝炎盾															2		
+attack_21700	巨像猎人（人）普攻1												fx_underattack_sharp_2			2	
+attack_21701	巨像猎人（人）普攻2												fx_underattack_sharp_2			2	
+attack_21702_1	巨像猎人（人）跳跃狂击												fx_underattack_sharp_2			2	
+attack_21703	巨像猎人（人）崩山												fx_underattack_sharp_2			2	
+attack_21800	巨像猎人（全）普攻1												fx_underattack_sharp_2			2	
+attack_21801	巨像猎人（全）普攻2												fx_underattack_sharp_2			2	
+attack_21802	巨像猎人（全）流星锤												fx_underattack_sharp_2			2	
+attack_21802_1	巨像猎人（全）流星锤															2	
+attack_21802_2	巨像猎人（全）流星锤															2	
+attack_21802_3	巨像猎人（全）流星锤															2	
+attack_21802_4	巨像猎人（全）流星锤															2	
+attack_21802_5	巨像猎人（全）流星锤															2	
+attack_21803	巨像猎人（全）泰山压顶												fx_underattack_sharp_2			2	
+attack_21804_1	巨像猎人（全）野蛮冲撞身	击飞	5										fx_underattack_sharp_2			2	
+attack_21805	巨像猎人（全）怒吼	眩晕	3													2	
+attack_21806_1	巨像猎人（全）天崩地裂	眩晕	2.5													2	
+attack_21806_4	巨像猎人（全）天崩地裂															2	
+attack_21900	朱雀炎将普攻1（搓）															2	
+attack_21901	朱雀炎将普攻2（横扫）															2	
+attack_21902_1	朱雀炎将 烈风炎枪															2	
+attack_21902_2	朱雀炎将 烈风炎枪															2	
+attack_21903_2	朱雀炎将 飞羽烈炎枪															2	
+attack_21903_3	朱雀炎将 飞羽烈炎枪	倒地	3													2	
+attack_22000_1	姬良普通攻击												fx_jiliang_attack_4			2	
+attack_22003_1	姬良天雷狂奔												fx_jiliang_attack_4			2	
+attack_22004_1	姬良封魔咒															2	
+attack_22005_1	姬良束缚咒															2	
+attack_22006_1	姬良寒冰蚀骨															2	
+attack_22007_1	姬良火风轮	浮空	4													2	
+attack_22008_21	姬良乾坤八剑·万剑穿胁	浮空	1													2	
+attack_22009_1	姬良火龙吐炎															2	
+attack_22011_1	姬良真火念法	击飞	5													2	
+attack_22012_1	姬良毒蛊咒															2	
+attack_22013	姬良九龙化伤术	击飞	5													2	
+attack_22100	降龙力士普攻												fx_underattack			2	
+attack_22101	降龙力士技能下段踢	倒地	1										fx_underattack			2	
+attack_22102_1	降龙力士技能台风斩	受击	0.5										fx_underattack			2	
+attack_22103_1	降龙力士技能斗气爆破	受击	1										fx_underattack			2	
+attack_22104_3	降龙力士技能风神膝	眩晕	2										fx_underattack			2	
+attack_22105_1	降龙力士技能旋风	受击	1										fx_underattack			2	
+attack_22200	翼虎普攻	受击	0.5													2		
+attack_22201	翼虎扑咬	倒地	1													2		
+attack_22202	翼虎火焰吐息															2		
+attack_22203	翼虎猛虎落地	眩晕	5													2		
+attack_22204	翼虎虎啸天雷															2		
+attack_22205_1	翼虎喷电		8													2		
+attack_22205_2	翼虎喷电		3													2		
+attack_22206	翼虎奔雷		5															
+attack_22300	祸斗兽普攻															2	
+attack_22301	祸斗兽扑地															2	
+attack_22302	祸斗兽喷火															2	
+attack_22303_3	祸斗兽飞扑															2	
+attack_22400	隋军副官普攻1															2	
+attack_22401	隋军副官普攻2															2	
+attack_22402	随军副官威震天地	眩晕	2													2	
+attack_22403	随军副官搓土扬灰	受击	0.5													2	
+attack_22404	随军副官披星戴月	受击	0.5													2	
+attack_22405	随军副官地裂山崩															2	
+attack_22406	随军副官重击	受击	0.5													2	
+attack_22500_1	蚩尤普攻												fx_chiyou_hit			2	
+attack_22503_1	蚩尤右飞刀												fx_chiyou_hit			2	
+attack_22505_1	蚩尤乱披风斩	受击	0.4										fx_chiyou_hit			2	
+attack_22505_2	蚩尤乱披风斩(砸地)	受击	0.4										fx_chiyou_hit			2	
+attack_22506_1	蚩尤死亡罡风	受击	0.4										fx_chiyou_hit			2	
+attack_22507_1	蚩尤蛮斧												fx_chiyou_hit			2	
+attack_22508_1	蚩尤横扫(气浪)												fx_chiyou_hit			2	
+attack_22509_1	蚩尤竖劈												fx_chiyou_hit			2	
+attack_22511_1	蚩尤怒吼												fx_chiyou_hit			2	
+attack_22600_1	远古战灵普攻1	
+attack_22601_1	远古战灵普攻2	
+attack_22602_1	远古战灵普攻3	
+attack_22603_1	远古战灵技能1												fx_qy_fire_underattack_03			2	
+attack_22604_1	远古战灵技能2	
+attack_22605_1	远古战灵技能3	
+attack_22606_1	远古战灵技能4	
+attack_22607_1	远古战灵技能5	
+attack_22608_1	远古战灵技能6	
+attack_22609_1	远古战灵技能7	受击	0.4										fx_zhanling_skill_7_underattack	
+attack_22700_1	玄武鲨普攻1	
+attack_22701_1	玄武鲨普攻2	
+attack_22702_1	玄武鲨技能1	
+attack_22703_1	玄武鲨技能2	击退	0.4;3	
+attack_22704_1	玄武鲨技能3	眩晕	1										fx_xuanwusha_underattack	
+attack_22705_1	玄武鲨技能4	眩晕	1										fx_xuanwusha_underattack	
+attack_22706_1	玄武鲨技能5	眩晕	1										fx_xuanwusha_skill_5	
+attack_22707_1	玄武鲨技能6	眩晕	1	
+attack_22801	修真道士普攻1												fx_underattack_longnv			2		
+attack_22802	修真道士普攻2												fx_underattack			2		
+attack_22803	修真道士普攻3												fx_underattack			2		
+attack_22804	冰冻															2		
+attack_22805	冰剑轮回												fx_underattack_longnv			2		
+attack_22806	寒冰御剑诀																	
+attack_22807	寒残雪刃												fx_underattack_longnv			2		
+attack_23001	皇帝轩辕剑击												fx_underattack	
+attack_23002	大回旋												fx_underattack	
+attack_23003	下段踢												fx_underattack	
+attack_23004	轩辕剑气												fx_underattack	
+attack_23006	血怒												fx_underattack	
+attack_23007	冰炎弹												fx_underattack	
+attack_23008	六血灵阵												fx_underattack	
+attack_23009	正义审判												fx_underattack	
+attack_23010	烈炎御剑												fx_underattack	
+attack_23011	万火灵阵												fx_underattack	
+attack_23012	真炎箭												fx_underattack	
+attack_23013	御火剑诀												fx_underattack	
+attack_23014	苍炎破												fx_underattack	
+attack_23015	寒冰御剑												fx_underattack	
+attack_23016	寒冰灵阵												fx_underattack	
+attack_23017	寒冰箭												fx_underattack	
+attack_23018	御冰剑诀												fx_underattack	
+attack_23019	寒冰破												fx_underattack	

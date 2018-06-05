@@ -1,0 +1,9 @@
+﻿姿态id	说明	附加buff	进入特效	特效	消失特效	指定战斗状态	强制战斗状态	受击结束姿态	真气耗尽结束姿态	结束切换姿态	说明：姿态的持续时间在各个跟切换姿态相关的表中配置，如果没有配置、也没有结束条件，则该姿态无时间限制，一直持续到玩家下线或死亡
+id		buffid	enterEffect	effect	destroyEffect	isInBattle	forceInBattle	behitEnd	mpOutEnd	endToPosture	
+int		int	str	str	str	bool	bool	bool	bool	int	
+0	空姿态										
+1002	剑客御气姿态					1				1001	
+2002	墨家隐身姿态		fx_mojia_yinshen	fx_mojia_body_yinshen	fx_mojia_xianshen		1	1		2001	
+3002	鬼谷阳姿态									3001	
+3003	升腾姿态			fx_nvguigu_skill_24_body_mat	fx_nvguigu_skill_34_shouzhao		1			3001	
+4002	邪焰姿态									4001	

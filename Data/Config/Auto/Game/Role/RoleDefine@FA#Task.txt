@@ -1,0 +1,3 @@
+﻿角色ID	名字	模型	简单AI	行为树	视野	追踪距离	放缩比例	默认姿态	选中圈比例	选中框比例	阵营	隐藏名称	移动速度	头像	称谓	屏蔽点击	触发转向	转向距离	npc功能id	性格类型	欣赏闲话对白	厌恶闲话对白	欣赏冒泡	厌恶冒泡	冒泡概率	是否有任务触发	触发需要任务	触发事件	触发时特效	显示任务进行中标识
+id	name	model	simpleAI	btAI	fieldOfView	trackDisance	modelScale	posture	selectScaleRate	selectTargetScaleRate	battleCamp	hideName	speed	headIcon	title	shieldClick	isCanRotate	rotateDistance	npcFunId	personalityType	enjoyDialogId	hateDialogId	enjoyBubble	hateBubble	bubbleRate	isHasTask	taskId	eventId	taskTrigerEffect	showTaskTag
+int	str	str	int	str	float	float	float	int	float	float	enum:BattleCamp	int	float	str	str	int	int	float	int	int			str	str	float	int	int	int	str	int

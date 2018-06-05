@@ -1,0 +1,30 @@
+﻿编号	备注	目标点	是否追踪	轨迹参数	飞行速度	子弹模型	发射位置	发射骨骼	发射偏移	发射延迟	飞行角度	生命周期	创建action	间隔时间	间隔action	消失action	消失特效	子弹结束不销毁模型	音效	子弹个数	平均轨迹
+id		targetPos	follow	pathParas	speed	fxName	firePos	FirePosBone	firePosOff	fireDelay	flyAngle	lifeTime	createActions	interval	intervalActions	destroyActions	destroyEffect	notDestroyModel	
+str		enum:TargetPos	int	floats	float	str	enum:FirePos	str	floats	float	float	float	strs	float	strs	strs	str	bool	
+bullet_3001	阴普攻1	1	2	-0.5;-1;-0.5;-1;60	30	fx_nvguigu_attack_1_2_trail	0	fx_attack_1_1_transform				5				attack_3001	
+bullet_3002	阴普攻2	1	2	0.5;1;0.5;1;60	30	fx_nvguigu_attack_1_2_trail	0	fx_attack_1_2_transform				5				attack_3001	
+bullet_3003_1	阴普攻3	1	2		40	fx_nvguigu_attack_1_trail	0	fx_attack_8_3_transform				5				attack_3003	
+bullet_3003_2	阴普攻3	1	2		40	fx_nvguigu_attack_1_trail	0	fx_attack_8_transform				5				attack_3003	
+bullet_3003_3	阴普攻3	1	2		40	fx_nvguigu_attack_1_trail	0	fx_attack_8_1_transform				5				attack_3003	
+bullet_3011	阳普攻1	1	2		50	fx_nvguigu_attack_6_trail	0	fx_attack_6_transform				5				attack_3011	
+bullet_3031	仙法	1	1		50	fx_nvguigu_attack_10_trail	0	fx_attack_10_transform				5				search_3031	fx_nvguigu_attack_10_underattack	
+bullet_3012_1	阳普攻2	1	2	-2;-3;-0.5;-1;30	40	fx_nvguigu_attack_6_trail	0	fx_attack_7_transform				5				attack_3011	
+bullet_3012_2	阳普攻2	1	2	2;3;-0.5;-1;30	40	fx_nvguigu_attack_6_trail	0	fx_attack_7_1_transform				5				attack_3011	
+bullet_3013_1	阳普攻3	1	2	-3;-5;2;3;30	40	fx_nvguigu_attack_6_trail	0	fx_attack_8_transform				5				attack_3011	
+bullet_3013_2	阳普攻3	1	2	-1;-2;3;4;30	40	fx_nvguigu_attack_6_trail	0	fx_attack_8_1_transform				5				attack_3011	
+bullet_3013_3	阳普攻3	1	2	3;5;2;3;20	40	fx_nvguigu_attack_6_trail	0	fx_attack_8_2_transform				5				attack_3011	
+bullet_3013_4	阳普攻3	1	2	4;5.5;-0.5;-0.7;30	40	fx_nvguigu_attack_6_trail	0	fx_attack_8_3_transform				5				attack_3011	
+bullet_3013_5	阳普攻3	1	2	-4;-5;-0.6;-1;30	40	fx_nvguigu_attack_6_trail	0	fx_attack_8_4_transform				5				attack_3011	
+bullet_3221	捆人	1	1		40	fx_nvguigu_skill_20_trail	0	transform				5				attack_3221	fx_nvguigu_skill_20_end	
+bullet_3321	扔球	1	1		100	fx_nvguigu_skill_1_trail	0	transform				5				search_3321	fx_nvguigu_skill_1_boom	
+bullet_3331_1	鬼谷大导弹左1	1	1	-7;-7;-0.5;-0.5;40	0.5	fx_nvguigu_skill_24_sword_fly	0	BackA_M				5				search_3331	fx_nvguigu_skill_1_boom	
+bullet_3331_2	鬼谷大导弹左2	1	1	-5;-5;3;3;40	0.5	fx_nvguigu_skill_24_sword_fly	0	BackA_M				5	
+bullet_3331_3	鬼谷大导弹左3	1	1	-2;-2;5;5;40	0.5	fx_nvguigu_skill_24_sword_fly	0	BackA_M				5	
+bullet_3331_4	鬼谷大导弹右1	1	1	7;7;-0.5;-0.5;40	0.5	fx_nvguigu_skill_24_sword_fly	0	BackA_M				5	
+bullet_3331_5	鬼谷大导弹右2	1	1	5;5;3;3;40	0.5	fx_nvguigu_skill_24_sword_fly	0	BackA_M				5	
+bullet_3331_6	鬼谷大导弹右3	1	1	2;2;5;5;40	0.5	fx_nvguigu_skill_24_sword_fly	0	BackA_M				5	
+bullet_3441_1	阳鬼	1	1	-2.7;-2.7;2.7;2.7;20	0.5	fx_nvguigu_skill_14_trail_W	0	fx_skill_14_1_transform				5				search_3441	fx_nvguigu_skill_14_boom	
+bullet_3441_2	阴鬼	1	1	2.7;2.7;2.7;2.7;20	0.5	fx_nvguigu_skill_14_trail_B	0	fx_skill_14_2_transform				5	
+bullet_4001	寒冰指	1	2		40	fx_longnv_attack_1_03	0	Wrist_L				5				attack_4001	
+bullet_4002	寒冰指	1	2		40	fx_longnv_attack_1_03	0	Wrist_L				5				attack_4001	
+bullet_4003	寒冰指	1	2		40	fx_longnv_attack_1_03	0	Wrist_L				5				attack_4001	

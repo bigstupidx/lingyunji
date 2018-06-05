@@ -1,0 +1,10 @@
+﻿技能id	首要描述	block事件描述	block成功描述	move事件描述	omnislash事件描述	击中状态描述	伤害描述	buff描述	技能快慢参数描述	附加暴击率描述	无视防御描述	条件判断效果描述	吸血描述
+id	firstDes	blockDes	blockSucDes	moveDes	omnislashDes	stateDes	damageDes	buffDes	aniSpeedDes	baojiRateDes	ignoreDefDes	conditionDes	xixueDes
+int	str	str	str	str	str	str	strs	strs	str	str	str	strs	str
+1001	基础剑招，调理内息						attack_1001	
+1101	守御招式，守中藏攻	block_1101_1	block_1101_1				attack_1101_1	
+1041	反击招式，快刀乱麻						attack_1041;attack_1041;attack_1041;attack_1041;attack_1041						
+1301	突进招式，进而逼之			move_1301		attack_1301	attack_1301	
+1201	进阶剑招，制敌下盘					attack_1201	attack_1201	
+1211	进阶剑招，纵身力劈					attack_1211	attack_1211	
+1051	进阶剑招，疾风骤雨						attack_1051	

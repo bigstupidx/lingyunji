@@ -1,0 +1,6 @@
+﻿id	备注	持续时间	减伤比例	格挡动画	格挡成功事件	描述	格挡成功描述
+id		time	damageMul	animations	actions	des	SucDes
+str		float	float	strs	strs	str	str
+block_1101_1	剑客格挡(反制)	1	0	defend_active_3	attack_1101_1	3秒内格挡前方攻击，1秒内反制攻击	反制成功后，目标眩晕2秒
+block_1101_2	剑客格挡	2	0.7	defend_active_1;defend_active_2	
+block_2101	墨家非攻	1.5	0		posture_2002	3秒内格挡前方攻击，1秒内有反制效果	反制成功后，目标眩晕2秒

@@ -1,0 +1,9 @@
+﻿编号	备注	作用单位	buff编号	buff层数	状态	技能施放	技能暴击	范围内有队友尸体	格挡成功	描述
+id		effectTarget			state		baojiid		block	des
+int		enum:EffectTarget			strs		int		bool	strs
+1	目标浮空	1			浮空	
+2	目标眩晕、虚弱	1			眩晕;虚弱	
+3	自身疾跑	0			疾跑	
+4	格挡成功	0							1	
+5	自身倒地、虚弱	0			倒地;虚弱	
+6		0			轻功	

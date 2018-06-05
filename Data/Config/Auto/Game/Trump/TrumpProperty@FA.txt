@@ -1,0 +1,24 @@
+﻿法宝ID	法宝名称	法宝品质	法宝模型	摄像机广角	摄像机位置参数	图标	力量	智慧	根骨	体魄	敏捷	身法	主动技能	被动技能	连携ID组	法宝描述
+id	name	quality	modelname	camView	campos	icon							activeskill	passiveskill	joinings	des
+int	str	enum:ItemQuality	str	int	floats	str							int	int	ints	str
+101	蛇石印	3	mod_sheyinshi	30	0.016;0.03;-0.9	Wuxing							31011			
+102	鼠槌	3	mod_shuchui	30	0.016;0.03;-0.9	ShuChui							31021			
+201	鬼鸡爪子	4	mod_shuchui	30	0.016;0.03;-0.9	ShuChui							32011			
+202	龙帆	4	mod_longfan	30	0.016;0.05;-0.9	ShuChui							32021			
+203	暗杀宝录	4	mod_anshabaodian	30	0.016;0.04;-1	BaoLu		15	5	5			32031		101	一册纪录古今所有刺客的秘密行动与招式的书，可以从中了解到任何东西都可以变成武器。
+204	奇魄古玉	4	mod_qipoguyu	30	0.016;0.04;-0.95	BaoLu							32041			
+205	五行盘	4	mod_wuxingpan	30	0.016;0.04;-1.05	Wuxing	5		12		8		32051		102	太乙真人为了要改变丹药的药性，因而做出了这个法宝；但是如果用在凡人身上，却能改变此人原始的内在属性。
+206	洞察光环	4	mod_dongchaguanghuan	30	0.016;0.04;-0.9	Guanghuan		7	10	4		4	32061		101	术士介琰的宝物之一，可以使穿戴者看清敌人攻击的动态与方位，并早一步作出准备动作。
+301	庖丁菜刀	5	mod_paodingniudao	30	0.016;0.04;-1.15	Yinyang							33011			
+302	白虎风牙	5	mod_baihufengya	30	0.016;0.04;-1	Baihu							33021			
+303	朱雀火羽	5	mod_zhuquehuoshan	30	-0.03;0.04;-1.05	HuoYu							33031			
+304	沙尘之珠	5	mod_shenchenzhizhu	30	0.016;0.03;-1	Baihu							33041			
+305	玄武之沂	5	mod_xuanwuzhiqi	30	0.016;0.04;-0.8	HuoYu							33051			
+306	青龙灵珠	5	mod_qinglonglingzhu	30	0.016;0.06;-0.9	Baihu							33061			
+307	乾坤袋	5	mod_qiankundai	30	0.016;0.04;-0.95	HuoYu							33071			
+308	阴阳镜	5	mod_yinyangjing	30	0.016;0.04;-1.15	Yinyang		7	4	20		10	33081		102	奇特的镜子，可以照射出两种幻光，被照射的形体会对此种光线作出两极的反应。
+401	盘古斧	6	mod_donghuangzhong	30	0.016;0.02;-1	Guanghuan							34011			
+402	东皇钟	6	mod_donghuangzhong	30	0.016;0.02;-1	Guanghuan							34021			
+403	轩辕剑	6	mod_donghuangzhong	30	0.016;0.02;-1	Guanghuan							34031			
+404	昊天塔	6	mod_haotianta	30	0.016;0.03;-0.85	Guanghuan							34041			
+405	伏羲琴	6	mod_fuxiqin	30	0.016;0.02;-0.85	Guanghuan							34051			

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UWAWrapper_Android</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:UWAEngine" -->
+        <member name="M:UWAEngine.PushSample(System.String)">
+            <summary>
+            Add a sample into the function lists in the UWAEngine, so the cpu time and gc alloc 
+            between a Push and Pop will be recorded with the given name.
+            It is supported to call the PushSample and PopSample recursively, and they must be called in pairs
+            </summary>
+            <param name="sampleName"></param>
+        </member>
+        <member name="M:UWAEngine.PopSample">
+            <summary>
+            Add a sample into the function lists in the UWAEngine, so the cpu time and gc alloc 
+            between a Push and Pop will be recorded with the given name.
+            It is supported to call the PushSample and PopSample recursively, and they must be called in pairs
+            </summary>
+        </member>
+        <member name="M:UWAEngine.Register(System.Object,System.String,System.String,System.Single)">
+            <summary>
+            Register an instance field with its name and the intance, UWAEngine will
+            update and log the value at the given time interval
+            </summary>
+            <param name="classObj">the intance which the field belongs to</param>
+            <param name="instanceName">the name of the instance</param>
+            <param name="fieldName">the name of the field</param>
+            <param name="updateInterval">the time interval</param>
+        </member>
+        <member name="M:UWAEngine.Register(System.Type,System.String,System.Single)">
+            <summary>
+            Register a static field with its name and the class type, UWAEngine will
+            update and log the value at the given time interval
+            </summary>
+            <param name="classType">the class which the field belongs to</param>
+            <param name="fieldName">the name of the field</param>
+            <param name="updateInterval">the time interval</param>
+        </member>
+    </members>
+</doc>

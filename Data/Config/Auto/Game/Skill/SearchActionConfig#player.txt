@@ -1,0 +1,33 @@
+﻿编号	备注	搜索原点	搜索范围	范围参数	范围位置偏移	数量上限	阵营筛选	是否尸体	指定ID	action集合
+id		searchPosition	searchType	searchPara	posOff	searchMaxCnt	battleRelation			actionStrs
+str		enum:SearchPoint	enum:SearchSharp	floats	floats	int[d#5]	enum:BattleRelation			strs
+search_1001	剑客普攻1		0	3;180						attack_1001
+search_1002	剑客普攻2		0	3;180						attack_1002
+search_1003	剑客普攻3		0	3;180						attack_1003
+search_1201	下段斩		0	4;180						attack_1201
+search_1211	下段斩追加		0	4;180						attack_1211
+search_1221	五连斩技能搜索	1	0	6;360	
+search_1221_1	五连斩伤害		0	2;360						attack_1221
+search_1231	剑阵		0	4.5;360						attack_1231
+search_1401	转御气		0	3;360						attack_1401
+search_1011	御气普攻		1	3;6						attack_1011
+search_1041	风火轮		1	2;3						attack_1041
+search_1051	刺剑		0	3;180						attack_1051
+search_1511	一闪		1	3;8						attack_1511
+search_1521	一闪追加		1	3;8						attack_1521
+search_2001	墨家普攻		0	2;180						attack_2001
+search_2021	隐身普攻		1	1.5;3						attack_2021
+search_2101	非攻		1	1.5;2						attack_2101
+search_2301	下段		0	3;180						attack_2301
+search_2401	狂影		0	5;360						attack_2401
+search_3021	浮空追击	2	0	3;360						attack_3021
+search_3031	仙法		0	3;360						attack_3031
+search_3101	鬼谷击退		0	3;360						attack_3101
+search_3131	小奶		0	6;360						attack_3131
+search_3321	扔球		0	3.5;360						attack_3331
+search_3331	导弹		0	3.5;360						attack_3331
+search_3421	转姿态		0	8;360						attack_3421
+search_3431	大奶		0	6;360						attack_3131
+search_3441	双鬼		0	3;360						attack_3441
+search_4101	霜龙破		1	3;12						attack_4101
+search_4201	炎龙啸		1	3;12						attack_4201
