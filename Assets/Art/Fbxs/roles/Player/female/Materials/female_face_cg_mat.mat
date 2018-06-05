@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: female_face_cg_mat
+  m_Shader: {fileID: 4800000, guid: c0810c73fb00e4545b055d3806db1292, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 52ce179efcc4a7645a812376ab07e140, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 9d04c1ef5195bee45b8748f10ddac0d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: df77cf5ac0005454c8ef6d1b5fcc5632, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskSTex:
+        m_Texture: {fileID: 2800000, guid: 3ba1b95405a2fb2418d7302d6276033c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 64a4e4fd5c615bc4689c1f6b08279984, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecCubeIBL:
+        m_Texture: {fileID: 8900000, guid: 7e6dafa9bb07ff844aa9a447e7d72c35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: 64a4e4fd5c615bc4689c1f6b08279984, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _ConserveEnergy: 0.498
+    - _Cutoff: 0.1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Fresnel: 0
+    - _Fuzz: 1
+    - _FuzzOcc: 0.5
+    - _FuzzScatter: 1
+    - _GiDarkness: 1
+    - _GiGlossiness: 1
+    - _GlossMapScale: 0.34
+    - _Glossiness: 0.302
+    - _GlossyReflections: 1
+    - _HueShift: 0
+    - _LipLevel: 0
+    - _Metallic: 0
+    - _Mode: 1
+    - _NormalSmoothing: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Sat: 1
+    - _Shininess: 25
+    - _Shininess2: 7
+    - _SmoothnessTextureChannel: 0
+    - _SpecInt: 1
+    - _Specular2: 36.1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Subdermis: 0.55
+    - _Translucency: 1
+    - _TranslucencySky: 1
+    - _UVSec: 0
+    - _Val: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ExposureIBL: {r: 0.2, g: 0.02, b: 0.2, a: 1}
+    - _EyeLightsOffset: {r: 0.02, g: 0.005, b: 0, a: 0}
+    - _FuzzColor: {r: 0.46323526, g: 0.36105102, b: 0.43504617, a: 1}
+    - _SH0: {r: 0.73030794, g: 0.9101312, b: 1.3078983, a: 0}
+    - _SH1: {r: -0.0012933136, g: 0.043501362, b: 0.0037436404, a: 0}
+    - _SH2: {r: 0.022200817, g: 0.022716211, b: 0.017774118, a: 0}
+    - _SH3: {r: 0.014108532, g: 0.016440988, b: -0.0013323693, a: 0}
+    - _SH4: {r: 0.12734762, g: 0.1508761, b: 0.15630582, a: 0}
+    - _SH5: {r: 0.023886679, g: 0.02511527, b: 0.020473944, a: 0}
+    - _SH6: {r: -0.011084728, g: -0.010286943, b: -0.008059505, a: 0}
+    - _SH7: {r: -0.007617492, g: -0.0068141427, b: -0.0048981933, a: 0}
+    - _SH8: {r: 0.015523638, g: 0.018816011, b: 0.015341696, a: 0}
+    - _SkinColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.9264706, g: 0.85153544, b: 0.85153544, a: 1}
+    - _SubdermisColor: {r: 0.8235294, g: 0.23615912, b: 0.23615912, a: 1}
+    - _TranslucencyColor: {r: 1, g: 0, b: 0.35172412, a: 1}
+    - _UniformOcclusion: {r: 1, g: 1, b: 0.2, a: 1}
