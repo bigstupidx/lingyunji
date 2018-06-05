@@ -1,0 +1,26 @@
+{
+    "group": "share",
+    "libs": ["libicucore.dylib","libz.1.2.5.dylib"],
+    "frameworks": [
+                    "SystemConfiguration.framework",
+    				"QuartzCore.framework",
+    				"CoreTelephony.framework",
+    				"Security.framework",
+                    "AdSupport.framework:optional",
+                    "MessageUI.framework",
+                     "StoreKit.framework",
+                     "AudioToolbox.framework",
+                     "QuartzCore.framework"
+    			   ],
+    "headerpaths": [],
+    "files":   [
+                "ShareSDK/Connection/SinaWeiboConnection.framework",
+                "ShareSDK/Connection/WeChatConnection.framework",
+                "ShareSDK/Core/AGCommon.framework",
+                "ShareSDK/Core/ShareSDKCoreService.framework",
+                "ShareSDK/ShareSDK.framework"
+                ],
+    "folders": ["ShareSDK/"],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "linker_flags": []
+}

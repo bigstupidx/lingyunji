@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: n_jl
+  m_Shader: {fileID: 4800000, guid: b9e5df8768c7788449f3e3257e3e26a6, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c86d6141ba94a7844a63a1da456af378, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 05128f3f1d09a8543be7a27c9e473cf0, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _ColorFactor
+        second: 2
+      data:
+        first:
+          name: _ReflectFactor
+        second: 1
+      data:
+        first:
+          name: _ReflectPower
+        second: 1
+      data:
+        first:
+          name: _Alpha
+        second: .400000006
+      data:
+        first:
+          name: _BlinkTime
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BlinkColor
+        second: {r: 1, g: 1, b: 1, a: 1}

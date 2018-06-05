@@ -1,0 +1,233 @@
+/*
+ AFLocalizable.strings
+ AOFEISDK
+ 
+ Created by rowling on 2016/10/11.
+ Copyright © 2016年 AoFei JoyGames. All rights reserved.
+ */
+
+////服务器错误码
+//"10000" = "帐号名不能为空";
+//"10001" = "该帐号已经存在";
+//"10002" = "用户ID不能为空";
+//"10003" = "帐号不存在";
+//"10004" = "帐号或者密码错误";
+//"10005" = "两次输入密码不匹配";
+//"10006" = "Signature不匹配";
+//"10007" = "申请Uid超时";
+//"10008" = "禁止访问";
+//"10009" = "帐号哈稀表名不能为空";
+//"10010" = "非法token";
+//"10011" = "token已过期，请重新登录";
+//"10012" = "身份验证失败";
+//"10013" = "密码错误";
+//"10014" = "重置密码不能与旧密码相同";
+//"10015" = "重置密码失败";
+//
+////Response相关
+//"11000" = "请求类型错误";
+//"11001" = "无效JSONP请求";
+//"11002" = "系统繁忙,请稍后再试";
+//
+////验证码相关
+//"12000" = "图片创建失败";
+//"12001" = "验证码错误";
+//"12002" = "获取注册手机帐号验证码失败";
+//"12003" = "获取注册邮箱帐号验证码失败";
+//"12004" = "获取手机重置密码验证码失败";
+//"12005" = "获取邮箱重置密码验证码失败";
+
+//网络问题
+"af_Net_error" = "网络连接失败";
+"af_Net_NSURLErrorUnknown" = "未知网络错误";
+"af_Net_NSURLErrorCancelled" = "网络请求取消";
+"af_Net_NSURLErrorBadURL" = "bad URL";
+"af_Net_NSURLErrorTimedOut" = "请求超时";
+"af_Net_NSURLErrorCannotFindHost" = "请求不能找到Host";
+"af_Net_NSURLErrorCannotConnectToHost" = "请求不能连接到Host";
+"af_Net_NSURLErrorNetworkConnectionLost" = "网络连接丢失";
+"af_Net_NSURLErrorDNSLookupFailed" = "DNS查询失败";
+"af_Net_NSURLErrorNotConnectedToInternet" = "未连接到网络";
+"af_Net_NSURLErrorSecureConnectionFailed" = "安全连接失败";
+"af_Net_NSURLErrorServerCertificateHasBadDate" = "服务器证书时间错误";
+"af_Net_NSURLErrorServerCertificateUntrusted" = "访问出错,请正确设置本机系统日期时间后重试";
+"af_Net_NSURLErrorCannotLoadFromNetwork" = "不能从网络加载";
+"af_Net_NoData" = "服务器无返回数据";
+"af_Net_DataSerialFailed" = "服务器数据解析异常";
+
+
+//素材国际化
+"af_logo_p"                         = "AF_logo_p_s";
+"af_logo_l"                         = "AF_logo_l_s";
+
+//初始化
+"af_init_Debug_Mode"                = "当前为Debug模式";
+"af_init_appID_null"                = "初始化接口appID不能为空";
+"af_init_appKey_null"               = "初始化接口appKey不能为空";
+"af_init_appchannelID_null"         = "初始化接口ChannelId不能为空";
+"af_init_appChannelLabel_null"      = "初始化接口ChannelLabel不能为空";
+"af_init_appGame_null"              = "初始化接口game不能为空";
+
+"af_init_serverReturnData_error"    = "初始化获取服务器数据失败";
+"af_init_un_init"                   = "AOFEI SDK未初始化";
+
+//客服界面
+"af_cantLogin_info" = "无法登录？请参考以下解决方案:";
+"af_cantLogin_forgetPwd" = "我忘记了密码";
+"af_cantLogin_contactCS" = "联系客服";
+
+//登录
+"af_login_serverReturnData_error"   = "登录获取服务器数据失败";
+"af_login_serverReturnData_incomplete"   = "登录返回数据缺失";
+
+
+//首次登录界面
+"af_login_userName" = "请输入奥飞帐号";
+"af_login_pwd" = "请输入密码";
+"af_login_forgetPwd" = "无法登录?";
+"af_login_login" = "登录";
+"af_login_vistorLogin" = "游客登录";
+"af_login_quickReg" = "快速注册";
+"af_login_username_null" = "帐号不能为空";
+"af_login_username_invalid" = "该帐号不存在";
+"af_login_password_null" = "请输入密码";
+"af_login_password_error" = "密码错误";
+"af_login_failed" = "用户名或密码错误";
+
+//再次登录
+"af_login2_otherLogin" = "其他帐号登录";
+"af_local_account_prefix" = "游客:";
+
+"af_login_error" = "用户名或密码错误";
+
+//登录完成欢迎界面
+"af_welcome_tip" = " ,欢迎回来!";
+
+//实名认证提示
+"af_IDAuth_title" = "实名认证";
+"af_IDAuth_message" = "根据文化部的有关要求及您的个人权益保障，网络游戏用户需要使用有效身份证件进行实名认证，确保安全登录游戏。";
+"af_IDAuth_notNow" = "暂不";
+"af_IDAuth_go" = "前往";
+"af_IDAuth_complete" = "认证成功";
+
+// 提示绑定
+"af_tip_title" = "温馨提示";
+"af_system_error" = "系统繁忙，请稍后再试";
+"af_error_network" = "网络连接失败";
+"af_timeOut_network" = "请求超时,请稍后再试";
+"af_loading" = "请稍候";
+"af_confirm" = "确定";
+"af_cancel" = "取消";
+"af_continueGame" = "继续游戏";
+"af_bind_phone_tip" = "为保障您的游戏数据安全，请尽快绑定手机";
+"af_bind_account_tip" = "为保障您的游戏数据安全，请尽快绑定账户，以免因刷机等原因导致游戏数据丢失！";
+"af_bind_account_pay" = "需要绑定帐号才能充值";
+
+"af_unbind_account_tip" = "该邮箱帐号尚未绑定手机号，请前往官网进行找回，如有疑问请联系QQ客服：";
+"af_unbind_account_tip2" = "该邮箱帐号尚未绑定手机号，请前往官网进行找回";
+"af_go" = "前往";
+
+//重置密码1
+"af_reset_phoneOrAccount" = "手机号或奥飞帐号";
+"af_reset_help" = "有疑问请联系客服QQ: ";
+"af_reset_next" = "下一步";
+"af_reset_account" = "请输入要找回的帐号";
+"af_reset_phoneTip" = "该帐号不存在";
+
+//重置密码2
+"af_reset_info" = "短信验证码已发送至:";
+"af_reset_authCode" = "请输入验证码";
+"af_reset_right_authCode" = "验证码错误";
+"af_reset_retry" = "重新发送";
+"af_reset_pwd" = "请设置新密码";
+"af_reset_resetPwd" = "重置密码";
+
+"af_reset_captcha_get" = "发送验证码成功";
+"af_reset_resetSuccess" = "重置密码成功";
+
+"af_reset_serverReturnData_error"   = "重置密码获取服务器数据错误";
+"af_reset_serverReturnData_incomplete"   = "重置密码返回数据缺失";
+
+"af_quickReg_input_phone" = "请输入手机号";
+"af_quickReg_phoneError" = "该手机号不存在";
+
+//Phone注册
+"af_quickReg_phone" = "请输入要注册的手机号";
+"af_quickReg_otherReg" = "其他方式注册";
+
+"af_quickReg_info" = "您的手机号码为:";
+"af_quickReg_code" = "请输入验证码";
+"af_quickReg_retry" = "重新发送";
+"af_quickReg_pwd" = "请输入密码";
+"af_quickReg_label" = "注册即同意";
+"af_quickReg_userAgree" = "《用户协议》";
+"af_quickReg_register" = "注册并登录";
+
+"af_quickReg_password_null" = "请输入要设置的密码";
+"af_quickReg_password_invalid" = "密码长度必须为6-20个字符";
+
+"af_quickReg_captcha_get" = "发送验证码成功";
+"af_quickReg_success" = "注册成功";
+
+"af_quickReg_return_null" = "注册返回数据错误";
+"af_quickReg_return_incomplete" = "注册返回数据缺失";
+
+//用户协议
+"af_userAgreement_content_url" = "https://www.15166.com/sdk/agreement.html";
+"af_userAgreement_reject" = "拒绝";
+"af_userAgreement_agree" = "接受";
+
+//游客充值
+"af_touristPay_on_tip" = "为了您的帐号使用安全,建议您绑定手机后再继续";
+"af_touristPay_on_continue" = "继续充值";
+
+"af_touristPay_off_tip" = "为了您的帐号使用安全,建议您绑定手机后再继续";
+"af_touristPay_off_continue" = "绑定手机";
+
+//支付
+"af_pay_userInfo_null" = "帐号信息不能为空";
+"af_pay_exist_unFinishOrder" = "当前支付未完成,请重新进入游戏或联系客服";
+"af_pay_alert_limitIAP_tip"  = "程序内购买已禁用";
+"af_pay_alert_limitIAP_sulotion" = "请到 '设置' -> '通用' -> '访问限制' -> '启用访问限制' ->打开'App内购买项目'开关";
+"af_pay_alert_limitIAP_cancel" = "确定";
+"af_pay_alert_limitIAP_agree" = "确定";
+"af_pay_alert_limitIAP_goSetting" = "确定";
+
+"af_pay_roleInfo_null_roleId"    = "payWithRoleInfo...方法roleInfo参数的roleId未传值";
+"af_pay_roleInfo_null_roleName"  = "payWithRoleInfo...方法roleInfo参数的roleName未传值";
+"af_pay_roleInfo_null_roleLevel" = "payWithRoleInfo...方法roleInfo参数的roleLevel未传值";
+"af_pay_roleInfo_null_serverId"  = "payWithRoleInfo...方法roleInfo参数的serverId未传值";
+"af_pay_roleInfo_null_serverName"= "payWithRoleInfo...方法roleInfo参数的serverName未传值";
+
+"af_pay_payInfo_null_gameOrderNO"= "payWithRoleInfo...方法payInfo参数的gameOrderNO未传值";
+"af_pay_payInfo_null_productId"  = "payWithRoleInfo...方法payInfo参数的productId未传值";
+"af_pay_payInfo_null_productName"= "payWithRoleInfo...方法payInfo参数的productName未传值";
+"af_pay_payInfo_null_productDesc"= "payWithRoleInfo...方法payInfo参数的productDesc未传值";
+"af_pay_payInfo_null_productExt" = "payWithRoleInfo...方法payInfo参数的productExt未传值";
+"af_pay_payInfo_null_price"      = "payWithRoleInfo...方法payInfo参数的price未传值";
+"af_pay_payInfo_null_amount"     = "payWithRoleInfo...方法payInfo参数的amount未传值";
+
+
+"af_pay_price_currency"        = "元";
+"af_pay_request_order"         = "请求支付信息";
+"af_pay_request_order_success" = "获取订单成功";
+"af_pay_request_order_null"    = "获取订单返回数据错误";
+"af_pay_request_order_fail"    = "获取订单返回数据缺失";
+"af_pay_request_iap_error_tip" = "购买失败";
+"af_pay_request_iap_error"     = "无法获取到当前内购productID信息(1.苹果返回数据失败，2.当前productID在苹果后台没有对应的信息),1.确认网络正常,2.确认传入的内购productID无误";
+"af_pay_request_iap_ReceiveResponse_error"     = "无法获取到当前内购productID信息,1.确认iTunes Connect后台该内购项状态正确，2.确认网络正常";
+"af_pay_iap_restored"          = "已经购买过该商品,正在为你恢复";
+"af_pay_transaction_error"     = "1.确保在真机上测试,2.确保当前测试机没有登有正式Apple ID，请使用沙盒帐号测试";
+"af_pay_iap_verify_null"       = "订单校验返回数据错误";
+"af_pay_iap_verify_buzy"       = "订单校验繁忙，请稍后再试";
+"af_pay_iap_verify_fail"       = "订单校验数据缺失";
+"af_pay_iap_success"           = "购买成功,\n正在请求发货";
+"af_pay_yeepay_submit_success" = "充值请求提交成功，请耐心等待发货";
+
+//AFPay
+"af_recharge"                    = "购买充值";
+"af_recharge_productName"        = "商品名称";
+"af_recharge_account"            = "奥飞帐号";
+"af_recharge_serverID"           = "服务器";
+"af_recharge_fee"                = "所需支付: ￥ ";
+"af_recharge_chooseStyle"        = "请选择付款方式:";

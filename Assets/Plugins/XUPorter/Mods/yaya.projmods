@@ -1,0 +1,16 @@
+{
+    "group": "Frameworks",
+    "libs": ["libc++.dylib"],
+    "frameworks": [
+    				"Security.framework"
+					,"JavaScriptCore.framework"
+    			   ],
+    "headerpaths": [],
+    "files":   [
+				"/usr/lib/libc++.1.dylib"
+				,"/usr/lib/libz.1.dylib"
+                ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "linker_flags": []
+}

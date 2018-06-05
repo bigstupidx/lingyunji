@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4753ea00dd723a4b8dcc57d3235e2fc, type: 3}
+  m_Name: LanguageConfigs
+  m_EditorClassIdentifier: 
+  tpls:
+  - language: 1
+    datas:
+    - id: 1
+      value: "\u5B89\u88C5\u5305\u9700\u8981\u66F4\u65B0,\u8BF7\u70B9\u51FB\u786E\u5B9A\u66F4\u65B0\r\n"
+    - id: 2
+      value: "\u5B89\u88C5\u5305\u7248\u672C\u592A\u65E7,\u662F\u5426\u66F4\u65B0\u5B89\u88C5\u5305\r\n\u5B89\u88C5\u5305\u7248\u672C\u592A\u65E7,\u662F\u5426\u66F4\u65B0\u5B89\u88C5\u5305\r\n"
+    - id: 3
+      value: "\u6E29\u99A8\u63D0\u793A"
+    - id: 4
+      value: "\u5EFA\u8BAE\u7528wifi\u7F51\u7EDC\u4E0B\u8F7D\u65B0\u7248\u672C"
+    - id: 5
+      value: "\u60A8\u5DF2\u6389\u7EBF\uFF0C\u8BF7\u5728\u7F51\u7EDC\u901A\u7545\u540E\u5C1D\u8BD5\u91CD\u8FDE\u6E38\u620F"
+    - id: 6
+      value: "\u6E38\u620F\u5F53\u524D\u7248\u672C\u9700\u8981\u66F4\u65B0,\u70B9\u51FB\u786E\u5B9A\u4E0B\u8F7D\u66F4\u65B0\\n\u6587\u4EF6\u66F4\u65B0\u5927\u5C0F:"
+    - id: 15
+      value: "\u8BFB\u53D6\u672C\u5730config\u6587\u4EF6\u5931\u8D25..."
+    - id: 7
+      value: "\u6B63\u5728\u68C0\u67E5\u66F4\u65B0..."
+    - id: 8
+      value: "\u6B63\u5728\u4E0B\u8F7D\u8D44\u6E90..."
+    - id: 9
+      value: "\u6B63\u5728\u89E3\u538B\u8D44\u6E90..."
+    - id: 10
+      value: "\u6B63\u5728\u89E3\u538B\u5B89\u88C5\u5305\u8D44\u6E90..."
+    - id: 11
+      value: "\u6B63\u5728\u52A0\u8F7D\u8D44\u6E90\u5230\u5185\u5B58..."
+    - id: 12
+      value: "\u66F4\u65B0\u5B8C\u6210..."
+    - id: 13
+      value: "\u51FA\u73B0\u9519\u8BEF..."
+    - id: 14
+      value: "\u5199\u6587\u4EF6\u9519\u8BEF\uFF0C\u8BF7\u5728\u8BBE\u5907\u5BB9\u91CF\u5145\u8DB3\u540E\u70B9\u51FB\u786E\u5B9A\u91CD\u8BD5"
+    - id: 16
+      value: "\u9000\u51FA\u6E38\u620F"
+    - id: 17
+      value: "\u60A8\u5F53\u524D\u8FD8\u6709\u6D3B\u52A8\u672A\u5B8C\u6210\uFF0C\u662F\u5426\u786E\u8BA4\u9000\u51FA\u6E38\u620F\uFF1F"
+    fonts:
+    - HWKT
+    - Yahei
+  - language: 2
+    datas:
+    - id: 1
+      value: "\uD655\uC778\uBC84\uD2BC\uC744 \uD130\uCE58\uD558\uC5EC \uC5C5\uB370\uC774\uD2B8\uB97C
+        \uC9C4\uD589\uD558\uC138\uC694\n"
+    - id: 2
+      value: "\uCD5C\uC2E0\uBC84\uC804\uC73C\uB85C \uC5C5\uB370\uC774\uD2B8 \uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    - id: 3
+      value: "\uC54C\uB9BC\r\n\uC54C\uB9BC\r\n"
+    - id: 4
+      value: "wifi\uD658\uACBD\uC5D0\uC11C \uC0C8  \uBC84\uC804\uC744 \uB2E4\uC6B4\uB85C\uB4DC\uD574\uC8FC\uC138\uC694."
+    - id: 5
+      value: "\uB124\uD2B8\uC6CC\uD06C\uAC00 \uBD88\uC548\uC815\uD569\uB2C8\uB2E4."
+    - id: 6
+      value: "\uBC84\uC804 \uC5C5\uB370\uC774\uD2B8\uAC00 \uD544\uC694\uD569\uB2C8\uB2E4.\\n\uC5C5\uB370\uC774\uD2B8\uD30C\uC77C\uD06C\uAE30::"
+    - id: 15
+      value: "config\uD30C\uC77C \uC77D\uAE30\uC2E4\uD328"
+    - id: 7
+      value: "\uC5C5\uB370\uC774\uD2B8 \uAC80\uC0AC\uC911\u2026"
+    - id: 8
+      value: "\uB9AC\uC18C\uC2A4 \uB2E4\uC6B4\uB85C\uB4DC \uC911\u2026"
+    - id: 9
+      value: "\uB9AC\uC18C\uC2A4 \uC555\uCD95\uD478\uB294 \uC911\u2026"
+    - id: 10
+      value: "\uB9AC\uC18C\uC2A4 \uC555\uCD95\uD478\uB294 \uC911\u2026"
+    - id: 11
+      value: "\uB85C\uB529\uC911\u2026"
+    - id: 12
+      value: "\uC5C5\uB370\uC774\uD2B8\uC644\uB8CC"
+    - id: 13
+      value: "\uC5D0\uB7EC\uBC1C\uC0DD"
+    - id: 14
+      value: "\uC800\uC7A5\uACF5\uAC04\uC774 \uCDA9\uBD84\uD55C\uC9C0 \uD655\uC778\uD6C4
+        \uB2E4\uC2DC \uC2DC\uB3C4\uD574\uC8FC\uC138\uC694."
+    - id: 16
+      value: Exit
+    - id: 17
+      value: Exit
+    fonts:
+    - Hanguo

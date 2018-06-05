@@ -1,0 +1,18 @@
+{
+    "group": "Aofei",
+    "libs": [],
+    "frameworks": [
+    				"CoreTelephony.framework"
+					,"AdSupport.framework"
+					,"StoreKit.framework"
+                    ,"JavaScriptCore.framework"
+    			   ],
+    "headerpaths": [],
+    "files":   [
+				,"AoFeiFramework/AoFei.bundle"
+				,"AoFeiFramework/AoFei.framework"
+                ],
+    "folders": ["AoFeiFramework/"],
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "linker_flags": []
+}
