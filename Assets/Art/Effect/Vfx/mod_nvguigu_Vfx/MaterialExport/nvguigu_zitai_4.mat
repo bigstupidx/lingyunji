@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: nvguigu_zitai_4
+  m_Shader: {fileID: 4800000, guid: f57764c763c8bfe44aa5b2ee632b7493, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    RenderType: TransparentCutout
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AO_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 79764d5b6a83ede478e79f7c8d729797, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BaseRGBA
+      second:
+        m_Texture: {fileID: 2800000, guid: dda6d32b9a794234da7cb0f49c5ee51d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 845217c46f4dcd2409a169b440fd8efe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cloth_mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 0a56d91ddcc20cc4b8db9cc019afa3cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cubemap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Emission
+      second:
+        m_Texture: {fileID: 2800000, guid: 7d630f371fc981a4b9da852bc693fac2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7d630f371fc981a4b9da852bc693fac2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 355ce692a0e63a8409b2a2e4ad7c3e84, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RGBSpecularAGloss
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RGBmask
+      second:
+        m_Texture: {fileID: 2800000, guid: 75a76f0536b8a5e499d892a78bf1d47b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Skin_mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 3371ef526bccbb8449a98938e6626e3b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Sp_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 604811a76a941074e87f5e50ff398e43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 604811a76a941074e87f5e50ff398e43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AO_int
+      second: 1
+    - first:
+        name: _Amb_light
+      second: 0
+    - first:
+        name: _B_CM_Str
+      second: 2.048157
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emi_int
+      second: 0.2
+    - first:
+        name: _Fresnel_int
+      second: 0
+    - first:
+        name: _Gloss
+      second: 5.313067
+    - first:
+        name: _Gloss_int
+      second: 0.901
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _R_CM_Str
+      second: 0.6773703
+    - first:
+        name: _Skin_Fresnel_int
+      second: 0.25
+    - first:
+        name: _Skin_emission_int
+      second: 1
+    - first:
+        name: _Specularinty
+      second: 0.7473624
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _node_5886
+      second: 0
+    - first:
+        name: _skin_Amb
+      second: 0
+    - first:
+        name: _skin_int
+      second: 1.174269
+    - first:
+        name: _skin_light
+      second: 0.7397742
+    m_Colors:
+    - first:
+        name: _Cloth_color
+      second: {r: 0.10926686, g: 0.15001193, b: 0.3455882, a: 1}
+    - first:
+        name: _Color
+      second: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Skin_color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - first:
+        name: _skin_color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _skin_color_offset
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

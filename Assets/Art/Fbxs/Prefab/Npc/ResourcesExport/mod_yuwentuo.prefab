@@ -1,0 +1,940 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &108368
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 462026}
+  m_Layer: 0
+  m_Name: fx_attack_3_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &110026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 456446}
+  m_Layer: 0
+  m_Name: headFx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &123398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 406422}
+  - 114: {fileID: 11424212}
+  - 114: {fileID: 11436646}
+  m_Layer: 0
+  m_Name: mod_yuwentuo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &126476
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 435700}
+  m_Layer: 0
+  m_Name: fx_attack_3_2_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &131618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 442060}
+  m_Layer: 0
+  m_Name: transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &137032
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 491372}
+  m_Layer: 0
+  m_Name: fx_attack_2_3_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &139770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 424512}
+  m_Layer: 0
+  m_Name: lookAt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &149826
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 408656}
+  m_Layer: 0
+  m_Name: fx_attack_2_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &152682
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 465416}
+  m_Layer: 0
+  m_Name: fx_attack_2_4_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &159550
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 477412}
+  m_Layer: 0
+  m_Name: fx_attack_2_5_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &162920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 434440}
+  m_Layer: 0
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &172442
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 490588}
+  m_Layer: 0
+  m_Name: fx_attack_2_2_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176532
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 429568}
+  m_Layer: 0
+  m_Name: fx_attack_4_3_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &181912
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 483946}
+  m_Layer: 0
+  m_Name: fx_attack_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &182470
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 406318}
+  m_Layer: 0
+  m_Name: fx_attack_4_2_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184492
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 472258}
+  m_Layer: 0
+  m_Name: fx_attack_4_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193782
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 451406}
+  m_Layer: 0
+  m_Name: fx_attack_1_2_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &199832
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417752}
+  m_Layer: 0
+  m_Name: fx_attack_1_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406318
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182470}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071067}
+  m_LocalPosition: {x: 0.094, y: 0.858, z: 0.581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 10
+--- !u!4 &406422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 434440}
+  - {fileID: 442060}
+  - {fileID: 424512}
+  - {fileID: 456446}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &408656
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149826}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1, y: 0.89, z: -0.692}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 3
+--- !u!4 &417752
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199832}
+  m_LocalRotation: {x: -0.6668509, y: -0.60511285, z: 0.31931555, w: 0.2952727}
+  m_LocalPosition: {x: 0.51, y: 1.01, z: -0.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 1
+--- !u!4 &424512
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 2
+--- !u!4 &429568
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 11
+--- !u!4 &434440
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 0
+--- !u!4 &435700
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 12
+--- !u!4 &442060
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 483946}
+  - {fileID: 417752}
+  - {fileID: 451406}
+  - {fileID: 408656}
+  - {fileID: 490588}
+  - {fileID: 491372}
+  - {fileID: 465416}
+  - {fileID: 477412}
+  - {fileID: 462026}
+  - {fileID: 472258}
+  - {fileID: 406318}
+  - {fileID: 429568}
+  - {fileID: 435700}
+  m_Father: {fileID: 406422}
+  m_RootOrder: 1
+--- !u!4 &451406
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.05, z: 2.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 2
+--- !u!4 &456446
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.202, y: 1.68, z: 0.222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 3
+--- !u!4 &462026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.39, y: 1.47, z: 5.74}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 8
+--- !u!4 &465416
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.05, z: 2.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 6
+--- !u!4 &472258
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184492}
+  m_LocalRotation: {x: -0.7404149, y: 0.6123438, z: -0.16536586, w: 0.22243005}
+  m_LocalPosition: {x: -0.12, y: 0.78, z: 0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 9
+--- !u!4 &477412
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159550}
+  m_LocalRotation: {x: 0, y: 0.7865982, z: 0, w: 0.61746526}
+  m_LocalPosition: {x: -0.07, y: 0, z: -0.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 7
+--- !u!4 &483946
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181912}
+  m_LocalRotation: {x: -0.2913869, y: 0.36366647, z: -0.7083111, w: 0.5302225}
+  m_LocalPosition: {x: 0.42, y: 1.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 0
+--- !u!4 &490588
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 4
+--- !u!4 &491372
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137032}
+  m_LocalRotation: {x: 0, y: 0, z: 0.98947877, w: 0.1446784}
+  m_LocalPosition: {x: -0.04, y: 0.03, z: -0.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 442060}
+  m_RootOrder: 5
+--- !u!114 &11424212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35241722bb35404a9f6fe9f4b0a711d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bones: []
+  m_controllers:
+  - {fileID: 9100000, guid: 1a65f33ccc98c0d44b9231a9e398b402, type: 2}
+  prefabsNames:
+  - mod_yuwentuo_01
+--- !u!114 &11436646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8edfd02c259b00149b6561b18442a352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_aniTriggers:
+  - m_animationName: attack_1
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_yuwentuo_attack_1_1
+      m_boneName: fx_attack_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 13
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_1_2
+      m_boneName: fx_attack_1_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 32
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_1_3
+      m_boneName: fx_attack_1_2_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 67
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_1_1
+      m_boneName: fx_attack_2_3_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 66
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: attack_2
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_yuwentuo_attack_2_1
+      m_boneName: fx_attack_2_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 13
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_2_2
+      m_boneName: weapon_1_Ctrl
+      m_followPos: 1
+      m_followRotate: 1
+      m_beginFrame: 35
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_2_3
+      m_boneName: fx_attack_2_4_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 71
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_1_1
+      m_boneName: fx_attack_2_3_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 70
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_2_4
+      m_boneName: fx_attack_2_5_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 13
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_2_5
+      m_boneName: fx_attack_2_5_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 35
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: attack_3
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_yuwentuo_attack_3_1
+      m_boneName: fx_attack_3_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 42
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_3_2
+      m_boneName: transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 117
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_4_3
+      m_boneName: IndexFinger1_L
+      m_followPos: 1
+      m_followRotate: 0
+      m_beginFrame: 0
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_nanjianke_skill_11_B
+      m_boneName: transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 117
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_2_3_xuli
+      m_boneName: fx_attack_3_2_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 42
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: attack_4
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_yuwentuo_attack_4_4
+      m_boneName: fx_attack_4_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 32
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_4_2
+      m_boneName: fx_attack_4_2_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 18
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_yuwentuo_attack_4_1
+      m_boneName: fx_attack_4_3_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 12
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_effectList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_bodyName
+      value: mod_xiaobing_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_animationName
+      value: attack_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_effectList.Array.data[0].m_prefabs
+      value: fx_attack_C
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_effectList.Array.data[0].m_boneName
+      value: fx_attack_1_transform
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_effectList.Array.data[0].m_beginFrame
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_effectList.Array.data[0].m_stopFrame
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_aniTriggers.Array.data[0].m_effectList.Array.data[0].m_destroyByAniFinish
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 123398}
+  m_IsPrefabParent: 1

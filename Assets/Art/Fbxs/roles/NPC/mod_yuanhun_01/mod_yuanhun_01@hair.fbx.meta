@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 030c7be50132ad847aad391c7f83d5c6
+timeCreated: 1483713179
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackA_M
+    100002: charBody
+    100004: Chest_M
+    100006: Elbow_L
+    100008: Elbow_R
+    100010: ElbowPart1_L
+    100012: ElbowPart1_R
+    100014: Hair_M
+    100016: Head_M
+    100018: IndexFinger1_L
+    100020: IndexFinger1_R
+    100022: //RootNode
+    100024: Neck_M
+    100026: part_1_1
+    100028: part_1_2
+    100030: part_1_3
+    100032: part_1_Grp
+    100034: part_1_tip
+    100036: part_2_1
+    100038: part_2_2
+    100040: part_2_tip
+    100042: part_3_1
+    100044: part_3_2
+    100046: part_3_tip
+    100048: part_4_1
+    100050: part_4_2
+    100052: part_4_tip
+    100054: Root_M
+    100056: Scapula_L
+    100058: Scapula_R
+    100060: Shoulder_L
+    100062: Shoulder_R
+    100064: Wrist_L
+    100066: Wrist_R
+    100068: hair
+    400000: BackA_M
+    400002: charBody
+    400004: Chest_M
+    400006: Elbow_L
+    400008: Elbow_R
+    400010: ElbowPart1_L
+    400012: ElbowPart1_R
+    400014: Hair_M
+    400016: Head_M
+    400018: IndexFinger1_L
+    400020: IndexFinger1_R
+    400022: //RootNode
+    400024: Neck_M
+    400026: part_1_1
+    400028: part_1_2
+    400030: part_1_3
+    400032: part_1_Grp
+    400034: part_1_tip
+    400036: part_2_1
+    400038: part_2_2
+    400040: part_2_tip
+    400042: part_3_1
+    400044: part_3_2
+    400046: part_3_tip
+    400048: part_4_1
+    400050: part_4_2
+    400052: part_4_tip
+    400054: Root_M
+    400056: Scapula_L
+    400058: Scapula_R
+    400060: Shoulder_L
+    400062: Shoulder_R
+    400064: Wrist_L
+    400066: Wrist_R
+    400068: hair
+    7400000: hair
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hair
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: charBody
+        weight: 0
+      - path: charBody/Root_M
+        weight: 0
+      - path: charBody/Root_M/BackA_M
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_2_1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_2_1/part_2_2
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_2_1/part_2_2/part_2_tip
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_3_1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_3_1/part_3_2
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_3_1/part_3_2/part_3_tip
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_4_1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_4_1/part_4_2
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Neck_M/Head_M/part_4_1/part_4_2/part_4_tip
+        weight: 1
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_L
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_R
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R
+        weight: 0
+      - path: charBody/Root_M/BackA_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R
+        weight: 0
+      - path: charBody/Root_M/part_1_Grp
+        weight: 0
+      - path: charBody/Root_M/part_1_Grp/part_1_1
+        weight: 0
+      - path: charBody/Root_M/part_1_Grp/part_1_1/part_1_2
+        weight: 0
+      - path: charBody/Root_M/part_1_Grp/part_1_1/part_1_2/part_1_3
+        weight: 0
+      - path: charBody/Root_M/part_1_Grp/part_1_1/part_1_2/part_1_3/part_1_tip
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 782e701bc567919478389a6291ef9c4a,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

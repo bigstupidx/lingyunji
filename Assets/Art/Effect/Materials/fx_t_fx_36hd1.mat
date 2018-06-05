@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_fx_36hd1
+  m_Shader: {fileID: 4800000, guid: 998d898dab39ad340885ed7140e0db80, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CloudTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: e54f9eba825cadf4c99707070b53c46c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Illum
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _InterlacePattern
+      second:
+        m_Texture: {fileID: 2800000, guid: 27c78860fd82b64449bfa4cd81435846, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ab31416d21686cb4c9bf34e35bed9405, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Main_map
+      second:
+        m_Texture: {fileID: 2800000, guid: ab31416d21686cb4c9bf34e35bed9405, type: 3}
+        m_Scale: {x: 1.4, y: 1.4}
+        m_Offset: {x: -0.21, y: -0.18}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a4c68f1f7e7db540abc6591a35676ca, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaCutoff
+      second: 0.478
+    - first:
+        name: _Bias
+      second: 0.553
+    - first:
+        name: _CloudContrast
+      second: 2.15
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Emission_int
+      second: 1
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Noise_int
+      second: 0.98
+    - first:
+        name: _Speed
+      second: 1
+    - first:
+        name: _UVs
+      second: 0
+    m_Colors:
+    - first:
+        name: _AmbientColor
+      second: {r: 0.78676474, g: 0.72843564, b: 0.5380082, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _SunColor
+      second: {r: 0.7463235, g: 0.875, b: 0.76850915, a: 0.859}

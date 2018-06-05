@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &152604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400280}
+  - 114: {fileID: 11409204}
+  - 114: {fileID: 11450184}
+  - 33: {fileID: 3341956}
+  - 23: {fileID: 2306850}
+  m_Layer: 0
+  m_Name: qsd_cloud2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400280
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152604}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.13, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2306850
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152604}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ba2ee4a278ee67646b92a0df3c64d763, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3341956
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152604}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11409204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4524121f897b7ee4995ac0132d2dfd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ParticleData: {fileID: 11487942}
+  m_CreatorData: {fileID: 11477472}
+  m_CloudRendererType: 0
+  m_ParticleMaterial: {fileID: 2100000, guid: ba2ee4a278ee67646b92a0df3c64d763, type: 2}
+  m_XTile: 4
+  m_YTile: 4
+  m_Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_VerticalShadingInfluence: 0.5
+  m_ShadingGroupInfluence: 0.5
+  m_Scale: 1
+  m_Fading: 1
+  verticalColors:
+  - isPermanent: 1
+    verticalFactor: 0
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - isPermanent: 1
+    verticalFactor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sun: {fileID: 0}
+  shadingGroups:
+  - name: Shading Group
+    center: {x: -6.7047873, y: 0.11047454, z: 0.599811}
+    shapeColor: {r: 0, g: 1, b: 0, a: 1}
+  shadingColors:
+  - isPermanent: 1
+    shadingFactor: -1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - isPermanent: 1
+    shadingFactor: 1
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &11450184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca75edd7891541a41b55d7f84fc39060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useParticleColor: 0
+  m_MeshFilter: {fileID: 3341956}
+  m_MeshRenderer: {fileID: 2306850}
+--- !u!114 &11477472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a13b28b4e0ae3b4bb7b8b766e37023d, type: 3}
+  m_Name: CreatorData
+  m_EditorClassIdentifier: 
+  density: 0.563
+  boxShapes:
+  - particleCount: 100
+    position: {x: -7.59256, y: 0, z: 10.911108}
+    rotation: {x: -0, y: 0, z: 0}
+    scale: {x: 14.010364, y: 15.882338, z: 68.38931}
+    particleGroupIndex: 0
+    shadingGroupIndex: 0
+  particleGroups:
+  - name: Particle Group
+    shapeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    particleTypes:
+    - uvIndex: 9
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 7
+      maximumXSize: 13
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 0.7294117
+    - uvIndex: 6
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 8
+      maximumXSize: 13
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 0.27058825
+--- !u!114 &11487942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93846c0928bbe4241b42f8f22a7e8758, type: 3}
+  m_Name: ParticleData
+  m_EditorClassIdentifier: 
+  m_Positions:
+  - {x: 2.7243137, y: 3.6884418, z: -2.2733202}
+  - {x: -9.594357, y: -2.8606105, z: 24.2962}
+  - {x: -5.369602, y: 6.9600143, z: 31.780136}
+  - {x: -6.895294, y: 7.282879, z: 11.907155}
+  - {x: -3.442337, y: -7.895257, z: 10.565089}
+  - {x: 3.2120113, y: -4.996648, z: -5.290329}
+  m_Rotations:
+  - -122.76278
+  - 55.258568
+  - -48.91394
+  - 173.97562
+  - -154.34515
+  - 67.900314
+  m_Sizes:
+  - {x: 7.2782545, y: 7.2782545}
+  - {x: 9.62382, y: 9.62382}
+  - {x: 7.6748524, y: 7.6748524}
+  - {x: 11.272797, y: 11.272797}
+  - {x: 11.741222, y: 11.741222}
+  - {x: 8.874239, y: 8.874239}
+  m_UVIndices: 090000000600000009000000090000000600000006000000
+  m_IsSquareds: 010101010101
+  m_IsCoreParticles: 010000000101
+  m_ShadingGroupIndices: 000000000000000000000000000000000000000000000000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 152604}
+  m_IsPrefabParent: 1

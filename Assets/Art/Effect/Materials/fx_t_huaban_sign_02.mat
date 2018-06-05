@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_huaban_sign_02
+  m_Shader: {fileID: 4800000, guid: 6aed7750c7096dd4a93c0328e2d1cb26, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 51b592814d042ac40bb57a8b5ad10d2a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _InterlacePattern
+        second:
+          m_Texture: {fileID: 2800000, guid: b08463d3057376d4c83b369da3fbccb2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CloudTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 51b592814d042ac40bb57a8b5ad10d2a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _noise
+        second:
+          m_Texture: {fileID: 2800000, guid: 58c54f4764054694f85e1ba0f8ee2768, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _dissolve_ram
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Base
+        second:
+          m_Texture: {fileID: 2800000, guid: 58c54f4764054694f85e1ba0f8ee2768, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_2542
+        second:
+          m_Texture: {fileID: 2800000, guid: 51b592814d042ac40bb57a8b5ad10d2a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_3127
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _CloudContrast
+        second: 0.9
+      data:
+        first:
+          name: _AlphaCutoff
+        second: 0.113
+      data:
+        first:
+          name: _Bias
+        second: 0.883
+      data:
+        first:
+          name: _fresnel_amount
+        second: 10
+      data:
+        first:
+          name: _dissolve_amount
+        second: 0.665
+      data:
+        first:
+          name: _self_Illumin
+        second: 1.93
+      data:
+        first:
+          name: _node_4031
+        second: 0.1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 0.616}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      data:
+        first:
+          name: _SunColor
+        second: {r: 0.977612, g: 0.9254484, b: 0.882769, a: 1}
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: 0.2078431, g: 0.2588235, b: 0.2980392, a: 1}
+      data:
+        first:
+          name: _Main_color
+        second: {r: 1, g: 0.7911765, b: 0.47794116, a: 1}

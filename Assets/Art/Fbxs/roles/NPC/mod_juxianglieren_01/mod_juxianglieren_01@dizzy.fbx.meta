@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: e1e951f55f99d1f46b8c1643f50f49b5
+timeCreated: 1483711911
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: BackA_M
+    100006: BackA_M 1
+    100008: backAnkle_L
+    100010: backAnkle_R
+    100012: BackB_M
+    100014: BackB_M 1
+    100016: backBall_L
+    100018: backBall_R
+    100020: backHip_L
+    100022: backHip_R
+    100024: backKnee_L
+    100026: backKnee_R
+    100028: charBody
+    100030: charBodyHuman
+    100032: Chest_M
+    100034: Chest_M 1
+    100036: Elbow_L
+    100038: Elbow_R
+    100040: ElbowPart1_L
+    100042: ElbowPart1_R
+    100044: frontAnkle_L
+    100046: frontAnkle_R
+    100048: frontBall_L
+    100050: frontBall_R
+    100052: frontHip_L
+    100054: frontHip_R
+    100056: frontKnee_L
+    100058: frontKnee_R
+    100060: Hair_M
+    100062: Hair_M 1
+    100064: Head_M
+    100066: Head_M 1
+    100068: Hip_L
+    100070: Hip_R
+    100072: IndexFinger1_L
+    100074: IndexFinger1_R
+    100076: Knee_L
+    100078: Knee_R
+    100080: MiddleToe1_L
+    100082: MiddleToe1_R
+    100084: MiddleToe2_L
+    100086: MiddleToe2_R
+    100088: //RootNode
+    100090: Neck_M
+    100092: Neck_M 1
+    100094: part_1_1
+    100096: part_1_1 1
+    100098: part_1_2
+    100100: part_1_Grp
+    100102: part_1_Grp 1
+    100104: part_1_tip
+    100106: part_1_tip 1
+    100108: part_2_1
+    100110: part_2_1 1
+    100112: part_2_2
+    100114: part_2_Grp
+    100116: part_2_Grp 1
+    100118: part_2_tip
+    100120: part_2_tip 1
+    100122: part_3_1
+    100124: part_3_2
+    100126: part_3_Grp
+    100128: part_3_tip
+    100130: part_4_1
+    100132: part_4_2
+    100134: part_4_Grp
+    100136: part_4_tip
+    100138: Root_M
+    100140: Root_M 1
+    100142: Rump_L
+    100144: Rump_R
+    100146: Scapula_L
+    100148: Scapula_L 1
+    100150: Scapula_R
+    100152: Scapula_R 1
+    100154: Shoulder_L
+    100156: Shoulder_R
+    100158: weapon_1_Ctrl
+    100160: weapon_1_Ctrl_1
+    100162: weapon_1_Ctrl_2
+    100164: weapon_1_Ctrl_3
+    100166: weapon_1_Ctrl_4
+    100168: weapon_1_Ctrl_5
+    100170: weapon_1_Ctrl_6
+    100172: weapon_1_Ctrl_7
+    100174: weapon_1_Ctrl_8
+    100176: weapon_1_Ctrl_Grp
+    100178: weapon_2_Ctrl
+    100180: weapon_2_Ctrl_Grp
+    100182: weapon_3_Ctrl
+    100184: weapon_3_Ctrl_Grp
+    100186: Wrist_L
+    100188: Wrist_R
+    100190: dizzy
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: BackA_M
+    400006: BackA_M 1
+    400008: backAnkle_L
+    400010: backAnkle_R
+    400012: BackB_M
+    400014: BackB_M 1
+    400016: backBall_L
+    400018: backBall_R
+    400020: backHip_L
+    400022: backHip_R
+    400024: backKnee_L
+    400026: backKnee_R
+    400028: charBody
+    400030: charBodyHuman
+    400032: Chest_M
+    400034: Chest_M 1
+    400036: Elbow_L
+    400038: Elbow_R
+    400040: ElbowPart1_L
+    400042: ElbowPart1_R
+    400044: frontAnkle_L
+    400046: frontAnkle_R
+    400048: frontBall_L
+    400050: frontBall_R
+    400052: frontHip_L
+    400054: frontHip_R
+    400056: frontKnee_L
+    400058: frontKnee_R
+    400060: Hair_M
+    400062: Hair_M 1
+    400064: Head_M
+    400066: Head_M 1
+    400068: Hip_L
+    400070: Hip_R
+    400072: IndexFinger1_L
+    400074: IndexFinger1_R
+    400076: Knee_L
+    400078: Knee_R
+    400080: MiddleToe1_L
+    400082: MiddleToe1_R
+    400084: MiddleToe2_L
+    400086: MiddleToe2_R
+    400088: //RootNode
+    400090: Neck_M
+    400092: Neck_M 1
+    400094: part_1_1
+    400096: part_1_1 1
+    400098: part_1_2
+    400100: part_1_Grp
+    400102: part_1_Grp 1
+    400104: part_1_tip
+    400106: part_1_tip 1
+    400108: part_2_1
+    400110: part_2_1 1
+    400112: part_2_2
+    400114: part_2_Grp
+    400116: part_2_Grp 1
+    400118: part_2_tip
+    400120: part_2_tip 1
+    400122: part_3_1
+    400124: part_3_2
+    400126: part_3_Grp
+    400128: part_3_tip
+    400130: part_4_1
+    400132: part_4_2
+    400134: part_4_Grp
+    400136: part_4_tip
+    400138: Root_M
+    400140: Root_M 1
+    400142: Rump_L
+    400144: Rump_R
+    400146: Scapula_L
+    400148: Scapula_L 1
+    400150: Scapula_R
+    400152: Scapula_R 1
+    400154: Shoulder_L
+    400156: Shoulder_R
+    400158: weapon_1_Ctrl
+    400160: weapon_1_Ctrl_1
+    400162: weapon_1_Ctrl_2
+    400164: weapon_1_Ctrl_3
+    400166: weapon_1_Ctrl_4
+    400168: weapon_1_Ctrl_5
+    400170: weapon_1_Ctrl_6
+    400172: weapon_1_Ctrl_7
+    400174: weapon_1_Ctrl_8
+    400176: weapon_1_Ctrl_Grp
+    400178: weapon_2_Ctrl
+    400180: weapon_2_Ctrl_Grp
+    400182: weapon_3_Ctrl
+    400184: weapon_3_Ctrl_Grp
+    400186: Wrist_L
+    400188: Wrist_R
+    400190: dizzy
+    7400000: dizzy
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dizzy
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: charBody
+        weight: 1
+      - path: charBody/Root_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/frontHip_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/frontHip_L/frontKnee_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/frontHip_L/frontKnee_L/frontAnkle_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/frontHip_L/frontKnee_L/frontAnkle_L/frontBall_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/frontHip_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/frontHip_R/frontKnee_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/frontHip_R/frontKnee_R/frontAnkle_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/frontHip_R/frontKnee_R/frontAnkle_R/frontBall_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/Hair_M 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_3_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_3_Grp/part_3_1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_3_Grp/part_3_1/part_3_2
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_3_Grp/part_3_1/part_3_2/part_3_tip
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_4_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_4_Grp/part_4_1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_4_Grp/part_4_1/part_4_2
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Neck_M 1/Head_M 1/part_4_Grp/part_4_1/part_4_2/part_4_tip
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/part_1_Grp 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/part_1_Grp 1/part_1_1 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/part_1_Grp 1/part_1_1 1/part_1_tip 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/part_2_Grp 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/part_2_Grp 1/part_2_1 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/part_2_Grp 1/part_2_1 1/part_2_tip 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L/Elbow_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L/Elbow_L/ElbowPart1_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/weapon_3_Ctrl_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_L 1/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/weapon_3_Ctrl_Grp/weapon_3_Ctrl
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2/weapon_1_Ctrl_3
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2/weapon_1_Ctrl_3/weapon_1_Ctrl_4
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2/weapon_1_Ctrl_3/weapon_1_Ctrl_4/weapon_1_Ctrl_5
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2/weapon_1_Ctrl_3/weapon_1_Ctrl_4/weapon_1_Ctrl_5/weapon_1_Ctrl_6
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2/weapon_1_Ctrl_3/weapon_1_Ctrl_4/weapon_1_Ctrl_5/weapon_1_Ctrl_6/weapon_1_Ctrl_7
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl/weapon_1_Ctrl_1/weapon_1_Ctrl_2/weapon_1_Ctrl_3/weapon_1_Ctrl_4/weapon_1_Ctrl_5/weapon_1_Ctrl_6/weapon_1_Ctrl_7/weapon_1_Ctrl_8
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_2_Ctrl_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/BackA_M 1/BackB_M 1/Chest_M
+          1/Scapula_R 1/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_2_Ctrl_Grp/weapon_2_Ctrl
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_L/Knee_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_R/Knee_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/charBodyHuman/Root_M 1/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: charBody/Root_M/part_2_Grp
+        weight: 1
+      - path: charBody/Root_M/part_2_Grp/part_2_1
+        weight: 1
+      - path: charBody/Root_M/part_2_Grp/part_2_1/part_2_2
+        weight: 1
+      - path: charBody/Root_M/part_2_Grp/part_2_1/part_2_2/part_2_tip
+        weight: 1
+      - path: charBody/Root_M/Rump_L
+        weight: 1
+      - path: charBody/Root_M/Rump_L/backHip_L
+        weight: 1
+      - path: charBody/Root_M/Rump_L/backHip_L/backKnee_L
+        weight: 1
+      - path: charBody/Root_M/Rump_L/backHip_L/backKnee_L/backAnkle_L
+        weight: 1
+      - path: charBody/Root_M/Rump_L/backHip_L/backKnee_L/backAnkle_L/backBall_L
+        weight: 1
+      - path: charBody/Root_M/Rump_L/part_1_Grp
+        weight: 1
+      - path: charBody/Root_M/Rump_L/part_1_Grp/part_1_1
+        weight: 1
+      - path: charBody/Root_M/Rump_L/part_1_Grp/part_1_1/part_1_2
+        weight: 1
+      - path: charBody/Root_M/Rump_L/part_1_Grp/part_1_1/part_1_2/part_1_tip
+        weight: 1
+      - path: charBody/Root_M/Rump_R
+        weight: 1
+      - path: charBody/Root_M/Rump_R/backHip_R
+        weight: 1
+      - path: charBody/Root_M/Rump_R/backHip_R/backKnee_R
+        weight: 1
+      - path: charBody/Root_M/Rump_R/backHip_R/backKnee_R/backAnkle_R
+        weight: 1
+      - path: charBody/Root_M/Rump_R/backHip_R/backKnee_R/backAnkle_R/backBall_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: bac06918e500aca478a8ff4fa0e1470f,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

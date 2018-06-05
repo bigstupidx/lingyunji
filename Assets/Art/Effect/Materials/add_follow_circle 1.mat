@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: add_follow_circle 1
+  m_Shader: {fileID: 4800000, guid: 001281d996ae61f4881c61e1560f3393, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _2smsk
+      second:
+        m_Texture: {fileID: 2800000, guid: 71614df718524c3439c00783b59d9360, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _AO_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BaseRGBA
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cubemap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 71614df718524c3439c00783b59d9360, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RGBSpecularAGloss
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RGBmask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Refraction_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _distor_map
+      second:
+        m_Texture: {fileID: 2800000, guid: fb841bb1d72de3340aa9a6020a19f155, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _distort_tex
+      second:
+        m_Texture: {fileID: 2800000, guid: fb841bb1d72de3340aa9a6020a19f155, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _liuGuang
+      second:
+        m_Texture: {fileID: 2800000, guid: 3e3cb2b4fd48e3a42b3be114116cf6d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _liuGuang_Apha
+      second:
+        m_Texture: {fileID: 2800000, guid: db1d32b13aa65d5419559f4e8defce76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 71614df718524c3439c00783b59d9360, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0}
+    - first:
+        name: _mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: c5d57fa9fd520d04c9294fce722251ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask_tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1892
+      second:
+        m_Texture: {fileID: 2800000, guid: fb841bb1d72de3340aa9a6020a19f155, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_5239
+      second:
+        m_Texture: {fileID: 2800000, guid: 71614df718524c3439c00783b59d9360, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_6531
+      second:
+        m_Texture: {fileID: 2800000, guid: 3e3cb2b4fd48e3a42b3be114116cf6d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7532
+      second:
+        m_Texture: {fileID: 2800000, guid: fb841bb1d72de3340aa9a6020a19f155, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_840
+      second:
+        m_Texture: {fileID: 2800000, guid: 71614df718524c3439c00783b59d9360, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8798
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_9104
+      second:
+        m_Texture: {fileID: 2800000, guid: 3e3cb2b4fd48e3a42b3be114116cf6d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _sc_tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _yy
+      second:
+        m_Texture: {fileID: 2800000, guid: 281c12ddfefa1fc469e85329c6b3418b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AO_int
+      second: 0
+    - first:
+        name: _Alpha_offset
+      second: 0
+    - first:
+        name: _Amb_light
+      second: 0
+    - first:
+        name: _AniUvScale
+      second: 0
+    - first:
+        name: _Aoto_scale
+      second: 0
+    - first:
+        name: _B_CM_Str
+      second: 2.048157
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _FresnelFactor
+      second: 0.3808599
+    - first:
+        name: _Gloss
+      second: 5.313067
+    - first:
+        name: _GlowPower
+      second: 1
+    - first:
+        name: _R_CM_Str
+      second: 0.6773703
+    - first:
+        name: _Specularinty
+      second: 0.7473624
+    - first:
+        name: _UV_scale
+      second: 0.55
+    - first:
+        name: _bias
+      second: 0.5
+    - first:
+        name: _distor_int
+      second: 0.13
+    - first:
+        name: _emission_int
+      second: 1.76
+    - first:
+        name: _max
+      second: 2
+    - first:
+        name: _min
+      second: 0
+    - first:
+        name: _node_1362
+      second: 1.11
+    - first:
+        name: _node_1735
+      second: 1.27
+    - first:
+        name: _node_1965
+      second: 1
+    - first:
+        name: _node_2242
+      second: 0
+    - first:
+        name: _node_2901
+      second: 0.664
+    - first:
+        name: _node_3025
+      second: -8.95
+    - first:
+        name: _node_3675
+      second: 0.12
+    - first:
+        name: _node_3904
+      second: 0
+    - first:
+        name: _node_4020
+      second: 0.71
+    - first:
+        name: _node_4655
+      second: 1.57
+    - first:
+        name: _node_5784
+      second: 1.93
+    - first:
+        name: _node_8630
+      second: 1
+    - first:
+        name: _node_8754
+      second: 0.5384616
+    - first:
+        name: _node_8864
+      second: 1.08
+    - first:
+        name: _node_9126
+      second: 1.5
+    - first:
+        name: _node_9331
+      second: 0.23
+    - first:
+        name: _node_9463
+      second: 0.13
+    - first:
+        name: _node_9845
+      second: 0.5
+    - first:
+        name: _qiangdu
+      second: 3.17
+    - first:
+        name: _qiangdu_N
+      second: 0
+    - first:
+        name: _refracsion_int
+      second: 0
+    - first:
+        name: _skin_Amb
+      second: 0
+    - first:
+        name: _skin_int
+      second: 1.174269
+    - first:
+        name: _skin_light
+      second: 0.7397742
+    - first:
+        name: _sm_v
+      second: 0.25
+    - first:
+        name: _speedDyn
+      second: 3.76
+    - first:
+        name: _speed_7508
+      second: 30
+    - first:
+        name: _uv_scale
+      second: 0.52
+    - first:
+        name: _value
+      second: 1.33
+    m_Colors:
+    - first:
+        name: _Cloth_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 1, g: 0.99264705, b: 0.99264705, a: 1}
+    - first:
+        name: _ShieldColor
+      second: {r: 1, g: 1, b: 0, a: 0.1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _liuGuang_color
+      second: {r: 1, g: 0.47586206, b: 0, a: 0.9764706}
+    - first:
+        name: _mainTint
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _node_1546
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _node_3122
+      second: {r: 0.88235295, g: 0.16868512, b: 0.16868512, a: 1}
+    - first:
+        name: _node_4114
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _node_4848
+      second: {r: 1, g: 0.39310342, b: 0, a: 1}
+    - first:
+        name: _node_7750
+      second: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 0.184}
+    - first:
+        name: _node_7791
+      second: {r: 0.6838235, g: 0.64862674, b: 0.64862674, a: 1}
+    - first:
+        name: _skin_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _skin_color_offset
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_anyingdao_somkeD 1
+  m_Shader: {fileID: 4800000, guid: 67511c8b1d18ccd43a87f034a0425cd4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0fdd7d8141b129d4e8d7566335232271, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_map:
+        m_Texture: {fileID: 2800000, guid: 0fdd7d8141b129d4e8d7566335232271, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 1a4c68f1f7e7db540abc6591a35676ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Emission: 1
+    - _InvFade: 1
+    - _Noise_int: 0.833
+    - _Speed: 1
+    - _UVS: 0
+    m_Colors:
+    - _Main_color: {r: 0.3610546, g: 0, b: 0.5882352, a: 0.5058824}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0.378}

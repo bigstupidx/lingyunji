@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_shenjing_02
+  m_Shader: {fileID: 4800000, guid: 75f0e219432a9434da64e0495acdf721, type: 3}
+  m_ShaderKeywords: _UVS_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3003
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _DiffuseTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 19df84fcba073aa4aba310e9487b10d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_mask
+      second:
+        m_Texture: {fileID: 2800000, guid: d68b6527bbb8b244b8f3a41284474e0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_noise
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 19df84fcba073aa4aba310e9487b10d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Main_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 74c8b672aa9436845bdd5c31e84e2426, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a4c68f1f7e7db540abc6591a35676ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 19df84fcba073aa4aba310e9487b10d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 10
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Emission
+      second: 3
+    - first:
+        name: _Emission_int
+      second: 1
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _N_BY_KD
+      second: 0.01
+    - first:
+        name: _N_BY_QD
+      second: 3
+    - first:
+        name: _N_mask
+      second: 1
+    - first:
+        name: _Noise_int
+      second: 0.812
+    - first:
+        name: _Speed
+      second: -1
+    - first:
+        name: _UVs
+      second: 1
+    m_Colors:
+    - first:
+        name: _C_BYcolor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DiffuseColor
+      second: {r: 0.6985294, g: 0.6985294, b: 0.6985294, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 0.50410897, g: 0.5612696, b: 0.61764705, a: 1}
+    - first:
+        name: _Mian_color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0, g: 0, b: 0, a: 0.5}

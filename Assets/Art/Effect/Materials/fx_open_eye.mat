@@ -1,0 +1,1129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_open_eye
+  m_Shader: {fileID: 4800000, guid: a0cdcc47f0edcc744b205540bcdcfbeb, type: 3}
+  m_ShaderKeywords: _AOTO_SCALE_ON _EMISSION _SWITCH_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Base
+      second:
+        m_Texture: {fileID: 2800000, guid: 0820f04d4b48d8843a4e20d240ae5f52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Color_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 629bf00b26b129442a181f4f492c3725, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: 66321cc856b03e245ac41ed8a53e0ecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DiffuseTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 58c54f4764054694f85e1ba0f8ee2768, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Dissolve
+      second:
+        m_Texture: {fileID: 2800000, guid: a057290370bcf624cbb26357645a1f12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Emission_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gloss
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gloss_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gradients
+      second:
+        m_Texture: {fileID: 2800000, guid: 7ac410ff12db86c4db8f9a1d4279d30f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_distort_map
+      second:
+        m_Texture: {fileID: 2800000, guid: ed27a03f3e66d914d8f901748ea1c5f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 9a0aafbafed95764e9781a1c5b96755a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Main_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 55c114ba419d2c34aa5564d974d584dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: 4f4519c8dadf0a5478a89bac42233550, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 4563a01cadb4c0b4099fb5c8107dd48d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mian_map
+      second:
+        m_Texture: {fileID: 2800000, guid: dee426f23539c754e98b489bcd748580, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise_1
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a4c68f1f7e7db540abc6591a35676ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise_2
+      second:
+        m_Texture: {fileID: 2800000, guid: 6b1bb81f02147f6419e047ede14a5038, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise_NiuQu_map
+      second:
+        m_Texture: {fileID: 2800000, guid: ed27a03f3e66d914d8f901748ea1c5f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise_map
+      second:
+        m_Texture: {fileID: 2800000, guid: fe90ddc60ea30e54cafed0bbac877526, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise_map2
+      second:
+        m_Texture: {fileID: 2800000, guid: a7f3e7eaaf9531d4cb79157cded55731, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 132c1abf0e1594f47a24dad65d015101, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Offset_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 70387129d7d1ebf43a33d07b53c858ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RongJie_Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 78b5cf59b09034e4ebbcb5800e4da939, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RongJie_map
+      second:
+        m_Texture: {fileID: 2800000, guid: d92fa82f13340b04ca7443630a83c8e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spe_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Specular
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Specular_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _T1
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _T2
+      second:
+        m_Texture: {fileID: 2800000, guid: 70387129d7d1ebf43a33d07b53c858ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _T_distor_map
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _T_mask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture_1
+      second:
+        m_Texture: {fileID: 2800000, guid: 792560af6171eb645ac47c090d0e6e51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture_2
+      second:
+        m_Texture: {fileID: 2800000, guid: 3bdae506da5b2a940a8a85b016cbd1bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolve_ram
+      second:
+        m_Texture: {fileID: 2800000, guid: a4a5223756dc97e42b42ac2359b40434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 00b10c7af79b4be4bbac76ef119e0033, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask_tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1209
+      second:
+        m_Texture: {fileID: 2800000, guid: 0271efd2f32b2b94dac55fe6f7c3c56a, type: 3}
+        m_Scale: {x: 1, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1270
+      second:
+        m_Texture: {fileID: 2800000, guid: d0f98f673014a494292400cff992bfcf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.42}
+    - first:
+        name: _node_2006
+      second:
+        m_Texture: {fileID: 2800000, guid: 05650c1cd55f7d1418a0088ef5b9a917, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2394
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2537
+      second:
+        m_Texture: {fileID: 2800000, guid: e9c8da28195816a479c14adcd55313db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_254
+      second:
+        m_Texture: {fileID: 2800000, guid: c4af0ee90c9bbc043aa9513c1f675de3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2994
+      second:
+        m_Texture: {fileID: 2800000, guid: da067bfc7e1fd7c4d93a74779d803fdd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_3266
+      second:
+        m_Texture: {fileID: 2800000, guid: a0acb059c1841744c91f5567003e1ec6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4361
+      second:
+        m_Texture: {fileID: 2800000, guid: 3b428c518685dd44aaa52ce00a861929, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_44
+      second:
+        m_Texture: {fileID: 2800000, guid: 8c8ba9a799906a245918e8d394fcb38f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4414
+      second:
+        m_Texture: {fileID: 2800000, guid: fae2a66359f69154dbc2fc7d124bba69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4491
+      second:
+        m_Texture: {fileID: 2800000, guid: a1b6a3f87f77db843a93968f07bb259a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_44_copy
+      second:
+        m_Texture: {fileID: 2800000, guid: 8c8ba9a799906a245918e8d394fcb38f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_44_copy_copy
+      second:
+        m_Texture: {fileID: 2800000, guid: 8c8ba9a799906a245918e8d394fcb38f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4713
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4843
+      second:
+        m_Texture: {fileID: 2800000, guid: a20aad8f080671f4eab567903e99b241, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4851
+      second:
+        m_Texture: {fileID: 2800000, guid: 0e13a003877cd4b4e9495dcc21e2f0eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_5019
+      second:
+        m_Texture: {fileID: 2800000, guid: 54e8c2ec3e0586a4ebfb0b51f14893e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_513
+      second:
+        m_Texture: {fileID: 2800000, guid: cd7bfb0e9ceb8ac4c8dee076524ea2b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_522
+      second:
+        m_Texture: {fileID: 2800000, guid: 29cd64f14d54fe94fbd4d72cf6f29135, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_5427
+      second:
+        m_Texture: {fileID: 2800000, guid: 37cfed1ed49b3a94daf464cac8597047, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_6038
+      second:
+        m_Texture: {fileID: 2800000, guid: faeb68b9c22fea94894c6a88cb8f1cae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_6105
+      second:
+        m_Texture: {fileID: 2800000, guid: db95c5906b35c6d4baa0f149f15bdf1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -0.01}
+    - first:
+        name: _node_6365
+      second:
+        m_Texture: {fileID: 2800000, guid: 2641ad587cc15d145b48274e192158b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_6737
+      second:
+        m_Texture: {fileID: 2800000, guid: a93150e8fd4a5734089dd1072d514421, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_6743
+      second:
+        m_Texture: {fileID: 2800000, guid: 902c445f6932829499d089058086a057, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7092
+      second:
+        m_Texture: {fileID: 2800000, guid: e7650919960b9e440b1a0897ba6a4d07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7296
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_745
+      second:
+        m_Texture: {fileID: 2800000, guid: b457749ff17f6874a996f7e2c1befbc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7628
+      second:
+        m_Texture: {fileID: 2800000, guid: 54e8c2ec3e0586a4ebfb0b51f14893e2, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7698
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8019
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a9a71ed61468114188e1bc5c7527020, type: 3}
+        m_Scale: {x: 2.88, y: 1}
+        m_Offset: {x: 0.77, y: 0}
+    - first:
+        name: _node_8274
+      second:
+        m_Texture: {fileID: 2800000, guid: 10f2aa49106c3e14d8b0967465c71cfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8280
+      second:
+        m_Texture: {fileID: 2800000, guid: c493e83275a97e84db21afc61e5973c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8596
+      second:
+        m_Texture: {fileID: 2800000, guid: fe90ddc60ea30e54cafed0bbac877526, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8772
+      second:
+        m_Texture: {fileID: 2800000, guid: db95c5906b35c6d4baa0f149f15bdf1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_9405
+      second:
+        m_Texture: {fileID: 2800000, guid: 78b5cf59b09034e4ebbcb5800e4da939, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_9417
+      second:
+        m_Texture: {fileID: 2800000, guid: 05650c1cd55f7d1418a0088ef5b9a917, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_9653
+      second:
+        m_Texture: {fileID: 2800000, guid: e7650919960b9e440b1a0897ba6a4d07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1.31, y: -0.02}
+    - first:
+        name: _noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 8052b2bbce32ae3488d0047b736f2b32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _sc_tex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 0
+    - first:
+        name: _Amb_light
+      second: 0
+    - first:
+        name: _Aoto_scale
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _D
+      second: 0.43
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DiffuseValue
+      second: 0.482906
+    - first:
+        name: _Disslution
+      second: -0.05
+    - first:
+        name: _Dissolve_1
+      second: 1
+    - first:
+        name: _Dissolve_2
+      second: 0
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emission
+      second: 3.19
+    - first:
+        name: _Emission_int
+      second: 1.26
+    - first:
+        name: _Gloss
+      second: 5.313067
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Gradients_ID
+      second: 1.7
+    - first:
+        name: _Inside
+      second: 0
+    - first:
+        name: _L
+      second: 3
+    - first:
+        name: _Line
+      second: 0.21
+    - first:
+        name: _M_distort_int
+      second: 0.02
+    - first:
+        name: _M_distort_speed
+      second: 0.28
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _N_BY_KD
+      second: 0.01
+    - first:
+        name: _N_BY_QD
+      second: 3.5
+    - first:
+        name: _N_mask
+      second: 0.21
+    - first:
+        name: _NiuQu
+      second: 0.05
+    - first:
+        name: _Noise_DuiBiDu
+      second: 0
+    - first:
+        name: _Noise_Power
+      second: 0
+    - first:
+        name: _Noise_int
+      second: 0
+    - first:
+        name: _Noise_map_speed
+      second: 0.26
+    - first:
+        name: _Noise_map_speed_2
+      second: 5.57
+    - first:
+        name: _Num_wave
+      second: 2.59
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Open
+      second: 0.362
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Rim
+      second: 1.2
+    - first:
+        name: _RongJie_int
+      second: 0
+    - first:
+        name: _Scale_offset
+      second: 0.32
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Specularinty
+      second: 0.7473624
+    - first:
+        name: _Specularity
+      second: 2.200962
+    - first:
+        name: _Speed
+      second: 0
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _Step
+      second: 1.4
+    - first:
+        name: _Strength
+      second: 1.5
+    - first:
+        name: _Switch
+      second: 1
+    - first:
+        name: _T_distort_int
+      second: 0.43
+    - first:
+        name: _Texture_1_glow
+      second: 2.580734
+    - first:
+        name: _Texture_2_glow
+      second: 1
+    - first:
+        name: _Tile
+      second: 5
+    - first:
+        name: _U
+      second: 5.21
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UV_scale
+      second: 0.418
+    - first:
+        name: _UVs
+      second: 0
+    - first:
+        name: _UVspeed
+      second: 0.07
+    - first:
+        name: _V
+      second: 5.8
+    - first:
+        name: _Wave
+      second: 4.25
+    - first:
+        name: _Wave_Height
+      second: 0.422
+    - first:
+        name: _Wave_h
+      second: 3.28
+    - first:
+        name: _Wave_speed
+      second: 1.36
+    - first:
+        name: _X_Offset
+      second: 3.5
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _amplitude
+      second: 2.58
+    - first:
+        name: _dd
+      second: 11.31
+    - first:
+        name: _disslution
+      second: 4.14
+    - first:
+        name: _dissolve_amount
+      second: 1.17
+    - first:
+        name: _fc
+      second: 2
+    - first:
+        name: _frequencyb
+      second: 4
+    - first:
+        name: _freqyency
+      second: 4
+    - first:
+        name: _fresnel_amount
+      second: 2.1
+    - first:
+        name: _glow
+      second: 3.590895
+    - first:
+        name: _ma
+      second: 1
+    - first:
+        name: _mi
+      second: 9.52
+    - first:
+        name: _msk_size
+      second: 0
+    - first:
+        name: _node_1003
+      second: 1.45
+    - first:
+        name: _node_1080
+      second: 0.614
+    - first:
+        name: _node_1094
+      second: 0.51
+    - first:
+        name: _node_1156
+      second: 2
+    - first:
+        name: _node_121
+      second: 0
+    - first:
+        name: _node_127
+      second: 0.92
+    - first:
+        name: _node_1389
+      second: 0
+    - first:
+        name: _node_1457
+      second: 57
+    - first:
+        name: _node_1507
+      second: 0.15
+    - first:
+        name: _node_1522
+      second: 16.7
+    - first:
+        name: _node_156
+      second: 4.42
+    - first:
+        name: _node_1792
+      second: 3.98
+    - first:
+        name: _node_1881
+      second: 2.59
+    - first:
+        name: _node_1900
+      second: -0.27
+    - first:
+        name: _node_1951
+      second: 2.06
+    - first:
+        name: _node_2082
+      second: 0.08
+    - first:
+        name: _node_2237
+      second: 0
+    - first:
+        name: _node_224
+      second: 0.67
+    - first:
+        name: _node_2312
+      second: 6.14
+    - first:
+        name: _node_2335
+      second: 57
+    - first:
+        name: _node_2415
+      second: 0.1
+    - first:
+        name: _node_2501
+      second: 1.38
+    - first:
+        name: _node_2521
+      second: 0
+    - first:
+        name: _node_2589
+      second: 0.94
+    - first:
+        name: _node_2702
+      second: -0.01
+    - first:
+        name: _node_2715
+      second: 2.98
+    - first:
+        name: _node_2831
+      second: -1.07
+    - first:
+        name: _node_2863
+      second: -0.1
+    - first:
+        name: _node_3096
+      second: 3.07
+    - first:
+        name: _node_3121
+      second: 2.73
+    - first:
+        name: _node_3462
+      second: 8
+    - first:
+        name: _node_3597
+      second: -0.25
+    - first:
+        name: _node_3673
+      second: 910.97
+    - first:
+        name: _node_4175
+      second: 8.52
+    - first:
+        name: _node_4176
+      second: 8.66
+    - first:
+        name: _node_4653
+      second: 0
+    - first:
+        name: _node_4654
+      second: -0.2
+    - first:
+        name: _node_4929
+      second: 58
+    - first:
+        name: _node_4935
+      second: 1.52
+    - first:
+        name: _node_5140
+      second: 0.225
+    - first:
+        name: _node_516
+      second: 3
+    - first:
+        name: _node_5200
+      second: 8
+    - first:
+        name: _node_5236
+      second: 0.982
+    - first:
+        name: _node_5396
+      second: 1
+    - first:
+        name: _node_5417
+      second: 1.88
+    - first:
+        name: _node_5453
+      second: 0.21
+    - first:
+        name: _node_5536
+      second: 1
+    - first:
+        name: _node_5539
+      second: 8.84
+    - first:
+        name: _node_56
+      second: 1
+    - first:
+        name: _node_5722
+      second: 0
+    - first:
+        name: _node_591
+      second: 2.23
+    - first:
+        name: _node_60
+      second: 0.36
+    - first:
+        name: _node_6006
+      second: 0.8
+    - first:
+        name: _node_6207
+      second: 0.039
+    - first:
+        name: _node_6250
+      second: 57
+    - first:
+        name: _node_6358
+      second: 1.37
+    - first:
+        name: _node_6561
+      second: 20
+    - first:
+        name: _node_6597
+      second: 57
+    - first:
+        name: _node_6713
+      second: 51.67
+    - first:
+        name: _node_6888
+      second: 3
+    - first:
+        name: _node_7047
+      second: 473.5
+    - first:
+        name: _node_7093
+      second: -0
+    - first:
+        name: _node_7206
+      second: 0.7
+    - first:
+        name: _node_7230
+      second: 0.544
+    - first:
+        name: _node_7315
+      second: 3
+    - first:
+        name: _node_7360
+      second: 0.16
+    - first:
+        name: _node_7421
+      second: 0.47
+    - first:
+        name: _node_745
+      second: 1.18
+    - first:
+        name: _node_7497
+      second: 6.06
+    - first:
+        name: _node_7571
+      second: 0.547
+    - first:
+        name: _node_7652
+      second: 405
+    - first:
+        name: _node_7677
+      second: 1
+    - first:
+        name: _node_7810
+      second: 0.25
+    - first:
+        name: _node_7918
+      second: 0
+    - first:
+        name: _node_7991
+      second: 0.593
+    - first:
+        name: _node_8041
+      second: 4.59
+    - first:
+        name: _node_8051
+      second: -9.6
+    - first:
+        name: _node_8112
+      second: -0.51
+    - first:
+        name: _node_816
+      second: 0.01
+    - first:
+        name: _node_8192
+      second: 19.3
+    - first:
+        name: _node_8215
+      second: 58
+    - first:
+        name: _node_822
+      second: 2
+    - first:
+        name: _node_8391
+      second: 0.05
+    - first:
+        name: _node_8660
+      second: 0
+    - first:
+        name: _node_8822
+      second: 10
+    - first:
+        name: _node_893
+      second: 2.27
+    - first:
+        name: _node_9341
+      second: 0.1
+    - first:
+        name: _node_9794
+      second: 0.27
+    - first:
+        name: _node_9845
+      second: 24.99
+    - first:
+        name: _power
+      second: -0.44
+    - first:
+        name: _s
+      second: 0.7
+    - first:
+        name: _self_Illumin
+      second: 1.25
+    - first:
+        name: _speed
+      second: 2.5
+    - first:
+        name: _speed_u
+      second: 0
+    - first:
+        name: _speed_v
+      second: 0.5
+    - first:
+        name: _ss
+      second: 3
+    - first:
+        name: _u
+      second: 1.07
+    - first:
+        name: _v
+      second: 0.24
+    m_Colors:
+    - first:
+        name: _C_BYcolor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorAlpha
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DiffuseColor
+      second: {r: 0.6985294, g: 0.6985294, b: 0.6985294, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Emission_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Fresenel_color
+      second: {r: 0.05033516, g: 0.6708714, b: 0.9779412, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Mian_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _T1_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _T2_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Texture_1_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _TipColor
+      second: {r: 0.9, g: 1, b: 0, a: 1}
+    - first:
+        name: _node_2614
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _node_527
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _node_9878
+      second: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 408004}
+  m_Layer: 0
+  m_Name: transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &116508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 436546}
+  m_Layer: 0
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &117108
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 480950}
+  m_Layer: 0
+  m_Name: fx_attack_2_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &123398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 406422}
+  - component: {fileID: 11424212}
+  - component: {fileID: 114000013468685556}
+  m_Layer: 0
+  m_Name: mod_chiyouzujiashi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &143034
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 491098}
+  m_Layer: 0
+  m_Name: fx_skill_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474834}
+  m_Layer: 0
+  m_Name: headFx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &199752
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 476230}
+  m_Layer: 0
+  m_Name: fx_attack_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 436546}
+  - {fileID: 408004}
+  - {fileID: 474834}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &408004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 476230}
+  - {fileID: 480950}
+  - {fileID: 491098}
+  m_Father: {fileID: 406422}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &436546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &474834
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &476230
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 408004}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &480950
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 117108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 408004}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &491098
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 408004}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11424212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35241722bb35404a9f6fe9f4b0a711d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bones: []
+  m_controllers:
+  - {fileID: 9100000, guid: 8f005ba9f8a10c24ba0645ac3114e741, type: 2}
+  prefabsNames:
+  - mod_chiyouzujiashi_01
+  RootObject: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_bodyName
+      value: mod_dahan_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_testPlayAnimation
+      value: skill_4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 123398}
+  m_IsPrefabParent: 1
+--- !u!114 &114000013468685556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8edfd02c259b00149b6561b18442a352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_testPlayAnimation: intro_1
+  m_isTestLoop: 1
+  m_aniTriggers:
+  - m_animationName: attack_1
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_chiyouzujiashi_atk1
+      m_boneName: fx_attack_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 12
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: attack_2
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_chiyouzujiashi_atk2
+      m_boneName: fx_attack_2_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 22
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: intro_1
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_jxlr_h_skill3.1
+      m_boneName: fx_skill_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 0
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_jxlr_skill3.2
+      m_boneName: Neck_M
+      m_followPos: 1
+      m_followRotate: 1
+      m_beginFrame: 8
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []

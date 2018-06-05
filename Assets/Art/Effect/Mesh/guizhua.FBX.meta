@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 7305e0de3b8f4184189fed3308c576c8
+timeCreated: 1496482714
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AABB
+    100002: B_bone01
+    100004: B_bone02
+    100006: B_bone03
+    100008: B_bone04
+    100010: B_bone05
+    100012: B_bone06
+    100014: B_bone07
+    100016: B_bone09
+    100018: B_bone10
+    100020: B_bone11
+    100022: B_bone13
+    100024: B_bone14
+    100026: B_bone15
+    100028: B_bone17
+    100030: B_bone18
+    100032: B_bone19
+    100034: B_bone21
+    100036: B_bone22
+    100038: B_bone23
+    100040: Box01
+    100042: Dummy01
+    100044: //RootNode
+    100046: Line01
+    100048: m_wsc016
+    400000: AABB
+    400002: B_bone01
+    400004: B_bone02
+    400006: B_bone03
+    400008: B_bone04
+    400010: B_bone05
+    400012: B_bone06
+    400014: B_bone07
+    400016: B_bone09
+    400018: B_bone10
+    400020: B_bone11
+    400022: B_bone13
+    400024: B_bone14
+    400026: B_bone15
+    400028: B_bone17
+    400030: B_bone18
+    400032: B_bone19
+    400034: B_bone21
+    400036: B_bone22
+    400038: B_bone23
+    400040: Box01
+    400042: Dummy01
+    400044: //RootNode
+    400046: Line01
+    400048: m_wsc016
+    2300000: AABB
+    2300002: Box01
+    3300000: AABB
+    3300002: Box01
+    4300000: m_wsc016
+    4300002: Box01
+    4300004: AABB
+    7400000: Take 002
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: m_wsc016
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 002
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AABB
+        weight: 1
+      - path: Box01
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/B_bone01
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone05
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone05/B_bone06
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone05/B_bone06/B_bone07
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone09
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone09/B_bone10
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone09/B_bone10/B_bone22
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone13
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone13/B_bone14
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone13/B_bone14/B_bone23
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone15
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone15/B_bone11
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone15/B_bone11/B_bone21
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone17
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone17/B_bone18
+        weight: 1
+      - path: Dummy01/B_bone01/B_bone02/B_bone03/B_bone04/B_bone17/B_bone18/B_bone19
+        weight: 1
+      - path: Line01
+        weight: 1
+      - path: m_wsc016
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,352 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &116508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 436546}
+  m_Layer: 0
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &123398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 406422}
+  - component: {fileID: 11424212}
+  - component: {fileID: 114279385548348096}
+  - component: {fileID: 114216211034412890}
+  m_Layer: 0
+  m_Name: mod_xingtianfushou
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &195602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474834}
+  m_Layer: 0
+  m_Name: headFx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406422
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 436546}
+  - {fileID: 474834}
+  - {fileID: 4003526613094758}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &436546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116508}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &474834
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 195602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 406422}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11424212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a35241722bb35404a9f6fe9f4b0a711d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bones: []
+  m_controllers:
+  - {fileID: 9100000, guid: 93c2711d7547e2d478ab17442cffc941, type: 2}
+  prefabsNames:
+  - mod_xingtianfushou_01
+  RootObject: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_bodyName
+      value: mod_dahan_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_testPlayAnimation
+      value: skill_4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 123398}
+  m_IsPrefabParent: 1
+--- !u!1 &1032035361916566
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422510775347578}
+  m_Layer: 0
+  m_Name: fx_attack_2_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1053542662631802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4003526613094758}
+  m_Layer: 0
+  m_Name: transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1349193111679220
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4791506296691532}
+  m_Layer: 0
+  m_Name: fx_attack_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1571548259501308
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4707293913108370}
+  m_Layer: 0
+  m_Name: fx_skill_1_transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4003526613094758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1053542662631802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4791506296691532}
+  - {fileID: 4422510775347578}
+  - {fileID: 4707293913108370}
+  m_Father: {fileID: 406422}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4422510775347578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1032035361916566}
+  m_LocalRotation: {x: -0.11289397, y: 0.2626239, z: -0.13971911, w: 0.9480307}
+  m_LocalPosition: {x: 0.19999444, y: 0, z: 2.219998}
+  m_LocalScale: {x: 1.0000007, y: 1, z: 1.0000007}
+  m_Children: []
+  m_Father: {fileID: 4003526613094758}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -8.086, y: 32.331, z: -19.115002}
+--- !u!4 &4707293913108370
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1571548259501308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4003526613094758}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4791506296691532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349193111679220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4003526613094758}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114216211034412890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af514243723f35f49a76202c9bf46bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114279385548348096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8edfd02c259b00149b6561b18442a352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_testPlayAnimation: 
+  m_isTestLoop: 0
+  m_aniTriggers:
+  - m_animationName: attack_1
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_xingtianfushou_atk1
+      m_boneName: fx_attack_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 12
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: attack_2
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_xingtianfushou_atk1
+      m_boneName: fx_attack_2_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 17
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []
+  - m_animationName: skill_1
+    m_eventList: []
+    m_effectList:
+    - m_prefabs: fx_xingtianfushou_skill1
+      m_boneName: fx_skill_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 32
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    - m_prefabs: fx_xingtianfushou_skill1.1
+      m_boneName: fx_skill_1_transform
+      m_followPos: 0
+      m_followRotate: 0
+      m_beginFrame: 13
+      m_stopFrame: -1
+      m_destroyByAniFinish: 0
+      m_destroyByObjDestroy: 0
+      m_destroyBySkill: 0
+      m_stopFollowByAniFinish: 0
+      m_stopFollowFrame: -1
+      m_isScale: 0
+      m_loop: 0
+      m_useSelfRotation: 0
+      m_isPlayOnlyMe: 0
+      m_type: 0
+      m_mustCreate: 0
+      m_onlyOneInstance: 0
+    m_soundList: []

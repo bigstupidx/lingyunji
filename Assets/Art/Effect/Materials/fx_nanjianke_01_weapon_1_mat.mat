@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_nanjianke_01_weapon_1_mat
+  m_Shader: {fileID: 4800000, guid: 55a29a133cf276042ac4265372c64d0f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: ef5836b92e60f1b4ab6acaffa43e9903, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 515a7b549af204a4c9b573b78df29702, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DispMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4259e48a48d0bca488b5c0207e9672ef, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _noise
+        second:
+          m_Texture: {fileID: 2800000, guid: edd6fdbce645bac42a36b88443c1490a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _dissolve_ram
+        second:
+          m_Texture: {fileID: 2800000, guid: a4a5223756dc97e42b42ac2359b40434, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecGlosDepthMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 9e9ca17efc7e01746bc5057e2b3a1570, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LookupDiffuseSpec
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DissolveText
+        second:
+          m_Texture: {fileID: 2800000, guid: edd6fdbce645bac42a36b88443c1490a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DissolveMap
+        second:
+          m_Texture: {fileID: 2800000, guid: edd6fdbce645bac42a36b88443c1490a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SecondTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Shininess
+        second: 0.03
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _DispScrollSpeedX
+        second: 0.4
+      data:
+        first:
+          name: _DispScrollSpeedY
+        second: -0.1
+      data:
+        first:
+          name: _fresnel_amount
+        second: 3.94
+      data:
+        first:
+          name: _dissolve_amount
+        second: 0.137
+      data:
+        first:
+          name: _self_Illumin
+        second: 4.17
+      data:
+        first:
+          name: _Tile
+        second: 1
+      data:
+        first:
+          name: _Alpha
+        second: 0.63
+      data:
+        first:
+          name: _Bumpiness
+        second: 0.9
+      data:
+        first:
+          name: _SpecIntensity
+        second: 1
+      data:
+        first:
+          name: _SpecRoughness
+        second: 0.7
+      data:
+        first:
+          name: _ScatteringOffset
+        second: 0
+      data:
+        first:
+          name: _ScatteringPower
+        second: 1
+      data:
+        first:
+          name: _Amount
+        second: 0.23
+      data:
+        first:
+          name: _DissSize
+        second: 0.085
+      data:
+        first:
+          name: _TintStrength
+        second: 5
+      data:
+        first:
+          name: _CoreStrength
+        second: 6.61
+      data:
+        first:
+          name: _CutOutLightCore
+        second: 0.603
+      data:
+        first:
+          name: _DispX
+        second: -0.64
+      data:
+        first:
+          name: _DispY
+        second: 0.1
+      data:
+        first:
+          name: _DissolveGamma
+        second: 1.33
+      data:
+        first:
+          name: _RimPower
+        second: 5.94
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.036332183, g: 0.12428106, b: 0.17647058, a: 0.5}
+      data:
+        first:
+          name: _Main_color
+        second: {r: 0.05033519, g: 0.6708714, b: 0.9779412, a: 1}
+      data:
+        first:
+          name: _DissColor
+        second: {r: 0.97794116, g: 0.40987238, b: 0.40987238, a: 1}
+      data:
+        first:
+          name: _AddColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _CoreColor
+        second: {r: 0.375, g: 0.375, b: 0.375, a: 0.922}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.9852941, g: 0.072448105, b: 0.072448105, a: 0}

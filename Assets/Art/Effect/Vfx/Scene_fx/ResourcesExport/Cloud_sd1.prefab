@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011108534720}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011108534720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010792019068}
+  - 114: {fileID: 114000010996824216}
+  - 114: {fileID: 114000011678109252}
+  - 33: {fileID: 33000011363325408}
+  - 23: {fileID: 23000013121056700}
+  m_Layer: 0
+  m_Name: Cloud_sd1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010792019068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011108534720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &23000013121056700
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011108534720}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ba2ee4a278ee67646b92a0df3c64d763, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33000011363325408
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011108534720}
+  m_Mesh: {fileID: 0}
+--- !u!114 &114000010996824216
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011108534720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4524121f897b7ee4995ac0132d2dfd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ParticleData: {fileID: 114000011628367812}
+  m_CreatorData: {fileID: 114000013108394420}
+  m_CloudRendererType: 0
+  m_ParticleMaterial: {fileID: 2100000, guid: ba2ee4a278ee67646b92a0df3c64d763, type: 2}
+  m_XTile: 4
+  m_YTile: 4
+  m_Tint: {r: 1, g: 1, b: 1, a: 1}
+  m_VerticalShadingInfluence: 0.5
+  m_ShadingGroupInfluence: 0.5
+  m_Scale: 1
+  m_Fading: 1
+  verticalColors:
+  - isPermanent: 1
+    verticalFactor: 0
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - isPermanent: 1
+    verticalFactor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sun: {fileID: 0}
+  shadingGroups:
+  - name: Shading Group
+    center: {x: 0, y: 0, z: 0}
+    shapeColor: {r: 0, g: 1, b: 0, a: 1}
+  shadingColors:
+  - isPermanent: 1
+    shadingFactor: -1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - isPermanent: 1
+    shadingFactor: 1
+    color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+--- !u!114 &114000011628367812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93846c0928bbe4241b42f8f22a7e8758, type: 3}
+  m_Name: ParticleData
+  m_EditorClassIdentifier: 
+  m_Positions:
+  - {x: -49.42006, y: 27.296923, z: -49.12582}
+  - {x: -42.98967, y: 1.4300385, z: 31.697716}
+  - {x: -64.499664, y: 15.2755165, z: -22.624382}
+  - {x: -58.27407, y: 30.04723, z: -4.606205}
+  - {x: -48.17591, y: 0.87457657, z: 47.960102}
+  - {x: -46.55408, y: 14.055515, z: 46.183945}
+  - {x: -60.694077, y: 11.21899, z: -44.847084}
+  - {x: -52.499615, y: 2.052414, z: -27.415333}
+  - {x: -54.69006, y: 29.849342, z: 14.547827}
+  - {x: -61.08573, y: 18.902859, z: 9.017357}
+  - {x: -63.97532, y: 2.9507961, z: 3.651535}
+  - {x: -65.28899, y: 0.46871948, z: -24.593815}
+  - {x: -44.23415, y: 5.287037, z: 5.8170547}
+  - {x: -66.72301, y: 19.276247, z: 35.608727}
+  - {x: -53.326263, y: 13.801576, z: -15.830666}
+  - {x: -53.90943, y: 8.738365, z: 35.986626}
+  - {x: -46.641624, y: 12.057573, z: -53.042076}
+  - {x: -43.451042, y: 16.247046, z: -25.669373}
+  - {x: -65.966995, y: -3.8760872, z: -16.26899}
+  - {x: -44.261547, y: 27.577496, z: -29.576609}
+  - {x: -61.303936, y: 10.574278, z: 47.30459}
+  - {x: -49.270767, y: -3.4975872, z: -52.88002}
+  - {x: -58.168266, y: 8.543501, z: 22.080643}
+  - {x: -55.26187, y: 30.225477, z: -28.80503}
+  m_Rotations:
+  - -164.34491
+  - -9.039413
+  - 141.36826
+  - -16.065292
+  - -77.68753
+  - 13.765076
+  - -37.215225
+  - 145.7675
+  - 24.366241
+  - 105.496216
+  - -53.03673
+  - -45.55934
+  - -71.53406
+  - 33.46292
+  - 105.35901
+  - 121.16131
+  - 35.68074
+  - -63.747543
+  - -60.162613
+  - -160.30872
+  - 7.168991
+  - -148.57965
+  - -126.81128
+  - -149.74396
+  m_Sizes:
+  - {x: 33.976677, y: 33.976677}
+  - {x: 38.934242, y: 38.934242}
+  - {x: 31.895367, y: 31.895367}
+  - {x: 36.739964, y: 36.739964}
+  - {x: 35.457268, y: 35.457268}
+  - {x: 34.841953, y: 34.841953}
+  - {x: 33.082592, y: 33.082592}
+  - {x: 34.027916, y: 34.027916}
+  - {x: 32.62805, y: 32.62805}
+  - {x: 41.483, y: 41.483}
+  - {x: 37.363373, y: 37.363373}
+  - {x: 33.43714, y: 33.43714}
+  - {x: 37.119892, y: 37.119892}
+  - {x: 31.37485, y: 31.37485}
+  - {x: 59.66079, y: 59.66079}
+  - {x: 35.990982, y: 35.990982}
+  - {x: 32.519623, y: 32.519623}
+  - {x: 35.862686, y: 35.862686}
+  - {x: 25.933136, y: 25.933136}
+  - {x: 25.53005, y: 25.53005}
+  - {x: 34.501896, y: 34.501896}
+  - {x: 26.865795, y: 26.865795}
+  - {x: 29.166443, y: 29.166443}
+  - {x: 35.87738, y: 35.87738}
+  m_UVIndices: 020000000200000004000000040000000400000004000000040000000400000004000000040000000400000005000000050000000500000005000000050000000500000006000000060000000600000006000000060000000600000006000000
+  m_IsSquareds: 010101010101010101010101010101010101010101010101
+  m_IsCoreParticles: 000000000000000000000000000000000000000000000000
+  m_ShadingGroupIndices: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &114000011678109252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011108534720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca75edd7891541a41b55d7f84fc39060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useParticleColor: 0
+  m_MeshFilter: {fileID: 33000011363325408}
+  m_MeshRenderer: {fileID: 23000013121056700}
+--- !u!114 &114000013108394420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a13b28b4e0ae3b4bb7b8b766e37023d, type: 3}
+  m_Name: CreatorData
+  m_EditorClassIdentifier: 
+  density: 0.744
+  boxShapes:
+  - particleCount: 100
+    position: {x: -53.318787, y: 15.638657, z: -2.1970367}
+    rotation: {x: -0, y: 0, z: 0}
+    scale: {x: 60, y: 69.59139, z: 136.20303}
+    particleGroupIndex: 0
+    shadingGroupIndex: 0
+  particleGroups:
+  - name: Particle Group
+    shapeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    particleTypes:
+    - uvIndex: 2
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 30
+      maximumXSize: 45
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 0.24999997
+    - uvIndex: 4
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 30
+      maximumXSize: 45
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 0.24999997
+    - uvIndex: 5
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 30
+      maximumXSize: 60
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 0.25
+    - uvIndex: 6
+      minimumRotation: -180
+      maximumRotation: 180
+      squared: 1
+      minimumXSize: 25
+      maximumXSize: 40
+      minimumYSize: 1
+      maximumYSize: 1
+      creationProbability: 0.25

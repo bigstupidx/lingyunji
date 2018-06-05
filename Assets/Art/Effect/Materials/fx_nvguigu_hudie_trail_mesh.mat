@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_nvguigu_hudie_trail_mesh
+  m_Shader: {fileID: 4800000, guid: 70dbcd2c2ae93104d8c7f1333a77d290, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 4000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: dd3251a515173ef47a10bf1d14bcc70a, type: 3}
+        m_Scale: {x: 0.95, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: dd3251a515173ef47a10bf1d14bcc70a, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: -0.91, y: 0.03}
+    - _Multiiy_map:
+        m_Texture: {fileID: 2800000, guid: d7c801e96089df6408492d48fbaf4f5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.03, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: 45419b698fd52e24c905bc0e5a1ea3d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.11, y: 1.05}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: d7c801e96089df6408492d48fbaf4f5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 2.18
+    - _Aoto_offset: 0
+    - _Cutoff: 0.5
+    - _Emission: 5
+    - _InvFade: 1
+    - _Noise_int: 0.936
+    - _Offset: 2.63
+    - _Speed: -0.15
+    m_Colors:
+    - _Mian_color: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}
+    - _Mu_color: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.3455882, g: 0.31194067, b: 0.2236159, a: 0.834}

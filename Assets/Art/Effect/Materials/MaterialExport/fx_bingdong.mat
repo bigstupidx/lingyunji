@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_bingdong
+  m_Shader: {fileID: 4800000, guid: f49c2fa88d9c38b4c8b8035ba1362814, type: 3}
+  m_ShaderKeywords: _AOTO_SCALE_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BenTi
+      second:
+        m_Texture: {fileID: 2800000, guid: c496ad8e40a65ee4bbd127e8ee68da28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BenTi_normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 4bd91d9fbffc6934cbe887a0e929f12b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Bing_wenli
+      second:
+        m_Texture: {fileID: 2800000, guid: 1a4c68f1f7e7db540abc6591a35676ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_distort_map
+      second:
+        m_Texture: {fileID: 2800000, guid: a95b28d34fec6ee4e9fcc42aa4f217d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: bdff369435bdec7488bcdc96f6f7d66b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: c6f7671c45b32f14c861899b712b134b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal_bingwenli
+      second:
+        m_Texture: {fileID: 2800000, guid: 7a871a2296eb1b84ca9eca38cef50214, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Offset_map
+      second:
+        m_Texture: {fileID: 2800000, guid: bdff369435bdec7488bcdc96f6f7d66b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _T_distor_map
+      second:
+        m_Texture: {fileID: 2800000, guid: bdff369435bdec7488bcdc96f6f7d66b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: a95b28d34fec6ee4e9fcc42aa4f217d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1011
+      second:
+        m_Texture: {fileID: 2800000, guid: bdff369435bdec7488bcdc96f6f7d66b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _tex_bing
+      second:
+        m_Texture: {fileID: 2800000, guid: bdff369435bdec7488bcdc96f6f7d66b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _tex_huoyan
+      second:
+        m_Texture: {fileID: 2800000, guid: bdff369435bdec7488bcdc96f6f7d66b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _xiaosan_texture
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 27.91
+    - first:
+        name: _Aoto_scale
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emission_int
+      second: 10.9
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _M_distort_int
+      second: 0
+    - first:
+        name: _M_distort_speed
+      second: 0.2
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _Noise_int
+      second: 1
+    - first:
+        name: _Normal_bingwenli_qiangdu
+      second: 2
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Scale_offset
+      second: 31.57
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Speed
+      second: 52.97
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _T_distort_int
+      second: 0
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UV_scale
+      second: 1
+    - first:
+        name: _UVspeed
+      second: 0.2
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _binghuoqiehuan
+      second: 0
+    - first:
+        name: _gloss
+      second: 1
+    - first:
+        name: _huoyanliudong
+      second: 0
+    - first:
+        name: _juese_liangdu
+      second: 0.3333333
+    - first:
+        name: _node_1425
+      second: 0
+    - first:
+        name: _node_3259
+      second: 0.5
+    - first:
+        name: _normal02
+      second: 2
+    - first:
+        name: _shuihuojiaohuan
+      second: 1
+    - first:
+        name: _specular
+      second: 2
+    - first:
+        name: _tuqi
+      second: 0
+    - first:
+        name: _waifaguang_bian
+      second: 2
+    - first:
+        name: _waifaguang_liangdu
+      second: 1.92
+    - first:
+        name: _xiaosan_bian
+      second: 0.0282
+    - first:
+        name: _xiosan
+      second: 0.174
+    m_Colors:
+    - first:
+        name: _BenTiColor
+      second: {r: 0.7254902, g: 0.84705883, b: 0.9490196, a: 0.066}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Mian_color
+      second: {r: 0.51870674, g: 0.60294116, b: 0.5924845, a: 1}
+    - first:
+        name: _bian_color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _bing_yanse
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _huoyan_yanse
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _node_8395
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _waifaguang
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _waifaguang_yase
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _xiaosan_color
+      second: {r: 0.63613755, g: 0.7411599, b: 0.8161765, a: 1}

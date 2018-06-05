@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_buff_wudi_1
+  m_Shader: {fileID: 4800000, guid: 001281d996ae61f4881c61e1560f3393, type: 3}
+  m_ShaderKeywords: _ANIUVSCALE_ON _AOTO_SCALE_ON _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: 3002
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_distort_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 10bea87d3c791874e9db482ce134a311, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 2eb8fde52f84c2548b99aebaa0e97864, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _T_distor_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 4be85285d4dce514ab0bd7a7a7f53a55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _distort_tex
+      second:
+        m_Texture: {fileID: 2800000, guid: 2c179e39c54ed2649a9e8c5dca95aac9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _liuGuang_Apha
+      second:
+        m_Texture: {fileID: 2800000, guid: f4783d0de3953374c8484cc027330e8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: fde09f701eb779844b639f31ec503e36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _mask_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 077dcd985625d99418b7d851860919ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AniUvScale
+      second: 0.5224366
+    - first:
+        name: _Aoto_scale
+      second: 1
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emission_int
+      second: 40
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _M_distort_int
+      second: 0.02
+    - first:
+        name: _M_distort_speed
+      second: 1.07
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Scale_offset
+      second: 0.29
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _T_distort_int
+      second: 0.27
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UV_scale
+      second: 0
+    - first:
+        name: _UVspeed
+      second: 0.35
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _bias
+      second: 0.5
+    - first:
+        name: _qiangdu
+      second: 0.94
+    - first:
+        name: _qiangdu_N
+      second: 0.21
+    - first:
+        name: _speedDyn
+      second: 3.03
+    - first:
+        name: _uv_scale
+      second: 0.2
+    - first:
+        name: _value
+      second: 4.45
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 1, g: 0.82068956, b: 0.23529407, a: 0.99607843}
+    - first:
+        name: _liuGuang_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _mainTint
+      second: {r: 1, g: 1, b: 1, a: 1}

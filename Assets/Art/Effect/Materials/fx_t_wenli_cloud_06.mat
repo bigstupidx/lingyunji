@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_wenli_cloud_06
+  m_Shader: {fileID: 4800000, guid: 55a29a133cf276042ac4265372c64d0f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 490000cb165a47041aca25bc8205066a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 5fc96e09f5b226e409629dcb4d6d4314, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _T2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _T1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _T_mask
+        second:
+          m_Texture: {fileID: 2800000, guid: ee8b3694871579c4f9ed1cad8301e04d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _noise
+        second:
+          m_Texture: {fileID: 2800000, guid: cc5e59369b36ee24daa5ce62beff4636, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _dissolve_ram
+        second:
+          m_Texture: {fileID: 2800000, guid: 95156599683ab1a489496cc5cd1d8c4e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Base
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _N_mask
+        second: 0
+      data:
+        first:
+          name: _N_BY_QD
+        second: 2.08
+      data:
+        first:
+          name: _N_BY_KD
+        second: 11.64
+      data:
+        first:
+          name: _msk_size
+        second: 0
+      data:
+        first:
+          name: _D
+        second: 0
+      data:
+        first:
+          name: _glow
+        second: 0
+      data:
+        first:
+          name: _alpha_size
+        second: 0
+      data:
+        first:
+          name: _size
+        second: 0
+      data:
+        first:
+          name: _Speed
+        second: 1.13
+      data:
+        first:
+          name: _Inside
+        second: 0
+      data:
+        first:
+          name: _Rim
+        second: 0.416
+      data:
+        first:
+          name: _Tile
+        second: 5.5
+      data:
+        first:
+          name: _Strength
+        second: 0.97
+      data:
+        first:
+          name: _fresnel_amount
+        second: 0
+      data:
+        first:
+          name: _dissolve_amount
+        second: 0.279
+      data:
+        first:
+          name: _self_Illumin
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.44009516, g: 0.6867617, b: 0.8088235, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.33969507, g: 0.584529, b: 0.75735295, a: 0.109}
+      data:
+        first:
+          name: _Main_color
+        second: {r: 0.05033519, g: 0.6708714, b: 0.9779412, a: 1}
+      data:
+        first:
+          name: _C_BYcolor
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _T1_color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _maskColor
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _T2_color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _ColorAlpha
+        second: {r: 1, g: 1, b: 1, a: 1}

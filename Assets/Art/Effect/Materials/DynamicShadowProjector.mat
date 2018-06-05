@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DynamicShadowProjector
+  m_Shader: {fileID: 4800000, guid: aa7fb6e39f9144f3a83fdf1554e8b0de, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2999
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs: {}
+    m_Floats:
+      data:
+        first:
+          name: _Offset
+        second: -1.7
+      data:
+        first:
+          name: _ClipScale
+        second: 50
+      data:
+        first:
+          name: _Alpha
+        second: 0.562
+      data:
+        first:
+          name: _Ambient
+        second: 0.134
+    m_Colors: {}

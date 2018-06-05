@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mod_qinlong_01_cm01
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Base
+      second:
+        m_Texture: {fileID: 2800000, guid: d1708870684ebfb4d813cfd89d911c72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 4ccabb707c4f7ee4bb08cb81310d528a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cubemap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: d1708870684ebfb4d813cfd89d911c72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gloss_map
+      second:
+        m_Texture: {fileID: 2800000, guid: 93bb811da886e70499f7da5aade5e96b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: d1708870684ebfb4d813cfd89d911c72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 93bb811da886e70499f7da5aade5e96b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MixedMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 4ccabb707c4f7ee4bb08cb81310d528a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normals
+      second:
+        m_Texture: {fileID: 2800000, guid: bbab0a6f7bae9cf42bf057d8ee2755f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: f38842abffe520d4d9882de9beb57a91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RGBmask
+      second:
+        m_Texture: {fileID: 2800000, guid: 75a76f0536b8a5e499d892a78bf1d47b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spe_map
+      second:
+        m_Texture: {fileID: 2800000, guid: f38842abffe520d4d9882de9beb57a91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    - first:
+        name: _Amb_light
+      second: 1.3
+    - first:
+        name: _B_CM_Str
+      second: 0
+    - first:
+        name: _BulgeScale
+      second: 0.2
+    - first:
+        name: _BulgeShape
+      second: 5
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cull
+      second: 2
+    - first:
+        name: _Cutoff
+      second: 0.73
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EmissionBakeScale
+      second: 0
+    - first:
+        name: _FullOcclusion
+      second: 1
+    - first:
+        name: _GiDarkness
+      second: 1
+    - first:
+        name: _GiGlossiness
+      second: 1
+    - first:
+        name: _Gloss
+      second: 5.85
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _GlowIntensity
+      second: 1.2
+    - first:
+        name: _HueC
+      second: 0
+    - first:
+        name: _HueS
+      second: 0
+    - first:
+        name: _LightmapSpecular
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0.87
+    - first:
+        name: _MetallicScale
+      second: 1
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 0
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _R_CM_Str
+      second: 0
+    - first:
+        name: _ReflectionMode
+      second: 0
+    - first:
+        name: _SatC
+      second: 1
+    - first:
+        name: _SatS
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.22
+    - first:
+        name: _Smoothness
+      second: 0.4
+    - first:
+        name: _SmoothnessScale
+      second: 1
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Specularinty
+      second: 5.37
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ValC
+      second: 1
+    - first:
+        name: _ValS
+      second: 1
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _fresnel_amount
+      second: 2.84
+    - first:
+        name: _self_Illumin
+      second: 3.5
+    - first:
+        name: _skin_int
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.9117647, g: 0.9117647, b: 0.9117647, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Fresenel_color
+      second: {r: 0.03676468, g: 0.027219286, b: 0.015138397, a: 1}
+    - first:
+        name: _GlowColor
+      second: {r: 1, g: 0.2391481, b: 0.1102941, a: 1}
+    - first:
+        name: _SkinColor
+      second: {r: 0.21950692, g: 0.4859861, b: 0.85294116, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _node_7365
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

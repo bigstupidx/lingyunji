@@ -1,0 +1,751 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_nanjianke_skill_07
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0.7, z: -11.15}
+        inSlope: {x: 0, y: 0, z: 92.99999}
+        outSlope: {x: 0, y: 0, z: 92.99999}
+        tangentMode: 0
+      - time: 0.083333336
+        value: {x: -0, y: 0.7, z: -3.4}
+        inSlope: {x: 0, y: 0, z: 92.99999}
+        outSlope: {x: 0, y: 0, z: 92.99999}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: glow_liang
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 1.38, z: -4.009971}
+        inSlope: {x: 0, y: 0, z: 48.87977}
+        outSlope: {x: 0, y: 0, z: 48.87977}
+        tangentMode: 0
+      - time: 0.125
+        value: {x: 0, y: 1.38, z: 2.1}
+        inSlope: {x: 0, y: 0, z: 14.110336}
+        outSlope: {x: 0, y: 0, z: 14.110336}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0, y: 1.38, z: 4.67}
+        inSlope: {x: 0, y: 0, z: 4.339521}
+        outSlope: {x: 0, y: 0, z: 4.339521}
+        tangentMode: 0
+      - time: 0.41666666
+        value: {x: 0, y: 1.38, z: 5.4}
+        inSlope: {x: 0, y: 0, z: 2.9200003}
+        outSlope: {x: 0, y: 0, z: 2.9200003}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fx_nanjianke_skill_7_mesh_root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: 0.155, z: -6.83}
+        inSlope: {x: 0, y: 0, z: 76.96}
+        outSlope: {x: 0, y: -0, z: 76.96}
+        tangentMode: 0
+      - time: 0.125
+        value: {x: 0, y: 0.155, z: 2.79}
+        inSlope: {x: 0, y: 0, z: 76.96}
+        outSlope: {x: -0, y: -0, z: -38.4}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: GameObject/rigTest2
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.5831971, y: 1.8402601, z: 1.8402603}
+        inSlope: {x: 13.621834, y: 15.962651, z: 16.065022}
+        outSlope: {x: 13.621834, y: 15.962651, z: 16.065022}
+        tangentMode: 0
+      - time: 0.125
+        value: {x: 3.2859263, y: 3.8355916, z: 3.848388}
+        inSlope: {x: 1.1425889, y: 0, z: 0}
+        outSlope: {x: 1.1425889, y: -6.134908, z: -7.175724}
+        tangentMode: 0
+      - time: 0.41666666
+        value: {x: 4.420467, y: 0.37203872, z: 0.11904323}
+        inSlope: {x: 3.8898535, y: -11.875039, z: -12.786325}
+        outSlope: {x: 3.8898535, y: -11.875039, z: -12.786325}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: fx_nanjianke_skill_7_mesh_root
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.083333336
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: GameObject/rigTest2
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.2
+        outSlope: 0.2
+        tangentMode: 10
+      - time: 0.5
+        value: 0.1
+        inSlope: 1.1800001
+        outSlope: 1.1800001
+        tangentMode: 10
+      - time: 0.8333333
+        value: 0.82
+        inSlope: 1.08
+        outSlope: 1.08
+        tangentMode: 10
+      - time: 2
+        value: 0.82
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: value
+    path: GameObject/rigTest2
+    classID: 114
+    script: {fileID: 11500000, guid: 2640b7dc4b4382b4395c87dbe6ec6ef7, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.375
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.41666666
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: EmissionModule.enabled
+    path: GameObject/rigTest2/rigTest2_pt
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.125
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: EmissionModule.enabled
+    path: glow_liang
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.16666667
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: EmissionModule.enabled
+    path: glow_liang/glow_an
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.678
+        inSlope: -1.6272
+        outSlope: -1.6272
+        tangentMode: 10
+      - time: 0.41666666
+        value: 0
+        inSlope: -1.6272
+        outSlope: -1.6272
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: color.a
+    path: fx_nanjianke_skill_7_mesh_root/fx_nanjianke_skill_2_mesh_anim/fx_nanjianke_skill_2_mesh
+    classID: 114
+    script: {fileID: 11500000, guid: 33a65ffd026a71f4b846c63df9d1541d, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 3429618271
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1407227558
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 441929189
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 1407227558
+      attribute: 3
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 441929189
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 441929189
+      attribute: 494360628
+      script: {fileID: 11500000, guid: 2640b7dc4b4382b4395c87dbe6ec6ef7, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3247566247
+      attribute: 1087013301
+      script: {fileID: 0}
+      classID: 198
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3429618271
+      attribute: 1087013301
+      script: {fileID: 0}
+      classID: 198
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3596164113
+      attribute: 1087013301
+      script: {fileID: 0}
+      classID: 198
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3171392673
+      attribute: 2278600012
+      script: {fileID: 11500000, guid: 33a65ffd026a71f4b846c63df9d1541d, type: 3}
+      classID: 114
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 2
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.083333336
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: GameObject/rigTest2
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0.2
+        outSlope: 0.2
+        tangentMode: 10
+      - time: 0.5
+        value: 0.1
+        inSlope: 1.1800001
+        outSlope: 1.1800001
+        tangentMode: 10
+      - time: 0.8333333
+        value: 0.82
+        inSlope: 1.08
+        outSlope: 1.08
+        tangentMode: 10
+      - time: 2
+        value: 0.82
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: value
+    path: GameObject/rigTest2
+    classID: 114
+    script: {fileID: 11500000, guid: 2640b7dc4b4382b4395c87dbe6ec6ef7, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.375
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.41666666
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: EmissionModule.enabled
+    path: GameObject/rigTest2/rigTest2_pt
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.083333336
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: glow_liang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.083333336
+        value: 0.7
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: glow_liang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -11.15
+        inSlope: 92.99999
+        outSlope: 92.99999
+        tangentMode: 10
+      - time: 0.083333336
+        value: -3.4
+        inSlope: 92.99999
+        outSlope: 92.99999
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: glow_liang
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.125
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: EmissionModule.enabled
+    path: glow_liang
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.16666667
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: EmissionModule.enabled
+    path: glow_liang/glow_an
+    classID: 198
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.125
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.41666666
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: fx_nanjianke_skill_7_mesh_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.38
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.125
+        value: 1.38
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.16666667
+        value: 1.38
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.41666666
+        value: 1.38
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: fx_nanjianke_skill_7_mesh_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -4.009971
+        inSlope: 48.87977
+        outSlope: 48.87977
+        tangentMode: 10
+      - time: 0.125
+        value: 2.1
+        inSlope: 14.110336
+        outSlope: 14.110336
+        tangentMode: 0
+      - time: 0.16666667
+        value: 4.67
+        inSlope: 4.339521
+        outSlope: 4.339521
+        tangentMode: 0
+      - time: 0.41666666
+        value: 5.4
+        inSlope: 2.9200003
+        outSlope: 2.9200003
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: fx_nanjianke_skill_7_mesh_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.5831971
+        inSlope: 13.621834
+        outSlope: 13.621834
+        tangentMode: 10
+      - time: 0.125
+        value: 3.2859263
+        inSlope: 1.1425889
+        outSlope: 1.1425889
+        tangentMode: 0
+      - time: 0.41666666
+        value: 4.420467
+        inSlope: 3.8898535
+        outSlope: 3.8898535
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: fx_nanjianke_skill_7_mesh_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.8402601
+        inSlope: 15.962651
+        outSlope: 15.962651
+        tangentMode: 10
+      - time: 0.125
+        value: 3.8355916
+        inSlope: 0
+        outSlope: -6.134908
+        tangentMode: 1
+      - time: 0.41666666
+        value: 0.37203872
+        inSlope: -11.875039
+        outSlope: -11.875039
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: fx_nanjianke_skill_7_mesh_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.8402603
+        inSlope: 16.065022
+        outSlope: 16.065022
+        tangentMode: 10
+      - time: 0.125
+        value: 3.848388
+        inSlope: 0
+        outSlope: -7.175724
+        tangentMode: 1
+      - time: 0.41666666
+        value: 0.11904323
+        inSlope: -12.786325
+        outSlope: -12.786325
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: fx_nanjianke_skill_7_mesh_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.678
+        inSlope: -1.6272
+        outSlope: -1.6272
+        tangentMode: 10
+      - time: 0.41666666
+        value: 0
+        inSlope: -1.6272
+        outSlope: -1.6272
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: color.a
+    path: fx_nanjianke_skill_7_mesh_root/fx_nanjianke_skill_2_mesh_anim/fx_nanjianke_skill_2_mesh
+    classID: 114
+    script: {fileID: 11500000, guid: 33a65ffd026a71f4b846c63df9d1541d, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 21
+      - time: 0.125
+        value: 0
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: GameObject/rigTest2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.155
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      - time: 0.125
+        value: 0.155
+        inSlope: 0
+        outSlope: -0
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: GameObject/rigTest2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -6.83
+        inSlope: 76.96
+        outSlope: 76.96
+        tangentMode: 10
+      - time: 0.125
+        value: 2.79
+        inSlope: 76.96
+        outSlope: -38.4
+        tangentMode: 21
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: GameObject/rigTest2
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_nanmojia_qiliuC
+  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _AOTO_OFFSET_ON _AOTO_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 15c28c8b32ec57540ac0245f10c1dd49, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0.24, y: 0.22}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: afdb2d4370ec263449dbc3f7573cc35c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Multiiy_map:
+        m_Texture: {fileID: 2800000, guid: d111ef556ec834f4ebce9805aa29437e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: -1.77}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: a1576be22aacaa14a92adf211e34207b, type: 3}
+        m_Scale: {x: 1, y: 0.7}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 81ec6aae3fcdfba4f92b6c43a64f35b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 79.35
+    - _Aoto_offset: 1
+    - _Cutoff: 0.5
+    - _Emission: 5
+    - _InvFade: 0.95
+    - _Noise_int: 1
+    - _Offset: 0
+    - _Speed: 2.98
+    - _aoto: 1
+    - _offset_speed: 4.14
+    m_Colors:
+    - _Mian_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Mu_color: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.13970587, g: 0.010272494, b: 0.010272494, a: 0.241}

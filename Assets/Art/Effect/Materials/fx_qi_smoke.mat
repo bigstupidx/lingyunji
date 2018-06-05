@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_qi_smoke
+  m_Shader: {fileID: 4800000, guid: 4f83922ee59275f4a9209c145e159837, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a9ca2c282533eaf46b9c51ab4284e89f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutOut:
+        m_Texture: {fileID: 2800000, guid: cc7e4cef0f89ede409f2d53bfc637d0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 23f0ddb061493b34580b337c74538c66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_map:
+        m_Texture: {fileID: 2800000, guid: cc7e4cef0f89ede409f2d53bfc637d0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: 36619ea17ff6ea648b5ec85f721845b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Multiiy_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: 33c32ceb78f5c4f4186afee2ed1a9e23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpAmt: 30
+    - _ColorStrength: 0.1
+    - _Cutoff: 0.5
+    - _Emission: 5
+    - _InvFade: 10
+    - _Noise_int: 0.805
+    - _Speed: 1
+    - _UVS: 0
+    - _aoto: 0
+    - _offset_speed: 0
+    m_Colors:
+    - _Main_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Mian_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Mu_color: {r: 0.51679397, g: 0.47037196, b: 0.5514706, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

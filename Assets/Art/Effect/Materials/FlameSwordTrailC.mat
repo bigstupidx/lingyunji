@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FlameSwordTrailC
+  m_Shader: {fileID: 4800000, guid: 7feefecdf48091b449b8698511d6a224, type: 3}
+  m_ShaderKeywords: _AOTO_OFFSET_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 3010
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 984639d35625032479433f0f906a8bda, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 518d74c6cccdcb3479b05ca03e4052d1, type: 3}
+        m_Scale: {x: 1, y: 0.9}
+        m_Offset: {x: 0.03, y: 0.08}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: ff20d53a4c768ac40ab5f982042cd27a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: 8c4ae520b3a04824f88fe0298162b1d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 42.2
+    - _Aoto_offset: 1
+    - _Cutoff: 0.4464286
+    - _InvFade: 0.3592857
+    - _Noise_int: 1
+    - _Offset: 0
+    - _Shininess: 0.70927906
+    - _Speed: 12.6
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmisColor: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - _Mian_color: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.1397059, g: 0.1397059, b: 0.1397059, a: 1}
+    - _TintColor: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 1}

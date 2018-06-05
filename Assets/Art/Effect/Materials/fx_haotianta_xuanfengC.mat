@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_haotianta_xuanfengC
+  m_Shader: {fileID: 4800000, guid: ee6641ae5ccca444abe75945c5280bc7, type: 3}
+  m_ShaderKeywords: _AOTO_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 3022
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a084ee7f2c0e7b94b92a4c75451d7721, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -2.57, y: 0}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: a9f2490a41b7d5d488ff95fe47a19842, type: 3}
+        m_Scale: {x: 2, y: 0.3}
+        m_Offset: {x: 0, y: 0.67292416}
+    - _Multiiy_map:
+        m_Texture: {fileID: 2800000, guid: 9d09ef05185eece4b9316335e74db4a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: 8c4ae520b3a04824f88fe0298162b1d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 10.48
+    - _Aoto_offset: 0
+    - _Cutoff: 0.5
+    - _Emission: 5
+    - _InvFade: 0.95
+    - _Noise_int: 0.909
+    - _Offset: 0
+    - _Speed: 2.42
+    - _aoto: 1
+    - _offset_speed: 5
+    m_Colors:
+    - _Mian_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Mu_color: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

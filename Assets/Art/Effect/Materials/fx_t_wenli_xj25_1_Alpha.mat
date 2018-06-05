@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_wenli_xj25_1_Alpha
+  m_Shader: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _UVS_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: d7360a3c948e2d34cb270986b6b9dd19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Main_map
+      second:
+        m_Texture: {fileID: 2800000, guid: d7360a3c948e2d34cb270986b6b9dd19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Emission
+      second: 1
+    - first:
+        name: _Emission_int
+      second: 3
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Noise_int
+      second: 0.956
+    - first:
+        name: _Speed
+      second: 3
+    - first:
+        name: _UVS
+      second: 1
+    - first:
+        name: _UVs
+      second: 1
+    m_Colors:
+    - first:
+        name: _Main_color
+      second: {r: 0.25802118, g: 0.17711939, b: 0.46323532, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.26923847, g: 0.16641437, b: 0.41911763, a: 1}

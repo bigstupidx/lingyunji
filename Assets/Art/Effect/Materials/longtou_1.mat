@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: longtou_1
+  m_Shader: {fileID: 4800000, guid: 30f7be7338e4f1743a262cd188484105, type: 3}
+  m_ShaderKeywords: _ANIUVSCALE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Base
+      second:
+        m_Texture: {fileID: 2800000, guid: a519451ef40f8374bad65a0dca1686c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Gloss_map
+      second:
+        m_Texture: {fileID: 2800000, guid: a519451ef40f8374bad65a0dca1686c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LiuGuang
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LiuGuang_Mask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_mask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _M_noise
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: a519451ef40f8374bad65a0dca1686c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Main_map
+      second:
+        m_Texture: {fileID: 2800000, guid: c92b845c9a090ed4581fd10e2176649c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask_map
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: b8461db85205fb24b915a691540f00a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Spe_map
+      second:
+        m_Texture: {fileID: 2800000, guid: a519451ef40f8374bad65a0dca1686c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Texture
+      second:
+        m_Texture: {fileID: 2800000, guid: a519451ef40f8374bad65a0dca1686c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _UVNiuQu
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 0
+    - first:
+        name: _Amb_light
+      second: 0.03
+    - first:
+        name: _AniUVScale
+      second: 0.3
+    - first:
+        name: _CoreStrength
+      second: 1
+    - first:
+        name: _CutOutLightCore
+      second: 0.5
+    - first:
+        name: _Cutoff
+      second: 1
+    - first:
+        name: _Emission_int
+      second: 1.5
+    - first:
+        name: _FPOW
+      second: 5
+    - first:
+        name: _Gloss
+      second: 0
+    - first:
+        name: _Inside
+      second: 2
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _LightStr
+      second: 1
+    - first:
+        name: _LiuGuang_QiangDu
+      second: 3
+    - first:
+        name: _LiuGuang_Speed
+      second: 5
+    - first:
+        name: _NiuQu_QiangDu
+      second: 0
+    - first:
+        name: _Noise_int
+      second: 0
+    - first:
+        name: _Opacity
+      second: -0.15
+    - first:
+        name: _R0
+      second: 2.36
+    - first:
+        name: _ReflectionStrength
+      second: 20
+    - first:
+        name: _Rim
+      second: 1
+    - first:
+        name: _RimPower
+      second: 8
+    - first:
+        name: _Shininess
+      second: 1
+    - first:
+        name: _Specularinty
+      second: 0
+    - first:
+        name: _Speed
+      second: 0.5
+    - first:
+        name: _Strength
+      second: 5
+    - first:
+        name: _Tile
+      second: 10
+    - first:
+        name: _TintStrength
+      second: 1
+    - first:
+        name: _UVScale
+      second: 0.3
+    - first:
+        name: _UVs
+      second: 0
+    - first:
+        name: _WuAlpha
+      second: 0
+    - first:
+        name: _fresnel_amount
+      second: 2.23
+    - first:
+        name: _self_Illumin
+      second: 4.59
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.7647059, g: 1, b: 0.9707911, a: 1}
+    - first:
+        name: _CoreColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _Fresenel_color
+      second: {r: 0.55072516, g: 0.40549308, b: 0.9191176, a: 1}
+    - first:
+        name: _LiuGuang_Color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Max
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _Mian_color
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _Min
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.12635164, g: 0.3014705, b: 0.30147058, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.25999996, g: 0.18999997, b: 0.15999997, a: 0}
+    - first:
+        name: _SoftEdge
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

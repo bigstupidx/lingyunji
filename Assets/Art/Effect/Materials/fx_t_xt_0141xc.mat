@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_xt_0141xc
+  m_Shader: {fileID: 4800000, guid: 55a29a133cf276042ac4265372c64d0f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Base
+      second:
+        m_Texture: {fileID: 2800000, guid: 0850634f2158c21428cf78d897d9aca2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DissolveTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 931433665afb26b42964623ae0acaf5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DissolveText
+      second:
+        m_Texture: {fileID: 2800000, guid: 193b3d3ccefa0794cafe9ff4107e353a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 6bf3a52229c4bee48bc5ff2fda7797f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _dissolve_ram
+      second:
+        m_Texture: {fileID: 2800000, guid: 9da385cec37fe6140b5cb00326fe1891, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2542
+      second:
+        m_Texture: {fileID: 2800000, guid: 78b1d0917579c92448ba66ef249270ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_3127
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_361
+      second:
+        m_Texture: {fileID: 2800000, guid: 7ca4b8ab727e2c1458a34f4e560ed4b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_6609
+      second:
+        m_Texture: {fileID: 2800000, guid: 193b3d3ccefa0794cafe9ff4107e353a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 90f63baabc23f3c41be9266d1ef28479, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaCutoff
+      second: 0.99
+    - first:
+        name: _Amount
+      second: 0.278
+    - first:
+        name: _Cutoff
+      second: 0.665
+    - first:
+        name: _DissSize
+      second: 0.048
+    - first:
+        name: _DissolvePower
+      second: 0.65
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Tile
+      second: 0.675
+    - first:
+        name: _dissolve_amount
+      second: 0.143
+    - first:
+        name: _fresnel_amount
+      second: 0
+    - first:
+        name: _node_2875
+      second: 0.349
+    - first:
+        name: _node_3709
+      second: 2
+    - first:
+        name: _node_4031
+      second: 0.1
+    - first:
+        name: _self_Illumin
+      second: 0.25
+    m_Colors:
+    - first:
+        name: _AddColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DissColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DissolveEmissionColor
+      second: {r: 1, g: 0.6413793, b: 0, a: 1}
+    - first:
+        name: _Main_color
+      second: {r: 1, g: 0.64148074, b: 0.25735295, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - first:
+        name: _node_9188
+      second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}

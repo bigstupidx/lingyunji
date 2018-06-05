@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_chiyou_qilang
+  m_Shader: {fileID: 4800000, guid: ee6641ae5ccca444abe75945c5280bc7, type: 3}
+  m_ShaderKeywords: _AOTO_OFFSET_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f58868a30295c274cbe55a59b114cecc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 1.7628193}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: 925be8b96c85d9347a38938d8a8e2f44, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 14.9}
+    - _Multiiy_map:
+        m_Texture: {fileID: 2800000, guid: 01e6be2b48a9a8648976d0ce8a6e4af5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: 700d3ff2f6b57ee48a1c3e0d684c8883, type: 3}
+        m_Scale: {x: 1, y: 1.39}
+        m_Offset: {x: 0, y: 0}
+    - _mask:
+        m_Texture: {fileID: 2800000, guid: 547748de91f61244cbc2095ce26aa518, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 197.7
+    - _Alpha_offset_end: 0
+    - _Alpha_offset_start: 0
+    - _Aoto_offset: 1
+    - _Cutoff: 0.5
+    - _Emission: 5
+    - _InvFade: 1
+    - _N_BY_KD: 0.01
+    - _N_BY_QD: 3
+    - _N_mask: 0.3
+    - _Noise_int: 0.534
+    - _Offset: 5.18
+    - _Speed: 0.5
+    m_Colors:
+    - _C_BYcolor: {r: 1, g: 0, b: 0, a: 1}
+    - _Mian_color: {r: 1, g: 0.7058823, b: 0.7058823, a: 1}
+    - _Mu_color: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.5735294, g: 0.34411752, b: 0, a: 1}

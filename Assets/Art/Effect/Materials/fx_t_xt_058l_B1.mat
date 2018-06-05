@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_xt_058l_B1
+  m_Shader: {fileID: 4800000, guid: f85e47b2a3610f240af4a15a38e66799, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0812d3f4dcc8cbd4593983489f472244, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask_map
+        second:
+          m_Texture: {fileID: 2800000, guid: 49ef1aae8de536a4d9888c3f0d55bc7b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise
+        second:
+          m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _M_mask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _M_noise
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DiffuseTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 22610bbf8e8c9fe40b605c92bb898632, type: 3}
+          m_Scale: {x: 0.42, y: 0.86}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _T_mask
+        second:
+          m_Texture: {fileID: 2800000, guid: dc3e08cb001a5154e91f164e3ac76c6c, type: 3}
+          m_Scale: {x: 0.5, y: 3}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Offset_map
+        second:
+          m_Texture: {fileID: 2800000, guid: a8aaff746f385b04bbf8b018783d6528, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _noise
+        second:
+          m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _dissolve_ram
+        second:
+          m_Texture: {fileID: 2800000, guid: a4a5223756dc97e42b42ac2359b40434, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Main_map
+        second:
+          m_Texture: {fileID: 2800000, guid: 70387129d7d1ebf43a33d07b53c858ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_3314
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _InvFade
+        second: 2.75
+      data:
+        first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
+          name: _Speed
+        second: 0.42
+      data:
+        first:
+          name: _Noise_int
+        second: 0.883
+      data:
+        first:
+          name: _N_mask
+        second: 0.61
+      data:
+        first:
+          name: _N_BY_QD
+        second: 0.47
+      data:
+        first:
+          name: _N_BY_KD
+        second: 0.19
+      data:
+        first:
+          name: _fresnel_amount
+        second: 10
+      data:
+        first:
+          name: _dissolve_amount
+        second: 0.28
+      data:
+        first:
+          name: _self_Illumin
+        second: 4.1
+      data:
+        first:
+          name: _Value
+        second: 0
+      data:
+        first:
+          name: _node_1136
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.75, g: 0.75, b: 0.75, a: 0.666}
+      data:
+        first:
+          name: _Main_color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _Mian_color
+        second: {r: 0.7794118, g: 0.7794118, b: 0.7794118, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: 0.61764705, g: 0.61764705, b: 0.61764705, a: 1}
+      data:
+        first:
+          name: _C_BYcolor
+        second: {r: 0.18112023, g: 0.45287564, b: 0.9852941, a: 1}
+      data:
+        first:
+          name: _ColorAlpha
+        second: {r: 0.9044118, g: 0.96835697, b: 1, a: 1}
+      data:
+        first:
+          name: _color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_3483
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

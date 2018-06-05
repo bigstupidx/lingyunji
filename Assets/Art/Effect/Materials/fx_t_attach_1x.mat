@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_attach_1x
+  m_Shader: {fileID: 4800000, guid: 023640c015fc5884b99010e9984440c8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudTexture:
+        m_Texture: {fileID: 2800000, guid: da4eae30ba94992478b0451780f20904, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _M_distort_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c5dc49e71bb788a4ebca52746229c6df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: fe90ddc60ea30e54cafed0bbac877526, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_distor_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _mask_map:
+        m_Texture: {fileID: 2800000, guid: b65c2e96c3629ce4d8616036bec62992, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.1
+    - _Alpha_Int: 0
+    - _Alpha_offset_end: 0.2
+    - _Alpha_offset_start: 0
+    - _Aoto_scale: 0
+    - _Bias: 0.25
+    - _CloudContrast: 0.1
+    - _Cutoff: 0.555
+    - _Emission: 0
+    - _Emission_int: 1
+    - _M_distort_int: 0
+    - _M_distort_speed: 0.1
+    - _Main_map_Pow: 0
+    - _Mask_int: 0
+    - _N_BY_KD: 0.01
+    - _N_BY_QD: 1
+    - _N_mask: 0.1
+    - _Scale_offset: 0
+    - _Shininess: 1
+    - _T_distort_int: 0
+    - _UV_scale: 0
+    - _UVspeed: 0.2
+    - _scale: 0
+    - _u: 0
+    - _v: 0
+    m_Colors:
+    - _AmbientColor: {r: 0.20784307, g: 0.25882348, b: 0.29803917, a: 1}
+    - _C_BYcolor: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 0.35294113, g: 0.6787019, b: 1, a: 0}
+    - _Main_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SunColor: {r: 0.97761196, g: 0.9254484, b: 0.882769, a: 1}
+    - _TintColor: {r: 0.32953072, g: 0.5893391, b: 0.8455882, a: 1}

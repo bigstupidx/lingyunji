@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_t_pattern_hs96
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _InterlacePattern
+        second:
+          m_Texture: {fileID: 2800000, guid: 80e1a3663bd97d149b4d795630a177a9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _CloudTexture
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 2800000, guid: 2a242100045f2e14c9aad1030d887e55, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _T2
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _T1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DissolveSrc
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Offset_map
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask_map
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Noise
+        second:
+          m_Texture: {fileID: 2800000, guid: 4b738aec52c7eb949970efa2037d5c24, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _M_mask
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _M_noise
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MatCap
+        second:
+          m_Texture: {fileID: 2800000, guid: eff8b4f4ba2ccc440a6e8befce24e420, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_361
+        second:
+          m_Texture: {fileID: 2800000, guid: afcc0f0a319bf2e4ebc60558c21eddce, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_6609
+        second:
+          m_Texture: {fileID: 2800000, guid: fb1e6ac697865eb4d959966e73076c18, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0
+      data:
+        first:
+          name: _Shininess
+        second: 0.028
+      data:
+        first:
+          name: _Metallic
+        second: 0.497
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _CloudContrast
+        second: 0.1
+      data:
+        first:
+          name: _AlphaCutoff
+        second: 0.245
+      data:
+        first:
+          name: _Bias
+        second: 0.494
+      data:
+        first:
+          name: _RimPower
+        second: 0.5
+      data:
+        first:
+          name: _Gloss
+        second: 0.827
+      data:
+        first:
+          name: _Inside
+        second: 1.809
+      data:
+        first:
+          name: _Rim
+        second: 0
+      data:
+        first:
+          name: _Speed
+        second: 2.66
+      data:
+        first:
+          name: _Tile
+        second: 8.82
+      data:
+        first:
+          name: _Strength
+        second: 3.54
+      data:
+        first:
+          name: _msk_size
+        second: 0
+      data:
+        first:
+          name: _D
+        second: 0
+      data:
+        first:
+          name: _glow
+        second: 0
+      data:
+        first:
+          name: _Focus
+        second: 35.2
+      data:
+        first:
+          name: _Amount
+        second: 0.5
+      data:
+        first:
+          name: _StartAmount
+        second: 0.1
+      data:
+        first:
+          name: _Illuminate
+        second: 0.5
+      data:
+        first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
+          name: _Noise_int
+        second: 0.722
+      data:
+        first:
+          name: _AtoB
+        second: 0.434
+      data:
+        first:
+          name: _ring_offset
+        second: 0.034
+      data:
+        first:
+          name: _node_2875
+        second: 1
+      data:
+        first:
+          name: _node_3709
+        second: 3
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: 0.6691177, g: 0.6691177, b: 0.6691177, a: 0.497}
+      data:
+        first:
+          name: _SunColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _AmbientColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _RimColor
+        second: {r: 0.26, g: 0.19, b: 0.16, a: 0}
+      data:
+        first:
+          name: _T1_color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _T2_color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _Specular
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _DissColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ColorAnimate
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Mian_color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _A
+        second: {r: 1, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _B
+        second: {r: 0, g: 1, b: 0.04827595, a: 1}
+      data:
+        first:
+          name: _node_9188
+        second: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}

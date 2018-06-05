@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 0fe94d748878c1840a6765b366a6e3a1
+timeCreated: 1483713062
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: BackA_M
+    100006: BackB_M
+    100008: charBody
+    100010: Chest_M
+    100012: Elbow_L
+    100014: Elbow_R
+    100016: ElbowPart1_L
+    100018: ElbowPart1_R
+    100020: Hair_M
+    100022: Head_M
+    100024: Hip_L
+    100026: Hip_R
+    100028: IndexFinger1_L
+    100030: IndexFinger1_R
+    100032: Knee_L
+    100034: Knee_R
+    100036: MiddleToe1_L
+    100038: MiddleToe1_R
+    100040: MiddleToe2_L
+    100042: MiddleToe2_R
+    100044: //RootNode
+    100046: Neck_M
+    100048: Root_M
+    100050: Scapula_L
+    100052: Scapula_R
+    100054: Shoulder_L
+    100056: Shoulder_R
+    100058: weapon_1_Ctrl
+    100060: weapon_1_Ctrl_Grp
+    100062: weapon_2_Ctrl
+    100064: weapon_2_Ctrl_Grp
+    100066: Wrist_L
+    100068: Wrist_R
+    100070: weakness
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: BackA_M
+    400006: BackB_M
+    400008: charBody
+    400010: Chest_M
+    400012: Elbow_L
+    400014: Elbow_R
+    400016: ElbowPart1_L
+    400018: ElbowPart1_R
+    400020: Hair_M
+    400022: Head_M
+    400024: Hip_L
+    400026: Hip_R
+    400028: IndexFinger1_L
+    400030: IndexFinger1_R
+    400032: Knee_L
+    400034: Knee_R
+    400036: MiddleToe1_L
+    400038: MiddleToe1_R
+    400040: MiddleToe2_L
+    400042: MiddleToe2_R
+    400044: //RootNode
+    400046: Neck_M
+    400048: Root_M
+    400050: Scapula_L
+    400052: Scapula_R
+    400054: Shoulder_L
+    400056: Shoulder_R
+    400058: weapon_1_Ctrl
+    400060: weapon_1_Ctrl_Grp
+    400062: weapon_2_Ctrl
+    400064: weapon_2_Ctrl_Grp
+    400066: Wrist_L
+    400068: Wrist_R
+    400070: weakness
+    7400000: weakness
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: weakness
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: charBody
+        weight: 1
+      - path: charBody/Root_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/weapon_2_Ctrl_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/ElbowPart1_L/Wrist_L/weapon_2_Ctrl_Grp/weapon_2_Ctrl
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp
+        weight: 1
+      - path: charBody/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/ElbowPart1_R/Wrist_R/weapon_1_Ctrl_Grp/weapon_1_Ctrl
+        weight: 1
+      - path: charBody/Root_M/Hip_L
+        weight: 1
+      - path: charBody/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: charBody/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: charBody/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: charBody/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: charBody/Root_M/Hip_R
+        weight: 1
+      - path: charBody/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: charBody/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: charBody/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: charBody/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 065b5c08c113025459c7741d6fc4e348,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

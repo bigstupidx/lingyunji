@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water_zhucheng_01
+  m_Shader: {fileID: 4800000, guid: 6e4971daa36aa7b448fa7115b6d5bd44, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: -1577246934, guid: 09a8c200bd0c4425eb150bc08a1c22b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsAnimationTexture:
+        m_Texture: {fileID: 2800000, guid: 284f70b5e464d234e9ac59334d6e64ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 0826da5c519980449b12b60459022f38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DUDVFoamMap:
+        m_Texture: {fileID: 2800000, guid: 334a899430b391e45a72dad5c9e1dade, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthNoiseMap:
+        m_Texture: {fileID: 2800000, guid: 6c6f100fc057949429602e03c1395cc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Depthmap:
+        m_Texture: {fileID: 2800000, guid: 59738541cb29b9545984ffdb2aa848de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Flowmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: de527d256fa4d99418decabbb2c956a5, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 7a4853d07939e9c4891e5663dfc43df2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: 471915e5084ab7d46a38fa6740bdcbec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -605.61536, y: -985.1767}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionMap:
+        m_Texture: {fileID: 2800000, guid: 405702d91797f394f9495029d3eeea85, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: -0.5, y: -0.5}
+    - _RefractionTileTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryRefractionTex:
+        m_Texture: {fileID: 2800000, guid: 0b1e442003e258742b8d6c87600cfb83, type: 3}
+        m_Scale: {x: 250, y: 250}
+        m_Offset: {x: 0, y: 0}
+    - _WaterMap:
+        m_Texture: {fileID: 2800000, guid: c9ce85cd89825744b9d04d5124f3f6e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CausticsScale: 469.23077
+    - _CausticsStrength: 0.21538462
+    - _DeepWaterCoefficient: 5.5
+    - _EdgeBlendStrength: 50
+    - _EdgeFoamStrength: 0.9807692
+    - _Fresnel0: 0.05
+    - _Gloss: 4
+    - _Opaqueness: 0.8
+    - _Parallax: 0.02
+    - _ReflectionGlossness: 1.3
+    - _Reflectivity: 0.15
+    - _Refractivity: 1.4615384
+    - _Shininess: 6.4952292
+    - _WaterAttenuation: 1
+    - _normalStrength: 1.5
+    - _refractionsWetness: 0.5
+    - _yOffset: 0
+    - flowMapOffset0: 0
+    - flowMapOffset1: 0.5
+    - flowTide: 0
+    - halfCycle: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepWaterTint: {r: 0, g: 0.34906122, b: 0.5597015, a: 1}
+    - _ShallowWaterTint: {r: 0.36689684, g: 0.64174443, b: 0.80597013, a: 1}
+    - _WaterBottomTint: {r: 0, g: 0.26, b: 0.39, a: 1}
+    - anisoDirAnimationOffset: {r: -0.0000000027035694, g: -0.008297196, b: 0, a: 0}
+    - causticsAnimationColorChannel: {r: 1, g: 0, b: 0, a: 0}
+    - causticsOffsetAndScale: {r: 0.5, g: 0.75, b: 0.25, a: 0.25}

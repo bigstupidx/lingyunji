@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: e451d346e8d2f3f46bb9ce45403263b7
+timeCreated: 1483711822
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: Chest_M
+    100006: Elbow_L
+    100008: Elbow_R
+    100010: fenghuang
+    100012: Head_M
+    100014: HeadEnd_M
+    100016: Hip_L
+    100018: Hip_R
+    100020: IndexFinger1_L
+    100022: IndexFinger1_R
+    100024: IndexFinger2_L
+    100026: IndexFinger2_R
+    100028: Knee_L
+    100030: Knee_R
+    100032: LT_fig_wing
+    100034: LT_fig_wing_tip
+    100036: LT_shoulder_wing
+    100038: LT_shoulder_wing_tip
+    100040: LT_wrist_wing
+    100042: LT_wrist_wing_tip
+    100044: M_tail_1
+    100046: M_tail_2
+    100048: M_tail_3
+    100050: M_tail_4
+    100052: M_tail_tip
+    100054: //RootNode
+    100056: Neck_M
+    100058: Root_M
+    100060: RT_fig_wing
+    100062: RT_fig_wing_tip
+    100064: RT_shoulder_wing
+    100066: RT_shoulder_wing_tip
+    100068: RT_wrist_wing
+    100070: RT_wrist_wing_tip
+    100072: Scapula_L
+    100074: Scapula_R
+    100076: Shoulder_L
+    100078: Shoulder_R
+    100080: Spine1_M
+    100082: Tail1_M
+    100084: Tail2_M
+    100086: Tail3_M
+    100088: Tail3End_M
+    100090: Wrist_L
+    100092: Wrist_R
+    100094: stong_hit
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: Chest_M
+    400006: Elbow_L
+    400008: Elbow_R
+    400010: fenghuang
+    400012: Head_M
+    400014: HeadEnd_M
+    400016: Hip_L
+    400018: Hip_R
+    400020: IndexFinger1_L
+    400022: IndexFinger1_R
+    400024: IndexFinger2_L
+    400026: IndexFinger2_R
+    400028: Knee_L
+    400030: Knee_R
+    400032: LT_fig_wing
+    400034: LT_fig_wing_tip
+    400036: LT_shoulder_wing
+    400038: LT_shoulder_wing_tip
+    400040: LT_wrist_wing
+    400042: LT_wrist_wing_tip
+    400044: M_tail_1
+    400046: M_tail_2
+    400048: M_tail_3
+    400050: M_tail_4
+    400052: M_tail_tip
+    400054: //RootNode
+    400056: Neck_M
+    400058: Root_M
+    400060: RT_fig_wing
+    400062: RT_fig_wing_tip
+    400064: RT_shoulder_wing
+    400066: RT_shoulder_wing_tip
+    400068: RT_wrist_wing
+    400070: RT_wrist_wing_tip
+    400072: Scapula_L
+    400074: Scapula_R
+    400076: Shoulder_L
+    400078: Shoulder_R
+    400080: Spine1_M
+    400082: Tail1_M
+    400084: Tail2_M
+    400086: Tail3_M
+    400088: Tail3End_M
+    400090: Wrist_L
+    400092: Wrist_R
+    400094: stong_hit
+    7400000: stong_hit_1
+    7400002: stong_hit_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: stong_hit_1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fenghuang
+        weight: 1
+      - path: fenghuang/Root_M
+        weight: 1
+      - path: fenghuang/Root_M/Hip_L
+        weight: 1
+      - path: fenghuang/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: fenghuang/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: fenghuang/Root_M/Hip_R
+        weight: 1
+      - path: fenghuang/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: fenghuang/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Neck_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Neck_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/LT_fig_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/LT_fig_wing/LT_fig_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/LT_wrist_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/LT_wrist_wing/LT_wrist_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/LT_shoulder_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/LT_shoulder_wing/LT_shoulder_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/RT_fig_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/RT_fig_wing/RT_fig_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/RT_wrist_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/RT_wrist_wing/RT_wrist_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/RT_shoulder_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/RT_shoulder_wing/RT_shoulder_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2/M_tail_3
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2/M_tail_3/M_tail_4
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2/M_tail_3/M_tail_4/M_tail_tip
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/Tail3End_M
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stong_hit_2
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fenghuang
+        weight: 1
+      - path: fenghuang/Root_M
+        weight: 1
+      - path: fenghuang/Root_M/Hip_L
+        weight: 1
+      - path: fenghuang/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: fenghuang/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: fenghuang/Root_M/Hip_R
+        weight: 1
+      - path: fenghuang/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: fenghuang/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Neck_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Neck_M/Head_M/HeadEnd_M
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/LT_fig_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/LT_fig_wing/LT_fig_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/LT_wrist_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/LT_wrist_wing/LT_wrist_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/LT_shoulder_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_L/Shoulder_L/LT_shoulder_wing/LT_shoulder_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/RT_fig_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/RT_fig_wing/RT_fig_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/RT_wrist_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/RT_wrist_wing/RT_wrist_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/RT_shoulder_wing
+        weight: 1
+      - path: fenghuang/Root_M/Spine1_M/Chest_M/Scapula_R/Shoulder_R/RT_shoulder_wing/RT_shoulder_wing_tip
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2/M_tail_3
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2/M_tail_3/M_tail_4
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/M_tail_1/M_tail_2/M_tail_3/M_tail_4/M_tail_tip
+        weight: 1
+      - path: fenghuang/Root_M/Tail1_M/Tail2_M/Tail3_M/Tail3End_M
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 98a905a29c9b6c441aacd9e31ab8b987,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

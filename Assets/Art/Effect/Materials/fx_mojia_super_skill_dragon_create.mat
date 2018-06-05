@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_mojia_super_skill_dragon_create
+  m_Shader: {fileID: 4800000, guid: b477c79c2a9e0e544a1f6953acc7cbbc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    '': 
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 2800000, guid: 8d71ee30db9cda64ab9172b43a3f9dca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InterlacePattern:
+        m_Texture: {fileID: 2800000, guid: 8d71ee30db9cda64ab9172b43a3f9dca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: afa97dcdeb6e8cc42979b5307ba0cff7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_map:
+        m_Texture: {fileID: 2800000, guid: afa97dcdeb6e8cc42979b5307ba0cff7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 4f4519c8dadf0a5478a89bac42233550, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_map:
+        m_Texture: {fileID: 2800000, guid: afa97dcdeb6e8cc42979b5307ba0cff7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Multiiy_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: eb0cad2ba71462d41a72d7cd95a2e330, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Offset_map:
+        m_Texture: {fileID: 2800000, guid: dbe5ad5e2e36d124c8e5ecb2f28ce291, type: 3}
+        m_Scale: {x: 1, y: 3}
+        m_Offset: {x: 0, y: 0.35}
+    - _T1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2:
+        m_Texture: {fileID: 2800000, guid: 70387129d7d1ebf43a33d07b53c858ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: afa97dcdeb6e8cc42979b5307ba0cff7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dissolve_ram:
+        m_Texture: {fileID: 2800000, guid: a4a5223756dc97e42b42ac2359b40434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _noise:
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 2.61
+    - _Cutoff: 0.5
+    - _D: 0
+    - _Emission: 5
+    - _Inside: 0
+    - _Noise_int: 0.815
+    - _Rim: 1.2
+    - _RimPower: 8
+    - _Shininess: 1
+    - _Speed: -0.16
+    - _Strength: 1.5
+    - _Tile: 5
+    - _alpha_size: 0
+    - _aoto: 0
+    - _dissolve_amount: 0.5157543
+    - _fresnel_amount: 1.931624
+    - _glow: 0
+    - _msk_size: 0
+    - _offset_speed: 0
+    - _self_Illumin: 4.112586
+    - _size: 0
+    m_Colors:
+    - _Color: {r: 1, g: 0.9044118, b: 0.9044118, a: 1}
+    - _Main_color: {r: 1, g: 0.27205884, b: 0.27205884, a: 1}
+    - _Mian_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Mu_color: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 0.30147058, b: 0.30147058, a: 0}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
+    - _T1_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _T2_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _maskColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_chiyou_skill11_5
+  m_Shader: {fileID: 4800000, guid: f85e47b2a3610f240af4a15a38e66799, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base:
+        m_Texture: {fileID: 2800000, guid: 561a4ebc4bae5e0499d77a2acb3eb882, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 2800000, guid: 072943c3351b9a04a8bde5b54415c89e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 327d900b88d9fc24dbf04e3ed4c84898, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: e662116421ac5974a8305406d11b5245, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_mask:
+        m_Texture: {fileID: 2800000, guid: 5b5d1d794b87e7940b3ef6bcfc0abd2c, type: 3}
+        m_Scale: {x: 1, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _dissolve_ram:
+        m_Texture: {fileID: 2800000, guid: a4a5223756dc97e42b42ac2359b40434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2542:
+        m_Texture: {fileID: 2800000, guid: 7cd50d6541867fb49a1858f6251ee114, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3127:
+        m_Texture: {fileID: 2800000, guid: 8588af07d510313478a0509a95923188, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _noise:
+        m_Texture: {fileID: 2800000, guid: edd6fdbce645bac42a36b88443c1490a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiffuseQD: 1
+    - _DstBlend: 0
+    - _FnlExp: 4.368932
+    - _FnlQD: 1
+    - _Glossiness: 0.5
+    - _Inside: 0.382
+    - _InvFade: 1
+    - _MaskExp: 0.5
+    - _MaskGB: 0.05
+    - _MaskGBExp: 20
+    - _Metallic: 0
+    - _Mode: 0
+    - _N_BY_KD: 1
+    - _N_BY_QD: 1
+    - _N_mask: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Rim: 1
+    - _Speed: 0.5
+    - _SrcBlend: 1
+    - _Strength: 2.23
+    - _Tile: 6.14
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _dissolve_amount: 0.222
+    - _fresnel_amount: 0
+    - _node_4031: 0.1
+    - _self_Illumin: 0.6
+    m_Colors:
+    - _C_BYcolor: {r: 0.3455882, g: 0.06352724, b: 0.06352724, a: 1}
+    - _Center: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorAlpha: {r: 0.47058815, g: 0.065743916, b: 0.065743916, a: 0.572}
+    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FnlColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskGBColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Normal: {r: 0, g: 0, b: 1, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0, g: 0.46206903, b: 1, a: 1}
